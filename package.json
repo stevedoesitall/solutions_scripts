@@ -1,0 +1,22 @@
+{
+  "name": "solutions_scripts_v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevedoesitall/solutions_scripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevedoesitall/solutions_scripts/issues"
+  },
+  "homepage": "https://github.com/stevedoesitall/solutions_scripts#readme",
+  "dependencies": {
+    "sailthru-client": "^3.0.5"
+  }
+}
