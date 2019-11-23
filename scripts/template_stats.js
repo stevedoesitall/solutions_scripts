@@ -1,11 +1,12 @@
-const api_key = "";
-const api_secret = "";
+const creds = require("./ignore/creds.json");
+const api_key = creds.api_key;
+const api_secret = creds.api_secret;
 const sailthru = require('sailthru-client').createSailthruClient(api_key, api_secret);
 const fs = require("fs");
 
-fs.writeFile("templates.txt", "", function(){ 
+fs.writeFile("logs/templates.txt", "", function() { 
     console.log("Templates file cleared.");
-});
+})
 
 const date_converter = (days) => { 
     const current_time = new Date().getTime(); 
@@ -50,16 +51,13 @@ sailthru.apiGet("template", {
                 else {
                     templates_obj[template.name].trigger_count = response.count;
                 }
+
             });
         });
         get_blasts();
     }
 });
 
-//Get data feed (yes or no)
-//How are the data feeds built?
-//How many different data feeds? Are they the same or different?
-//Number of campaigns not built from a template
 const get_blasts = () => {
     sailthru.apiGet("blast", {
         start_date: start_date,
@@ -94,6 +92,11 @@ const get_blasts = () => {
 
 const save_data = () => {
     const all_templates = Object.keys(templates_obj);
+    fs.appendFile("logs/templates.txt", "template name@blast count@trigger count" + '\n', (err) => {
+        if (err) {
+            console.log("Unable to append to file.");
+        }
+    });
     all_templates.forEach(template => {
         if (!templates_obj[template].trigger_count) {
             templates_obj[template].trigger_count = 0;
@@ -101,7 +104,7 @@ const save_data = () => {
         if (!templates_obj[template].blast_count) {
             templates_obj[template].blast_count = 0;
         }
-        fs.appendFile("templates.txt", template + "@" + templates_obj[template].blast_count + "@" + templates_obj[template].trigger_count + '\n', (err) => {
+        fs.appendFile("logs/templates.txt", template + "@" + templates_obj[template].blast_count + "@" + templates_obj[template].trigger_count + '\n', (err) => {
             if (err) {
                 console.log("Unable to append to file.");
             }
