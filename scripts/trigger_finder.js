@@ -1,7 +1,10 @@
-const creds = require("./ignore/creds.json");
-const api_key = creds.api_key;
-const api_secret = creds.api_secret;
-const sailthru = require('sailthru-client').createSailthruClient(api_key, api_secret);
+const path = require("path");
+const creds = path.join(__dirname, "../ignore/creds.js");
+
+const api_key = require(creds).api_key;
+const api_secret = require(creds).api_secret;
+
+const sailthru = require("sailthru-client").createSailthruClient(api_key, api_secret);
 const fs = require("fs");
 
 const template_triggers = [];
@@ -30,7 +33,7 @@ sailthru.apiGet("template", {
                 else {
                     template_triggers.push(template.name);
                     console.log("Success", template.name);
-                    fs.appendFile("logs/triggers.txt", template.name + '\n', (err) => {
+                    fs.appendFile("logs/triggers.txt", template.name + "\n", (err) => {
                         if (err) {
                             console.log("Unable to append to file.");
                         }

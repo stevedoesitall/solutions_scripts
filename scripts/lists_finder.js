@@ -1,7 +1,10 @@
-const creds = require("./ignore/creds.json");
-const api_key = creds.api_key;
-const api_secret = creds.api_secret;
-const sailthru = require('sailthru-client').createSailthruClient(api_key, api_secret);
+const path = require("path");
+const creds = path.join(__dirname, "../ignore/creds.js");
+
+const api_key = require(creds).api_key;
+const api_secret = require(creds).api_secret;
+
+const sailthru = require("sailthru-client").createSailthruClient(api_key, api_secret);
 const fs = require("fs");
 
 fs.writeFile("logs/lists.txt", "", function() { 
@@ -98,13 +101,13 @@ sailthru.apiGet("list", {
 
 const save_data = () => {
     const all_lists = Object.keys(lists_obj);
-    fs.appendFile("logs/lists.txt", "list name@list type@create time@send time@suppress time" + '\n', (err) => {
+    fs.appendFile("logs/lists.txt", "list name@list type@create time@send time@suppress time" + "\n", (err) => {
         if (err) {
             console.log("Unable to append to file.");
         }
     });
     all_lists.forEach(list => {
-        fs.appendFile("logs/lists.txt", list + "@" + lists_obj[list].type + "@" + lists_obj[list].create_time  + "@" + lists_obj[list].send_time + "@" + lists_obj[list].suppress_time + '\n', (err) => {
+        fs.appendFile("logs/lists.txt", list + "@" + lists_obj[list].type + "@" + lists_obj[list].create_time  + "@" + lists_obj[list].send_time + "@" + lists_obj[list].suppress_time + "\n", (err) => {
             if (err) {
                 console.log("Unable to append to file.");
             }

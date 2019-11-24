@@ -1,27 +1,18 @@
-const creds = require("./ignore/creds.json");
-const api_key = creds.api_key;
-const api_secret = creds.api_secret;
-const sailthru = require('sailthru-client').createSailthruClient(api_key, api_secret);
+const path = require("path");
+const creds = path.join(__dirname, "../ignore/creds.js");
+
+const api_key = require(creds).api_key;
+const api_secret = require(creds).api_secret;
+
+const sailthru = require("sailthru-client").createSailthruClient(api_key, api_secret);
 const fs = require("fs");
 
 fs.writeFile("logs/templates.txt", "", function() { 
     console.log("Templates file cleared.");
-})
+});
 
-const date_converter = (days) => { 
-    const current_time = new Date().getTime(); 
-    const one_day_ms = 86400000; 
-    const ts = new Date(current_time - (one_day_ms * days)); 
-    const year = ts.getFullYear(); const month = ts.getMonth() + 1; 
-    const day = ts.getDate();
-    
-    return year + "-" + month + "-" + day;
-};
-
-const days_ago = 90;
-const today = 1;
-const start_date = date_converter(days_ago);
-const end_date = date_converter(today);
+const start_date = require("./modules/dates.js").start_date;
+const end_date = require("./modules/dates.js").end_date;
    
 console.log(`Finding stats between ${start_date} and ${end_date}`);
 
@@ -92,7 +83,7 @@ const get_blasts = () => {
 
 const save_data = () => {
     const all_templates = Object.keys(templates_obj);
-    fs.appendFile("logs/templates.txt", "template name@blast count@trigger count" + '\n', (err) => {
+    fs.appendFile("logs/templates.txt", "template name@blast count@trigger count" + "\n", (err) => {
         if (err) {
             console.log("Unable to append to file.");
         }
@@ -104,7 +95,7 @@ const save_data = () => {
         if (!templates_obj[template].blast_count) {
             templates_obj[template].blast_count = 0;
         }
-        fs.appendFile("logs/templates.txt", template + "@" + templates_obj[template].blast_count + "@" + templates_obj[template].trigger_count + '\n', (err) => {
+        fs.appendFile("logs/templates.txt", template + "@" + templates_obj[template].blast_count + "@" + templates_obj[template].trigger_count + "\n", (err) => {
             if (err) {
                 console.log("Unable to append to file.");
             }
