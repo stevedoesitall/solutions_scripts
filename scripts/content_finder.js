@@ -1,17 +1,23 @@
 const path = require("path");
-const creds = path.join(__dirname, "../ignore/creds.json");
+const creds = path.join(__dirname, "../ignore/creds.js");
+const log = path.join(__dirname, "../logs/content.txt");
 
-const api_key = creds.api_key;
-const api_secret = creds.api_secret;
+const api_key = require(creds).api_key;
+const api_secret = require(creds).api_secret;
 const sailthru = require("sailthru-client").createSailthruClient(api_key, api_secret);
 const fs = require("fs");
 
 const data = [];
 const all_vars = [];
+const items = 5000;
+
+fs.writeFile(log, "", function() { 
+    console.log("Content file cleared.");
+});
 
 sailthru.apiGet("content", 
     {
-        items: 1000
+        items: items
     }, 
     function(err, response) {
         if (err) {
@@ -19,6 +25,7 @@ sailthru.apiGet("content",
         }
         else {
             const all_content = response.content;
+            console.log("GET 1");
             all_content.forEach(content => {
                 if (content.vars) {
                     const content_vars = Object.keys(content.vars);
@@ -31,31 +38,39 @@ sailthru.apiGet("content",
             });
         }
     const all_vars_sorted = all_vars.sort();
-    sailthru.apiGet("content", content_obj,
+    sailthru.apiGet("content", 
+    {
+        items: items
+    },
     function(err, response) {
         if (err) {
             console.log(err);
-            res.send(err);
         }
         else {
             const all_content = response.content;
+            console.log("GET 2");
             all_content.forEach(content => {
                 const content_data = {};
                 content_data.url = content.url;
-                content_data.date = content.date.replace(/,/g, " ");
+                if (content.date) {
+                    content_data.date = content.date.replace(/,/g, " ");
+                }
+                else {
+                    content_data.date = "[n/a]"
+                }
                 if (content.title) {
                     content_data.title = content.title.replace(/,/g, " - ").replace(/[^\x00-\x7F]/g, "").replace(/(?:\\[rn])+/g, "");
                     content_data.title = content_data.title.replace(/#/g, "-");
                     // content_data.title = content.title.replace(/\s\s+/g, " ");
                 }
                 else {
-                    content_data.title = "";
+                    content_data.title = "[n/a]";
                 }
                 if (content.tags) {
                     content_data.tags = content.tags.toString().replace(/,/g, "|");
                 }
                 else {
-                    content_data.tags = "";
+                    content_data.tags = "[n/a]";
                 }
                 if (content.views) {
                     content_data.views = content.views;
@@ -67,19 +82,19 @@ sailthru.apiGet("content",
                     content_data.expire_date = content.expire_date.replace(/,/g, " ");
                 }
                 else {
-                    content_data.expire_date = "";
+                    content_data.expire_date = "[n/a]";
                 }
                 if (content.location) {
                     content_data.location = JSON.stringify(content.location).replace(/,/g, "|");
                 }
                 else {
-                    content_data.location = "";
+                    content_data.location = "[n/a]";
                 }
                 if (content.author) {
                     content_data.author = JSON.stringify(content.author).replace(/,/g, "-");
                 }
                 else {
-                    content_data.author = "";
+                    content_data.author = "[n/a]";
                 }
                 if (content.price) {
                     content_data.price = content.price;
@@ -91,7 +106,7 @@ sailthru.apiGet("content",
                     content_data.sku = content.sku;
                 }
                 else {
-                    content_data.sku = "";
+                    content_data.sku = "[n/a]";
                 }
                 if (content.inventory) {
                     content_data.inventory = content.inventory;
@@ -103,31 +118,31 @@ sailthru.apiGet("content",
                     content_data.site_name = JSON.stringify(content.site_name).replace(/,/g, "-");
                 }
                 else {
-                    content_data.site_name = "";
+                    content_data.site_name = "[n/a]";
                 }
                 if (content.images) {
                     if (content.images.full) {
                         content_data.image_full = content.images.full.url;
                     }
                     else {
-                        content_data.image_full = "";
+                        content_data.image_full = "[n/a]";
                     }
                     if (content.images.thumb) {
                         content_data.image_thumb = content.images.thumb.url;
                     }
                     else {
-                        content_data.image_thumb = "";
+                        content_data.image_thumb = "[n/a]";
                     }
                 }
                 else {
-                    content_data.image_full = "";
-                    content_data.image_thumb = "";
+                    content_data.image_full = "[n/a]";
+                    content_data.image_thumb = "[n/a]";
                 }
                 if (content.description) {
                     content_data.description = content.description.replace(/,/g, " - ").replace(/\n/g, "").replace(/[^\x00-\x7F]/g, "").replace(/\r/g, "").replace(/#/g, " no. ");
                 }
                 else {
-                    content_data.description = "";
+                    content_data.description = "[n/a]";
                 }
                 if (content.vars) {
                     all_vars_sorted.forEach(val => {
@@ -151,18 +166,59 @@ sailthru.apiGet("content",
                             content_data[val] = content_var;
                         }
                         else {
-                            content_data[val] = "";
+                            content_data[val] = "[n/a]";
                         }
                     });
                 }
                 else {
                     all_vars_sorted.forEach(val => {
-                        content_data[val] = "";
+                        content_data[val] = "[n/a]";
                     });
                 }
                 data.push(content_data);
             });
-            // res.send(JSON.stringify(data));
+            save_data(data);
         }
     });
 });
+
+const save_data = (data) => {
+    const all_fields = Object.keys(data[0]);
+    let header = "";
+    let field_count = 0;
+    all_fields.forEach(field => {
+        field_count++;
+        if (field_count == all_fields.length) {
+            header = header + field;
+            console.log(header);
+        }
+        else {
+            header = header + field + "@";
+        }
+    });
+    fs.appendFile(log, header + "\n", (err) => {
+        if (err) {
+            console.log("Unable to append to file.");
+        }
+    });
+    const items = data.slice(1, data.length);
+    items.forEach(item => {
+        let row = "";
+        const all_values = Object.values(item);
+        let value_count = 0;
+        all_values.forEach(value => {
+            value_count++;
+            if (value_count == all_values.length) {
+                row = row + value;
+                fs.appendFile(log, row + "\n", (err) => {
+                    if (err) {
+                        console.log("Unable to append to file.", err, row);
+                    }
+                });
+            }
+            else {
+                row = row + value + "@";
+            }
+        });
+    });
+};

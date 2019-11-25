@@ -1,5 +1,7 @@
 const path = require("path");
 const creds = path.join(__dirname, "../ignore/creds.js");
+const blast_log = path.join(__dirname, "../logs/blasts.txt");
+const feed_log = path.join(__dirname, "../logs/feeds.txt");
 
 const api_key = require(creds).api_key;
 const api_secret = require(creds).api_secret;
@@ -7,6 +9,14 @@ const api_secret = require(creds).api_secret;
 const sailthru = require("sailthru-client").createSailthruClient(api_key, api_secret);
 const fs = require("fs");
 const http = require("http");
+
+fs.writeFile(blast_log, "", function() { 
+    console.log("Blast file cleared.");
+});
+
+fs.writeFile(feed_log, "", function() { 
+    console.log("Feed file cleared.");
+});
 
 const start_date = require("./modules/dates.js").start_date;
 const end_date = require("./modules/dates.js").end_date;
@@ -61,6 +71,18 @@ sailthru.apiGet("blast", {
     }
     console.log(` Total blasts: ${total_blasts}\n Template blasts: ${template_blasts}\n Copied blasts: ${copied_blasts}\n Template blasts copied: ${template_blasts_copied}\n Scratch blasts: ${scratch_blasts}\n Used feed: ${used_feed}`);
 
+    fs.appendFile(blast_log, `Blast Type@Count` + "\n", (err) => {
+        if (err) {
+            console.log("Unable to append to file.");
+        }
+    });
+
+    fs.appendFile(blast_log, `Total blasts@${total_blasts}\nTemplate blasts@${template_blasts}\nCopied blasts@${copied_blasts}\nTemplate blasts copied@${template_blasts_copied}\nScratch blasts@${scratch_blasts}\nUsed feed@${used_feed}` + "\n", (err) => {
+        if (err) {
+            console.log("Unable to append to file.");
+        }
+    });
+
     const all_feeds = Object.keys(feed_obj);
 
     let total_feeds = 0;
@@ -77,8 +99,20 @@ sailthru.apiGet("blast", {
                     feed_obj[feed].name = parsed_data.feed.name; 
                     if (total_feeds == all_feeds.length) {
                         const all_feeds_new = Object.keys(feed_obj);
+                        fs.appendFile(feed_log, `Feed Name@Send Count` + "\n", (err) => {
+                            if (err) {
+                                console.log("Unable to append to file.");
+                            }
+                        });
+                        
                         all_feeds_new.forEach(feed => {
+
                             console.log(`${feed_obj[feed].name} feed was used ${feed_obj[feed].count} times.`);
+                            fs.appendFile(feed_log, `${feed_obj[feed].name}@${feed_obj[feed].count}` + "\n", (err) => {
+                                if (err) {
+                                    console.log("Unable to append to file.");
+                                }
+                            });
                         });
                     }
                 } 
