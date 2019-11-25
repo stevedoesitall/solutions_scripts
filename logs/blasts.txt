@@ -1,7 +1,7 @@
 Blast Type@Count
-Total blasts@921
-Template blasts@738
-Copied blasts@122
-Template blasts copied@0
-Scratch blasts@61
-Used feed@0
+Total blasts@620
+Template blasts@89
+Copied blasts@438
+Template blasts copied@19
+Scratch blasts@74
+Used feed@28

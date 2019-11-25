@@ -28,15 +28,33 @@ sailthru.apiGet("template", {
     else {
         total_templates = response.templates.length;
         response.templates.forEach(template => {
+            templates_obj[template.name] = {};
+
+            sailthru.apiGet("template", {
+                template: template.name
+            }, function(err, response) {
+                if (err) {
+                    console.log(err);
+                }
+                // else {
+                //     if (!response.setup && !response.sailthru_setup) {
+                //         templates_obj[template.name].personalizing = "no";
+                //     }
+                //     else if (response.setup.indexOf("personalize(") != -1 || (response.sailthru_setup && response.sailthru_setup.indexOf("personalize(") != -1)) {
+                //         templates_obj[template.name].personalizing = "yes";
+                //     }
+                //     else {
+                //         templates_obj[template.name].personalizing = "no";
+                //     } 
+                // }
+            });
+
             sailthru.apiGet("stats", {
                 stat: "send",
                 start_date: start_date,
                 end_date: end_date,
                 template: template.name
             }, function(err, response) {
-
-                templates_obj[template.name] = {};
-
                 if (err) {
                     templates_obj[template.name].trigger_count = 0;
                 }
@@ -84,7 +102,7 @@ const get_blasts = () => {
 
 const save_data = () => {
     const all_templates = Object.keys(templates_obj);
-    fs.appendFile(log, "template name@blast count@trigger count" + "\n", (err) => {
+    fs.appendFile(log, "template name@blast count@trigger count@personalizing" + "\n", (err) => {
         if (err) {
             console.log("Unable to append to file.");
         }
@@ -96,7 +114,7 @@ const save_data = () => {
         if (!templates_obj[template].blast_count) {
             templates_obj[template].blast_count = 0;
         }
-        fs.appendFile(log, template + "@" + templates_obj[template].blast_count + "@" + templates_obj[template].trigger_count + "\n", (err) => {
+        fs.appendFile(log, template + "@" + templates_obj[template].blast_count + "@" + templates_obj[template].trigger_count + "@" + templates_obj[template].personalizing + "\n", (err) => {
             if (err) {
                 console.log("Unable to append to file.");
             }
