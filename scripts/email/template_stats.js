@@ -12,8 +12,8 @@ fs.writeFile(log, "", function() {
     console.log("Templates file cleared.");
 });
 
-const start_date = require("./modules/dates.js").start_date;
-const end_date = require("./modules/dates.js").end_date;
+const start_date = require("../modules/dates.js").start_date;
+const end_date = require("../modules/dates.js").end_date;
    
 console.log(`Finding stats between ${start_date} and ${end_date}`);
 

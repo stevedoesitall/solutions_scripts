@@ -18,8 +18,8 @@ fs.writeFile(feed_log, "", function() {
     console.log("Feed file cleared.");
 });
 
-const start_date = require("./modules/dates.js").start_date;
-const end_date = require("./modules/dates.js").end_date;
+const start_date = require("../modules/dates.js").start_date;
+const end_date = require("../modules/dates.js").end_date;
 
 const feed_obj = {};
 let total_blasts = 0;
