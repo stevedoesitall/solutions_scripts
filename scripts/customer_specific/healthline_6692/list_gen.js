@@ -10,12 +10,6 @@ const dates = [7, 14, 21, 28, 35, 42, 49];
 
 const list = "Pregnancy Smart List";
 
-/*List Query:
--Criteria: var_date
--Timerange: on_date
--Field: due_date
-*/
-
 const list_options = {
     list: list,
     primary: 1,
@@ -32,15 +26,23 @@ list_options.query = {
     value: []
 };
 
-dates.forEach(date => {
-    const value = date + " days midnight";
-    list_options.query.criteria.push("var_date");
-    list_options.query.timerange.push("on_date");
-    list_options.query.field.push("due_date");
-    list_options.query.value.push(value);
-});
+/*List query fields:
+-Criteria: var_date
+-Timerange: on_date
+-Field: due_date
+*/
 
-console.log(list_options);
+dates.forEach(date => {
+    //Vars for query creation
+    const query = list_options.query;
+    const value = date + " days midnight";
+
+    //Push criteria, timeranges, fields, and values in query object
+    query.criteria.push("var_date");ß
+    query.timerange.push("on_date");
+    query.field.push("due_date");
+    query.value.push(value);
+});
 
 sailthru.apiPost("list", list_options, 
     function(err, response) {
