@@ -1,6 +1,6 @@
 const path = require("path");
-const creds = path.join(__dirname, "../ignore/creds.js");
-const log = path.join(__dirname, "../logs/lists.txt");
+const creds = path.join(__dirname, "../../ignore/creds.js");
+const log = path.join(__dirname, "../../logs/lists.txt");
 
 const api_key = require(creds).api_key;
 const api_secret = require(creds).api_secret;
@@ -110,7 +110,7 @@ const save_data = () => {
     all_lists.forEach(list => {
         fs.appendFile(log, list + "@" + lists_obj[list].type + "@" + lists_obj[list].create_time  + "@" + lists_obj[list].send_time + "@" + lists_obj[list].suppress_time + "\n", (err) => {
             if (err) {
-                console.log("Unable to append to file.");
+                console.log("Unable to append to file.", err);
             }
         });
     });

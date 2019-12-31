@@ -1,6 +1,6 @@
 const path = require("path");
-const creds = path.join(__dirname, "../ignore/creds.js");
-const log = path.join(__dirname, "../logs/content.txt");
+const creds = path.join(__dirname, "../../ignore/creds.js");
+const log = path.join(__dirname, "../../logs/content.txt");
 
 const api_key = require(creds).api_key;
 const api_secret = require(creds).api_secret;
@@ -61,6 +61,7 @@ sailthru.apiGet("content",
                 if (content.title) {
                     content_data.title = content.title.replace(/,/g, " - ").replace(/[^\x00-\x7F]/g, "").replace(/(?:\\[rn])+/g, "");
                     content_data.title = content_data.title.replace(/#/g, "-");
+                    content_data.title = content_data.title.replace(/@/g, "(at)");
                     // content_data.title = content.title.replace(/\s\s+/g, " ");
                 }
                 else {
@@ -140,6 +141,7 @@ sailthru.apiGet("content",
                 }
                 if (content.description) {
                     content_data.description = content.description.replace(/,/g, " - ").replace(/\n/g, "").replace(/[^\x00-\x7F]/g, "").replace(/\r/g, "").replace(/#/g, " no. ");
+                    content_data.description = content_data.title.replace(/@/g, "(at)");
                 }
                 else {
                     content_data.description = "[n/a]";

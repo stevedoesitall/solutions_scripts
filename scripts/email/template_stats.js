@@ -1,6 +1,6 @@
 const path = require("path");
-const creds = path.join(__dirname, "../ignore/creds.js");
-const log = path.join(__dirname, "../logs/templates.txt");
+const creds = path.join(__dirname, "../../ignore/creds.js");
+const log = path.join(__dirname, "../../logs/templates.txt");
 
 const api_key = require(creds).api_key;
 const api_secret = require(creds).api_secret;
@@ -114,7 +114,7 @@ const save_data = () => {
         if (!templates_obj[template].blast_count) {
             templates_obj[template].blast_count = 0;
         }
-        fs.appendFile(log, template + "@" + templates_obj[template].blast_count + "@" + templates_obj[template].trigger_count + "@" + templates_obj[template].personalizing + "\n", (err) => {
+        fs.appendFile(log, template + "@" + templates_obj[template].blast_count + "@" + templates_obj[template].trigger_count + "\n", (err) => {
             if (err) {
                 console.log("Unable to append to file.");
             }
