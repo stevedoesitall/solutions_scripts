@@ -30,28 +30,23 @@ const get_data = (content_data, content_type) => {
             const setup = content[id].setup;
             const html = content[id].content_html;
             const name = content[id].name;
-            console.log(name);
-            if ((setup && setup.indexOf("personalize(") != -1) || (html && html.indexOf("personalize(") != -1)) {
-                personalize_obj[name] = {};
-                personalize_obj[name].type = content_type;
-                personalize_obj[name].function = "personalize()";
+            const personalize_functions = ["personalize(", "horizon_select("];
+            const cancel_functions = ["cancel(", "assert("];
+
+            const find_functions = (array_name, obj_name) => {
+                for (let x = 0; x < array_name.length; x++) {
+                    const function_name = array_name[x];
+                    if ((setup && setup.indexOf(function_name) != -1) || (html && html.indexOf(function_name) != -1)) {
+                        obj_name[name] = {};
+                        obj_name[name].type = content_type;
+                        obj_name[name].function = function_name + ")";
+                        break;
+                    }
+                };
             }
-            else if ((setup && setup.indexOf("horizon_select(") != -1) || (html && html.indexOf("horizon_select(") != -1)) {
-                personalize_obj[name] = {};
-                personalize_obj[name].type = content_type;
-                personalize_obj[name].function = "horizon_select()";
-            }
-    
-            if ((setup && setup.indexOf("cancel(") != -1) || (html && html.indexOf("cancel(") != -1)) {
-                canceled_obj[name] = {};
-                canceled_obj[name].type = content_type;
-                canceled_obj[name].function = "cancel()";
-            }
-            else if ((setup && setup.indexOf("assert(") != -1) || (html && html.indexOf("assert(") != -1)) {
-                canceled_obj[name] = {};
-                canceled_obj[name].type = content_type;
-                canceled_obj[name].function = "assert()";
-            } 
+
+            find_functions(personalize_functions, personalize_obj);
+            find_functions(cancel_functions, canceled_obj);   
         });
         save_data();
     });
@@ -61,31 +56,32 @@ get_data(blast_data, "blast");
 get_data(template_data, "template");
 
 const save_data = () => {
-    const personalized = Object.keys(personalize_obj);
-    fs.appendFile(personalizing_log, "Name@Type@Function" + "\n", (err) => {
-        if (err) {
-            console.log("Unable to append to file.");
+    const obj_array = [personalize_obj, canceled_obj];
+    let header;
+    let log_name;
+
+    obj_array.forEach(obj_name => {
+        if (obj_name == personalize_obj) {
+            header = "Name@Type@Function";
+            log_name = personalizing_log;
         }
-    });
-    personalized.forEach(item => {
-        fs.appendFile(personalizing_log, item + "@" + personalize_obj[item].type + "@" + personalize_obj[item].function + "\n", (err) => {
+        else if (obj_name == canceled_obj) {
+            header = "Name@Type@Function@Convertible (Y/N)@Notes";
+            log_name = canceling_log;
+        }
+
+        const content = Object.keys(obj_name);
+        fs.appendFile(log_name, header + "\n", (err) => {
             if (err) {
-                console.log("Unable to append to file.", err);
+                console.log("Unable to append to file.");
             }
         });
-    });
-
-    const canceled = Object.keys(canceled_obj);
-    fs.appendFile(canceling_log, "Name@Type@Function@Convertible (Y/N)@Notes" + "\n", (err) => {
-        if (err) {
-            console.log("Unable to append to file.");
-        }
-    });
-    canceled.forEach(item => {
-        fs.appendFile(canceling_log, item + "@" + canceled_obj[item].type + "@" + canceled_obj[item].function + "\n", (err) => {
-            if (err) {
-                console.log("Unable to append to file.", err);
-            }
+        content.forEach(item => {
+            fs.appendFile(log_name, item + "@" + obj_name[item].type + "@" + obj_name[item].function + "\n", (err) => {
+                if (err) {
+                    console.log("Unable to append to file.", err);
+                }
+            });
         });
     });
 };
