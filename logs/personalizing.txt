@@ -1,2 +1,68 @@
 name@type
-undefined@blast
+SailthruTEST - Abandon Browse@template
+sailthruTEST - Personalization with Manual Curation@template
+SailthruTEST - Shop@template
+SailthruTEST - Editorial@template
+SailthruTEST - Personalized 2017@template
+Sample Browse Abandon: 1 hero@template
+Sample Browse Abandon: 1 hero and 4 small items@template
+sailthruTEST - Sunday Digest Personalized@template
+2018_day0_1@template
+2018_day0_2a@template
+2018_day0_2b@template
+2018_day0_3a_offer@template
+2018_day0_3b_nooffer@template
+2018_day0_4@template
+automated_editorial_email_template@template
+SailthruTEST - Product Email 2@template
+SailthruTEST - Thurs Trending Now@template
+SailthruTEST - Sunday Digest@template
+SailthruTEST - Friday Digest@template
+SailthruTEST - Product Email 1@template
+2019_abandoned_cart_prospect_email2@template
+2019_abandoned_cart_prospect_email3@template
+2019_abandoned_cart_prospect_email4@template
+2019_abandoned_browse_prospect_email1@template
+2019_abandoned_browse_prospect_email2@template
+2019_abandoned_browse_prospect_email3@template
+2019_abandoned_browse_prospect_email4@template
+2019_abandoned_cart_customer_email2@template
+2019_abandoned_cart_customer_email3﻿@template
+2019_abandoned_browse_customer_email1@template
+2019_abandoned_browse_customer_email2@template
+2019_abandoned_browse_customer_email3@template
+sg test predictions@template
+Cara Welcome Test@template
+LC - Trending Now Test@template
+cara_abandonedcart_nonbuyer_1@template
+cara_abandonedcart_nonbuyer_2@template
+cara_abandonedcart_buyer_1@template
+cara_abandonedcart_buyer_2@template
+cara_abandonedcart_buyer_3@template
+cara_abandonedcart_nonbuyer_3@template
+New Template from October 1, 2019, 3:24:37 PM@template
+cara_abandonedcart_dynamic_1@template
+cara_abandonedcart_dynamic_2@template
+cara_abandonedcart_dynamic_3@template
+Welcome Email 2 2019@template
+Welcome Email 3 2019@template
+Welcome Email 4 2019@template
+Welcome Email 5 2019@template
+Weclome Email 6 2019@template
+20191003_eds_trendingnow_dynamic_buyer@blast
+20191003_eds_trendingnow_dynamic_nonbuyer@blast
+20191006_eds_sundaydigest_dynamic_buyer@blast
+20191006_eds_sundaydigest_dynamic_nonbuyer@blast
+20191010_eds_trendingnow_buyer_dynamic@blast
+20191010_eds_trendingnow_nonbuyer_dynamic@blast
+201910_shop_sundaydigest_buyer_dynamic@blast
+20191013_shop_sundaydigest_nonbuyer@blast
+20191017_eds_trendingnow_buyer_v2@blast
+20191017_eds_trendingnow_nonbuyer_v2@blast
+20191114_eds_trendingnow_buyer_v2@blast
+20191121_eds_trendingnow_buyer_v2@blast
+20191114_eds_trendingnow_nonbuyer_v2@blast
+20191121_eds_trendingnow_nonbuyer_v2@blast
+20191219_eds_trendingnow_buyer_v2@blast
+20191219_eds_trendingnow_nonbuyer_v2@blast
+20191219_eds_trendingnow_nonbuyer_v1@blast

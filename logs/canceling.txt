@@ -1,0 +1,224 @@
+name@type
+registry_series_01_welcome@template
+registry_series_02@template
+registry_series_03@template
+registry_series_04@template
+Welcome Email #1 2018@template
+btdb_post_purchase@template
+btdb_welcome@template
+abandoned_cart@template
+day22_nonbuyer@template
+New Registry Welcome Email@template
+registry_series_05@template
+registry_series_06@template
+day22_nonbuyer_reminder@template
+New Welcome Email_freeshippingoff$75@template
+0_imageupload@template
+registry_completion_offer_reminder_60@template
+registry_completion_offer_reminder_30@template
+registry_completion_offer@template
+registry_completion_offer_reminder_150@template
+shopandship_2015@template
+shopandship_lc_2015@template
+registry_completion_offer_reminder_120@template
+registry_completion_offer_reminder_90@template
+2015_credit_reminder@template
+registry_series_07@template
+2015_credit_reminder_promo@template
+holidaymarket_thankyou_2015@template
+salami_pdf_2015@template
+2016_raf@template
+wreath_pdf_2016@template
+oliveoil_pdf_2016@template
+App Welcome Email@template
+2016_trigger_jono@template
+2016_trigger_hawkins@template
+2016_trigger_staub@template
+hot_sauce_pdf_2016@template
+purchase_followup@template
+2016_lapsed_buyer@template
+2016_address_scrub@template
+sweeps_welcome_2016_poppin@template
+brimfield_welcome@template
+unredeemed_e_gift_cards_60@template
+unredeemed_e_gift_cards_90@template
+subscription_reminder_wreath@template
+subscription_reminder_hotsauce@template
+subscription_reminder_salami@template
+20160913_anwtd_exclusive_1_1@template
+20160914_anwtd_exclusive_2@template
+2016_events_custom@template
+20160926_anwtd_exclusive_shortribs@template
+june_welcome_trigger@template
+sweeps_welcome_2016_kitchen_makeover@template
+2016_sweeps_welcome@template
+2016_oops_bfcm@template
+beer_pdf_2016@template
+bluebottle_pdf_2016@template
+oliveoil_pdf_2016_2@template
+balsamic_pdf_2016@template
+2017_lapsed_buyer@template
+Copy of registry_completion_offer@template
+Welcome Email BX@template
+Copy of NEW Welcome Email Final@template
+test@template
+Change the Way You Cook Welcome Email@template
+Welcome Email #2 - V1 (Sign Up & Join) 2018@template
+Welcome Email #2 - V2 (Already a member) 2018@template
+Welcome Email #3 - V2 (has purchased) 2018@template
+CTWYC Newsletter Week 1@template
+CTWYC Newsletter Week 2@template
+CTWYC Newsletter Week 3@template
+CTWYC Newsletter Week 4@template
+CTWYC Newsletter Week 5@template
+CTWYC Newsletter Week 6@template
+CTWYC Newsletter Week 7@template
+CTWYC Newsletter Week 8@template
+Welcome Email #3 - V1 (has not purchased) 2018@template
+CTWYC Series 2 Welcome Email@template
+CTWYC Series 2 NL: Week 1@template
+CTWYC Series 2 NL: Week 2@template
+CTWYC Series 2 NL: Week 3@template
+CTWYC Series 2 NL: Week 4@template
+CTWYC Series 2 NL: Week 5@template
+Sample Browse Abandon: 1 hero@template
+Sample Browse Abandon: 1 hero and 4 small items@template
+CTWYC Series 2 NL: Week 6 Final Email@template
+2018_highltv_trigger@template
+00 - Test@template
+2018_day0_1@template
+2018_day0_2a@template
+2018_day0_2b@template
+2018_day0_3a_offer@template
+2018_day0_3b_nooffer@template
+2018_day0_4@template
+Welcome Email #1 2018 - Purchased - Holiday@template
+Welcome Email #2 - V1 (Sign Up & Join) 2018 - Holiday@template
+Welcome Email #2 - V2 (Already a member) 2018 - Holiday@template
+Welcome Email #3 - V1 (has not purchased) 2018 - holiday; pre BFCM@template
+Welcome Email #3 - V2 (has purchased) 2018 - Holiday@template
+Welcome Email #3 - V1 (has not purchased) 2018 - holiday; BFCM@template
+Welcome Email #1 2018 - No Purchase - Holiday@template
+Genius Bonus Recipe Email@template
+Welcome Email #1 2018 - Purchased - No Offer (Holiday)@template
+2019_abandoned_cart_prospect_email1@template
+2019_abandoned_cart_prospect_email2@template
+2019_abandoned_cart_prospect_email3@template
+2019_abandoned_cart_prospect_email4@template
+2019_abandoned_browse_prospect_email1@template
+2019_abandoned_browse_prospect_email2@template
+2019_abandoned_browse_prospect_email3@template
+2019_abandoned_browse_prospect_email4@template
+2019_abandoned_cart_customer_email1@template
+2019_abandoned_cart_customer_email2@template
+2019_abandoned_cart_customer_email3﻿@template
+2019_abandoned_browse_customer_email3@template
+Validate User@template
+2019_abandoned_browse_customer_email1@template
+Welcome Email #1 - Onsite Creation@template
+2019_abandoned_browse_customer_email2@template
+cara_abandonedcart_nonbuyer_1@template
+cara_abandonedcart_buyer_1@template
+cara_abandonedcart_buyer_2@template
+cara_abandonedcart_buyer_3@template
+cara_abandonedcart_nonbuyer_3@template
+cara_abandonedcart_dynamic_1@template
+Welcome Email 1 2019@template
+Welcome Email 2 2019@template
+Welcome Email 3 2019@template
+Welcome Email 4 2019@template
+Welcome Email 5 2019@template
+Weclome Email 6 2019@template
+Welcome 1 Oculus 2019@template
+Copy of Welcome 1 Oculus@template
+Club Sandwich LTV Trigger 2019-10-01@blast
+Club Sandwich LTV Trigger 2019-10-02@blast
+Club Sandwich LTV Trigger 2019-10-03@blast
+Club Sandwich LTV Trigger 2019-10-04@blast
+Club Sandwich LTV Trigger 2019-10-05@blast
+Club Sandwich LTV Trigger 2019-10-06@blast
+Club Sandwich LTV Trigger 2019-10-07@blast
+Club Sandwich LTV Trigger 2019-10-08@blast
+Club Sandwich LTV Trigger 2019-10-09@blast
+Club Sandwich LTV Trigger 2019-10-10@blast
+Club Sandwich LTV Trigger 2019-10-11@blast
+Club Sandwich LTV Trigger 2019-10-12@blast
+Club Sandwich LTV Trigger 2019-10-13@blast
+Club Sandwich LTV Trigger 2019-10-14@blast
+Club Sandwich LTV Trigger 2019-10-15@blast
+Club Sandwich LTV Trigger 2019-10-16@blast
+Club Sandwich LTV Trigger 2019-10-17@blast
+Club Sandwich LTV Trigger 2019-10-18@blast
+Club Sandwich LTV Trigger 2019-10-19@blast
+Club Sandwich LTV Trigger 2019-10-20@blast
+Club Sandwich LTV Trigger 2019-10-21@blast
+Club Sandwich LTV Trigger 2019-10-22@blast
+Club Sandwich LTV Trigger 2019-10-23@blast
+Club Sandwich LTV Trigger 2019-10-24@blast
+Club Sandwich LTV Trigger 2019-10-25@blast
+Club Sandwich LTV Trigger 2019-10-26@blast
+Club Sandwich LTV Trigger 2019-10-27@blast
+Club Sandwich LTV Trigger 2019-10-28@blast
+Club Sandwich LTV Trigger 2019-10-29@blast
+Club Sandwich LTV Trigger 2019-10-30@blast
+Club Sandwich LTV Trigger 2019-10-31@blast
+Club Sandwich LTV Trigger 2019-11-01@blast
+Club Sandwich LTV Trigger 2019-11-02@blast
+Club Sandwich LTV Trigger 2019-11-03@blast
+Club Sandwich LTV Trigger 2019-11-04@blast
+Club Sandwich LTV Trigger 2019-11-05@blast
+Club Sandwich LTV Trigger 2019-11-06@blast
+Club Sandwich LTV Trigger 2019-11-07@blast
+Club Sandwich LTV Trigger 2019-11-08@blast
+Club Sandwich LTV Trigger 2019-11-09@blast
+Club Sandwich LTV Trigger 2019-11-10@blast
+Club Sandwich LTV Trigger 2019-11-11@blast
+Club Sandwich LTV Trigger 2019-11-12@blast
+Club Sandwich LTV Trigger 2019-11-13@blast
+Club Sandwich LTV Trigger 2019-11-14@blast
+Club Sandwich LTV Trigger 2019-11-15@blast
+Club Sandwich LTV Trigger 2019-11-16@blast
+Club Sandwich LTV Trigger 2019-11-17@blast
+Club Sandwich LTV Trigger 2019-11-18@blast
+Club Sandwich LTV Trigger 2019-11-19@blast
+Club Sandwich LTV Trigger 2019-11-20@blast
+Club Sandwich LTV Trigger 2019-11-21@blast
+Club Sandwich LTV Trigger 2019-11-22@blast
+Club Sandwich LTV Trigger 2019-11-23@blast
+Club Sandwich LTV Trigger 2019-11-24@blast
+Club Sandwich LTV Trigger 2019-11-25@blast
+Club Sandwich LTV Trigger 2019-11-26@blast
+Club Sandwich LTV Trigger 2019-11-27@blast
+Club Sandwich LTV Trigger 2019-11-28@blast
+Club Sandwich LTV Trigger 2019-11-30@blast
+Club Sandwich LTV Trigger 2019-11-29@blast
+Club Sandwich LTV Trigger 2019-12-01@blast
+Club Sandwich LTV Trigger 2019-12-02@blast
+Club Sandwich LTV Trigger 2019-12-03@blast
+Club Sandwich LTV Trigger 2019-12-04@blast
+Club Sandwich LTV Trigger 2019-12-05@blast
+Club Sandwich LTV Trigger 2019-12-06@blast
+Club Sandwich LTV Trigger 2019-12-07@blast
+Club Sandwich LTV Trigger 2019-12-08@blast
+Club Sandwich LTV Trigger 2019-12-09@blast
+Club Sandwich LTV Trigger 2019-12-10@blast
+Club Sandwich LTV Trigger 2019-12-11@blast
+Club Sandwich LTV Trigger 2019-12-12@blast
+Club Sandwich LTV Trigger 2019-12-14@blast
+Club Sandwich LTV Trigger 2019-12-15@blast
+Club Sandwich LTV Trigger 2019-12-13@blast
+Club Sandwich LTV Trigger 2019-12-16@blast
+Club Sandwich LTV Trigger 2019-12-17@blast
+Club Sandwich LTV Trigger 2019-12-18@blast
+Club Sandwich LTV Trigger 2019-12-21@blast
+Club Sandwich LTV Trigger 2019-12-20@blast
+Club Sandwich LTV Trigger 2019-12-19@blast
+Club Sandwich LTV Trigger 2019-12-22@blast
+Club Sandwich LTV Trigger 2019-12-23@blast
+Club Sandwich LTV Trigger 2019-12-24@blast
+Club Sandwich LTV Trigger 2019-12-25@blast
+Club Sandwich LTV Trigger 2019-12-26@blast
+Club Sandwich LTV Trigger 2019-12-27@blast
+Club Sandwich LTV Trigger 2019-12-28@blast
+Club Sandwich LTV Trigger 2019-12-29@blast
+Club Sandwich LTV Trigger 2019-12-30@blast
