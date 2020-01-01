@@ -55,7 +55,14 @@ sailthru.apiGet("list", {
         else {
             const all_blasts = response.blasts;
             all_blasts.forEach(blast => {
-                const date = new Date(blast.start_time);
+                let date;
+                if (blast.start_time) {
+                    date = new Date(blast.start_time);
+                }
+                else {
+                    date = new Date(blast.schedule_time);
+                }
+                
                 const year = date.getFullYear();
                 const month = date.getMonth() + 1;
                 const day = date.getDate();
@@ -102,7 +109,7 @@ sailthru.apiGet("list", {
 
 const save_data = () => {
     const all_lists = Object.keys(lists_obj);
-    fs.appendFile(log, "list name@list type@create time@send time@suppress time" + "\n", (err) => {
+    fs.appendFile(log, "List Name@List Type@Create Time@Send Time@Suppress Time" + "\n", (err) => {
         if (err) {
             console.log("Unable to append to file.");
         }

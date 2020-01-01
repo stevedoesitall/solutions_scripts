@@ -1,78 +1,79 @@
-list name@list type@create time@send time@suppress time
+List Name@List Type@Create Time@Send Time@Suppress Time
+"Master List"@smart@2017-1-31@@
 "firstName" exists@smart@2019-5-31@@
 "first_name" exists@smart@2019-5-31@@
-01312018_Browsed But Never Purchased@smart@2018-1-31@@2019-2-26
 (Not)Recipe Non Poster@normal@2016-5-16@2016-5-16@
-01312018_Purchased 6+ Months Ago@smart@2018-1-31@@
-01312018_Purchased 3+ Months Ago, Browsed in Last 3 Months@smart@2018-1-31@@
-0308_userrevover200_2purchases@smart@2019-3-8@@
+01312018_Browsed But Never Purchased@smart@2018-1-31@@2019-2-26
 01_USEforBuilding@normal@2015-3-17@2015-9-16@
+01312018_Purchased 3+ Months Ago, Browsed in Last 3 Months@smart@2018-1-31@@
+01312018_Purchased 6+ Months Ago@smart@2018-1-31@@
 041718_LaspedShoppers_2018_NonShoppers@smart@2018-4-17@2018-4-17@2018-4-17
+0308_userrevover200_2purchases@smart@2019-3-8@@
 041818_LaspedShoppers_RESEND@smart@2018-4-18@2018-4-18@2018-4-18
-052417 FB lead ad emails@smart@2017-5-26@2017-5-26@
 041818_LaspedShoppers_RESEND_nopromocodeversion@normal@2018-4-18@2018-4-18@2018-4-18
+052417 FB lead ad emails@smart@2017-5-26@2017-5-26@
 053017 FB lead instant article emails@smart@2017-6-1@@
-060917_Outdoor Flatware Reminder@smart@2017-6-8@2017-6-9@2017-6-9
-"Master List"@smart@2017-1-31@@
-100 mile radius DC - Sunday Email Send@smart@2016-8-19@2016-8-21@2016-8-21
+10/28 AM - did not open@normal@2019-10-28@@2019-10-28
 100 mile radius NYC - Sunday Email Send@smart@2016-8-19@2016-8-21@2016-8-21
+060917_Outdoor Flatware Reminder@smart@2017-6-8@2017-6-9@2017-6-9
+100 mile radius DC - Sunday Email Send@smart@2016-8-19@2016-8-21@2016-8-21
 100 mile radius of New York City@smart@2016-5-12@2016-5-14@
-100 miles- Seattle@smart@@2015-4-21@
 100 miles Austin@smart@@2015-4-15@
-100miles - NY, NY@smart@@2015-10-6@2015-5-5
+100 miles- Seattle@smart@@2015-4-21@
 100mi - Charleston, SC@smart@@2015-5-21@
-101317-attempted-security-breach@normal@2017-10-13@2017-10-14@2017-10-14
+100miles - NY, NY@smart@@2015-10-6@2015-5-5
 100miles - New Orleans@smart@@2015-4-22@2015-4-22
-101617_Non-Shoppers@smart@2017-10-16@@
+101317-attempted-security-breach@normal@2017-10-13@2017-10-14@2017-10-14
 101317-password-changed-security-breach@normal@2017-10-13@2017-10-14@2017-10-14
+101617_Non-Shoppers@smart@2017-10-16@@
 102518_6monthsLapsedShoppers@smart@2018-10-26@2018-10-28@2018-10-28
 11/11/2017 - LTV At Least 500@smart@2017-11-11@@
-11/11/2017 - Open Email 1+ Time, No Purchase@smart@2017-11-11@@
 11/11/2017 - Last Purchased 6+ Months Ago@smart@2017-11-11@@
-14 Days Post Subscription Suppression@smart@2017-7-18@@2019-12-18
+11/11/2017 - Open Email 1+ Time, No Purchase@smart@2017-11-11@@
 1122-112617 Med Mat Purchasers@smart@2017-11-26@@2017-11-26
+14 Days Post Subscription Suppression@smart@2017-7-18@@2019-12-18
 150 mi of Portland@smart@2016-7-8@2016-7-9@
 160504 NPS Survey - Buyers@normal@2016-5-3@2016-5-4@2016-5-4
 160817 NPS Survey - Buyers@normal@2016-8-15@2016-8-17@2016-8-17
 160504 NPS Survey - Non Buyers@normal@2016-5-3@2016-5-4@2016-5-4
 160817 NPS Survey - Non-Buyers@normal@2016-8-15@2016-8-17@2016-8-17
 160819 home decor suppression@normal@2016-8-18@@2016-8-19
-20150213_FinalCyberMondayCredistReminder@normal@2015-2-12@2015-2-13@2015-2-13
 20150205_CyberMondayReminderEmail@normal@2015-2-4@2015-2-5@
-20150417_Salad Server Email Send@smart@@2015-4-17@
+20150213_FinalCyberMondayCredistReminder@normal@2015-2-12@2015-2-13@2015-2-13
 20150317_WA State Tax Refund List@normal@2015-3-16@2015-3-18@2015-3-18
-20150710_frog_hollow_farms@normal@2015-7-8@@
+20150417_Salad Server Email Send@smart@@2015-4-17@
 20150622_registry_invite_lc@smart@@2015-6-22@
-20150714_shop_targeted_knife_grabber_pre_sale@smart@@2015-7-14@
+20150710_frog_hollow_farms@normal@2015-7-8@@
 20150710_shop_targeted_pluots@smart@@2016-7-15@2015-7-10
+20150714_shop_targeted_knife_grabber_pre_sale@smart@@2015-7-14@
 20150719_misc_waterworks@normal@2015-7-14@@
 20150723_suppression@normal@2015-7-23@@
 20151212_mystery_offer_a@normal@2015-12-12@2015-12-12@2015-12-12
 20151212_mystery_offer_b@normal@2015-12-12@2015-12-12@2015-12-12
-2015_misc_holidaymarket_signups@normal@2015-12-8@@2016-1-5
 20151212_mystery_offer_c@normal@2015-12-12@2015-12-12@2015-12-12
+2015_misc_holidaymarket_signups@normal@2015-12-8@@2016-1-5
 2015_wine_awesomeness_signups@normal@2015-6-11@2015-6-11@
 2016 Delamar Ticket Holders@normal@2016-7-8@@
 2016 High LTV Customers ( purchased 1000)@smart@2017-4-13@@
 2016 Holiday Shoppers@smart@2017-11-24@@
 2016 Holiday Shoppers - Lapse@smart@2017-11-24@@
 2016 Repeat Shoppers (purchased 2+ times in 2016)@smart@2017-4-13@@
-2016 sweeps_general_assembly@normal@2017-5-19@@
 2016 ytd purchasers - 20160630@normal@2016-6-30@@
+2016 sweeps_general_assembly@normal@2017-5-19@@
 20160617 Wine Pearls@smart@2016-6-14@@
-20160524 Grilling@smart@2016-5-24@2016-5-27@
 20160701 Garden Scissors and Lighting@smart@2016-6-28@2016-7-1@2016-7-1
-20160707 Central Market@smart@2016-7-7@2016-12-23@2016-12-23
+20160524 Grilling@smart@2016-5-24@2016-5-27@
 20160708 Pineapple Mug@smart@2016-7-6@2016-7-8@
+20160722 Marshmallow Skewers@smart@2016-7-15@@
 20160715 Portable Log Fire@smart@2016-7-15@2016-7-15@2016-7-15
 20160729 Swedish Sponges@smart@2016-7-15@2016-7-29@2016-7-29
-20160722 Marshmallow Skewers@smart@2016-7-15@@
+20160707 Central Market@smart@2016-7-7@2016-12-23@2016-12-23
 20160805 Coffee Scoop@smart@2016-7-15@2016-8-5@2016-8-5
 20160812 Tortilla Warmer@smart@2016-7-15@2016-8-12@
 20160819_FF_VEGAN@smart@2016-8-17@2016-8-19@2016-8-19
-20160820 Targeted Lighting Email@smart@2016-8-19@2016-8-20@
 20160928_events_myeh_list@smart@2016-9-27@2016-9-28@2016-9-28
 20160826 Mike's Hot Honey@smart@2016-8-24@2016-8-26@
+20160820 Targeted Lighting Email@smart@2016-8-19@2016-8-20@
 20160930 AliceWaters@smart@2016-9-29@@2016-9-30
 20160930 Dough Scraper@smart@2016-9-29@2016-9-30@2016-9-30
 20161014 Tea Towel@smart@2016-10-13@@
@@ -80,49 +81,49 @@ list name@list type@create time@send time@suppress time
 2016_july_sweeps_poppin@normal@2016-7-22@@
 2017 YTD Shoppers@smart@2017-4-13@@
 2017 sweeps_foodie_adventure_to_hawaii@smart@2017-4-27@@
-2017 sweeps_foodkick_freshdirect@smart@2017-5-19@@
 20170731_FB lead instant article emails@smart@2017-7-31@@
+2017 sweeps_foodkick_freshdirect@smart@2017-5-19@@
 20170731_soldsie@smart@2017-7-31@@
-20171120_shop_dansk_buyer_brokenlink@normal@2017-11-20@2017-11-20@2017-11-20
 20170926_medmatswaitlist@normal@2017-9-25@2017-9-27@2017-9-27
-20171212_shop_unredeemed_giftcard_credits@normal@2017-12-12@2017-12-12@2017-12-12
 20171120_shop_dansk_nonbuyer_brokenlink@normal@2017-11-20@2017-11-20@2017-11-20
-2017_Nov_Purchasers@smart@2017-12-8@2017-12-20@2017-12-20
+20171120_shop_dansk_buyer_brokenlink@normal@2017-11-20@2017-11-20@2017-11-20
+20171212_shop_unredeemed_giftcard_credits@normal@2017-12-12@2017-12-12@2017-12-12
 20171217_hawkinspurchasers@normal@2017-12-15@2017-12-17@2017-12-17
-2018 EU Opt Outs Delta@normal@2018-5-29@@
+2017_Nov_Purchasers@smart@2017-12-8@2017-12-20@2017-12-20
 2018 Checkout Survery List@normal@2018-3-21@2018-3-22@2018-3-22
+2018 EU Opt Outs Delta@normal@2018-5-29@@
+2018 EU Subscribers@smart@2018-5-22@2018-5-25@2020-1-1
 2018 Opt In EU Subscribers@normal@2018-5-22@@
-2018 EU Subscribers@smart@2018-5-22@2018-5-25@2019-12-31
-20180419_jonopurchasers@smart@2018-4-18@2018-4-19@2018-4-19
 20180102_holidayhelpernewusers@smart@2017-12-21@2018-1-2@2018-1-2
+20180419_jonopurchasers@smart@2018-4-18@2018-4-19@2018-4-19
 20180421_medmatswaitlist@normal@2018-4-16@2018-4-21@2018-4-21
 20180426 ZWILLING Chef Knife Purchasers@smart@2018-4-26@2018-4-26@2018-4-26
-20180905_Club_Sandwich_Welcome@smart@2018-9-4@2018-9-5@2018-9-5
 20180905_care_clubsandwich recipients@normal@2018-9-10@@
-20181201_shop_holidaydecorgiftguide_buyer@normal@2018-12-3@@
 20181201_shop_holidaydecorgiftguide_RESEND@smart@2018-12-3@@
+20181201_shop_holidaydecorgiftguide_buyer@normal@2018-12-3@@
+20180905_Club_Sandwich_Welcome@smart@2018-9-4@2018-9-5@2018-9-5
 20181201_shop_holidaydecorgiftguide_holidayprediction@normal@2018-12-3@@
 20181203_shop_99cocotte_holidayprediction@normal@2018-12-3@@
-2018_BFCM_Disengaged@smart@2018-11-15@@
 20181203_shop_99cocotte_holidayprediction_RESEND@smart@2018-12-3@2018-12-3@
-2018_BFCM_NonShoppers_PredictiveShopper@smart@2018-11-15@@
+2018_BFCM_Disengaged@smart@2018-11-15@@
 2018_BFCM_NonShoppers_LowRev@smart@2018-11-15@@
+2018_BFCM_NonShoppers_PredictiveShopper@smart@2018-11-15@@
 2018_BFCM_OneTime_2017Holiday@smart@2018-11-15@@
 2018_BFCM_OneTime_2017Holiday_NonEngagers@smart@2018-11-15@@
 2018_BFCM_Readers@smart@2018-11-15@@
 2018_BFCM_Readers_NoPrediction@smart@2018-11-15@@
-2018_BFCM_Shoppers@smart@2018-11-15@@
 2018_BFCM_Remainder@smart@2018-11-15@@
-2018_holiday_shopper_email_list_canceled_orders@normal@2019-1-8@@
+2018_BFCM_Shoppers@smart@2018-11-15@@
 2018_Holiday_Predictive_Shoppers@smart@2018-11-27@2018-12-3@2018-12-3
-2019 Shopper: Shop List@smart@2019-1-10@@
+2018_holiday_shopper_email_list_canceled_orders@normal@2019-1-8@@
 2019 IAG 3 Non openers@normal@2019-11-15@2019-11-15@
-20190129_holidayapology_first500users@normal@2019-1-29@2019-2-5@2019-2-5
+2019 Shopper: Shop List@smart@2019-1-10@@
 20190206_holidayapology_remaindersend@smart@2019-2-6@2019-2-6@2019-2-6
-20190211 Chicwrap Apology@normal@2019-2-11@2019-2-11@2019-2-11
+20190129_holidayapology_first500users@normal@2019-1-29@2019-2-5@2019-2-5
 20190206_holidayapology_restoflist@normal@2019-2-6@2019-11-14@2019-11-14
-20190213 Spice Grinders Apology@normal@2019-2-11@@
+20190211 Chicwrap Apology@normal@2019-2-11@2019-2-11@2019-2-11
 20190212 Spice Grinders Apology - First 50@normal@2019-2-11@2019-2-12@2019-2-12
+20190213 Spice Grinders Apology@normal@2019-2-11@@
 20190213 Spice Grinders Apology Remainder@smart@2019-2-11@2019-2-13@2019-2-13
 20190218_shop_thieffrymakerstory_openedemail@normal@2019-2-19@2019-2-19@2019-2-19
 20190305 Jono Purchasers@smart@2019-3-5@2019-3-5@2019-3-5
@@ -131,68 +132,67 @@ list name@list type@create time@send time@suppress time
 2019072017_margarethbowlprediction@normal@2019-7-15@@2019-7-15
 20190730_parisianmat_opened@normal@2019-8-19@@2019-8-21
 2019072017_margarethbowlsbuyer@normal@2019-7-15@@2019-7-15
-20190918_shop_fiveteodinnerwarelaunch@normal@2019-9-18@@2019-9-20
 20190916_shop_newvintage_prediction@normal@2019-9-19@2019-9-23@2019-9-23
-20190919_shop_fivetwo_prediction_02@smart@2019-9-19@@2019-9-20
+20190918_shop_fiveteodinnerwarelaunch@normal@2019-9-18@@2019-9-20
 20190918_shop_fivetwodinnerware_prediction_open@normal@2019-9-18@@
-20190924_shop_saleroundup_02@normal@2019-9-24@@2019-9-24
+20190919_shop_fivetwo_prediction_02@smart@2019-9-19@@2019-9-20
 20190924_shop_saleroundup@normal@2019-9-24@@
-20190928_shop_lovelyrollingpins@smart@2019-9-27@2019-9-28@2019-9-28
+20190924_shop_saleroundup_02@normal@2019-9-24@@2019-9-24
 20190926_shop_mixingbowlresend@smart@2019-9-24@2019-9-26@2019-9-26
+20190928_shop_lovelyrollingpins@smart@2019-9-27@2019-9-28@2019-9-28
+20191008_freecuttingboard@normal@2019-10-8@2019-10-8@
 20191005_freecuttingboard@normal@2019-10-2@@
 20191004_shop_hawkinsservware_purchasers@smart@2019-10-3@2019-10-4@2019-10-4
-20191008_freecuttingboard@normal@2019-10-8@2019-10-8@
 20191011_cuttingboardthankyou@smart@2019-10-11@2019-11-11@
-20191030_fivetwolaunch_CSDT@smart@2019-10-30@2019-10-30@
 20191021_shop_fivetwoecofriendly_prediction@normal@2019-11-20@2019-11-21@
-20191118_shop_fivetwolaunch_nonopeners@normal@2019-11-18@2019-11-18@
+20191030_fivetwolaunch_CSDT@smart@2019-10-30@2019-10-30@
 20191109_IAG3_nonopeners@normal@2019-11-13@@
+20191118_shop_fivetwolaunch_nonopeners@normal@2019-11-18@2019-11-18@
 20191119_shop_10thanniversaryrosti@normal@2019-11-20@@2019-11-21
 20191120_truff_originalsend@normal@2019-11-20@@2019-11-20
-10/28 AM - did not open@normal@2019-10-28@@2019-10-28
+20191127_fivetwoknifepurchasers@normal@2019-11-27@@2019-11-29
 35 Mile Radius Miami@smart@@2015-8-20@
-4/29 User Gift Credit Amounts@normal@2016-4-29@@
 4/29 User Gift Credit Amounts (valids)@smart@2016-4-29@2016-4-30@2016-4-30
+4/29 User Gift Credit Amounts@normal@2016-4-29@@
 417 Design Team Invite List@normal@2019-4-16@2019-4-16@2019-4-16
 4q2016-nps-buyers@normal@2016-10-31@2016-11-2@2016-11-2
 4q2016-nps-nonbuyers@normal@2016-10-31@2016-11-2@2016-11-2
+5 Days Post Subscription Suppression@smart@2019-12-4@@2020-1-1
 4x purchasers - all users@smart@2016-6-23@@
 500 Plus Spenders & All VIP Tiers@smart@2017-6-6@2018-1-13@2018-1-13
-5 Days Post Subscription Suppression@smart@2019-12-4@@2019-12-31
-6 Month Lapsed Buyer@smart@@2017-2-21@2019-12-25
 51917_optouts@smart@2017-5-19@@
+6 Month Lapsed Buyer@smart@@2017-2-21@2019-12-25
 6/4/19 did not open AM@normal@2019-6-4@2019-6-4@
 6/3/18 did not open summer sale AM@normal@2019-6-3@2019-6-3@
 60 Day Non-Openers // Non-Shoppers@smart@2017-5-17@@
 6x purchasers - all users@smart@2016-6-23@@
-A and M test@normal@2017-2-10@@
 8x purchasers - all users@smart@2016-6-23@@
-ATK Sweeps Disengaged Feb 13, 2015@smart@@@
+A and M test@normal@2017-2-10@@
 AC Module Test - Shop List@smart@@2015-8-1@2015-8-1
+ATK Sweeps Disengaged Feb 13, 2015@smart@@@
 ATK Sweeps Disengaged Feb 6, 2015@smart@@@
 ATK Sweeps Disengaged Feb 19, 2015@smart@@@
 ATK Sweeps Disengaged Jan21, 2015@smart@@@
 ATK Sweeps Disengaged Mar 4,2015@smart@@@
 ATK Sweeps Feb 13, 2015@normal@2015-2-13@2015-2-18@
-ATK Sweeps Feb 19, 2015@normal@2015-2-19@2015-2-23@
 ATK Sweeps Feb 6, 2015@normal@2015-2-6@2015-2-10@
+ATK Sweeps Feb 19, 2015@normal@2015-2-19@2015-2-23@
 ATK Sweeps Jan21, 2015@normal@2015-1-21@2015-1-25@
-Abandoned Browse 14 days@smart@2016-6-3@2017-6-4@2017-4-2
 ATK Sweeps Mar 4, 2015@normal@2015-3-4@2015-3-8@
-Abandoned Browse 20160326 Test@normal@2016-3-24@2016-3-26@2016-3-26
+Abandoned Browse 14 days@smart@2016-6-3@2017-6-4@2017-4-2
 Abandoned Browse 20160326 Control@normal@2016-3-24@2016-3-26@2016-3-26
-Abandoned Browse Test 20160211@smart@2016-3-24@2016-2-11@2016-2-11
+Abandoned Browse 20160326 Test@normal@2016-3-24@2016-3-26@2016-3-26
 Abandoned Browse 30 days@smart@2016-4-26@2016-7-24@
-20191127_fivetwoknifepurchasers@normal@2019-11-27@@2019-11-29
-Abandoned Cart Users@smart@2019-3-12@@
+Abandoned Browse Test 20160211@smart@2016-3-24@2016-2-11@2016-2-11
 Abandoned Cart Send List_April23_2015@normal@2015-4-23@2015-4-27@
 Active Non-Shopper: Shop List@smart@2017-6-28@2018-12-4@
+Abandoned Cart Users@smart@2019-3-12@@
 Active Sweeps@smart@2017-1-24@@
 Ad Placement Control 160408@normal@2016-4-8@2016-4-22@2016-4-22
 Ad Placement Test 160408@normal@2016-4-8@2016-4-22@2016-4-22
 Ad Sales Just Bare Chicken Geo-Targeted List@smart@2018-7-17@@
-Ad Sales Partner List 150129@normal@2015-1-29@@
 Ad Sales Partner List 150623@normal@2015-6-23@@
+Ad Sales Partner List 150129@normal@2015-1-29@@
 Ad Sales Partner List 160323@normal@2016-3-23@2016-4-4@2016-4-4
 Ad Sales_Corey_State Percentage@smart@2017-3-6@@
 Ad Sales_King's_Targeting@smart@2017-5-22@@
@@ -204,9 +204,9 @@ Ad Sales_New Leaf Targeting_Updated_buyer@smart@2017-5-23@2017-5-24@2017-5-24
 Ad Sales_New Leaf Targeting_Updated_nonbuyer@smart@2017-5-23@2017-5-24@2017-5-24
 AdSales_ChelseaMarket@smart@2017-9-20@2017-9-22@2017-9-22
 AdWord Custom Audience - Engaged, No Purchase@smart@2017-5-17@@
-AdWords Custom Audience - clicked, never purchased@smart@2017-5-17@@
 AdWords Custom Audience - clicked, opened, never purchased@smart@2017-5-17@@
 AdWords Custom Audience - opened, never purchased@smart@2017-5-17@@
+AdWords Custom Audience - clicked, never purchased@smart@2017-5-17@@
 AdsWords Custom Audience - Shoppers 1/1/15 on@smart@2017-5-17@@
 Albany Metro Area@smart@@@
 Albert CA for Nicole_030915@smart@@@
@@ -219,72 +219,72 @@ All users receivedwelcomeseries is true@smart@2016-10-31@@2017-6-2
 All users source is Sweeps@smart@2017-1-24@@
 All users total purchase value at least 500@smart@2017-2-2@@
 All users: purchased since 10/01/2015@smart@@@
-All users: purchased since 11/01/2014 (11/01/2014), purchased before 06/01/2015@smart@@@
 Allagash Ad 160605@smart@2016-6-3@2016-7-1@2016-7-1
 Almost Club Sandwich (350-499)@smart@2019-8-14@2019-8-23@2019-8-23
 Almost_Club_Sandwich@smart@2018-11-15@@
+Aloha Supression List@normal@2015-1-8@@2015-2-24
+All users: purchased since 11/01/2014 (11/01/2014), purchased before 06/01/2015@smart@@@
 Aloha_Feb23send_List1@normal@2015-2-23@2015-2-23@
 Aloha_Feb24th_NewListA@normal@2015-2-23@2015-2-24@
+Amys Invite NYC 2016@smart@2016-9-19@2016-9-20@2016-9-20
 Aloha_NewListB@normal@2015-2-23@@
-Aloha Supression List@normal@2015-1-8@@2015-2-24
 Amys RSVPs 9_2016@normal@2016-9-19@@2016-9-20
 Analysis - 30 Day Prediction Not On Shopper List@smart@2018-6-18@@
-Amys Invite NYC 2016@smart@2016-9-19@2016-9-20@2016-9-20
 Analysis - 7 Day Prediction Not On Shopper List@smart@2018-6-18@@
-Anyone that shopped April 1 - May 8 2016@smart@2017-4-13@@
-Analysis - On Shopper List NOT on 7 Day Predictions@smart@2018-6-18@@
 Analysis - On Shopper List NOT on 30 Day Predictions@smart@2018-6-18@@
+Analysis - On Shopper List NOT on 7 Day Predictions@smart@2018-6-18@@
+Anyone that shopped April 1 - May 8 2016@smart@2017-4-13@@
 App Influencers@normal@2016-3-21@@2016-3-23
-Applegate Dedicated 20160523@smart@2016-5-18@2016-5-23@
 Apple News House Ads_Email Acquisition@normal@2018-7-2@@
+Applegate Dedicated 20160523@smart@2016-5-18@2016-5-23@
 AppleNewsHouseAds@normal@2018-7-2@@
 April 2017 - Registry Future Wed Dates@normal@2017-4-13@@
-April 2017 Market RSVPs@smart@2017-4-24@2017-4-26@2017-4-26
 April 2017 - Registry Future Wed Dates - Tri-State Area@smart@2017-4-13@@
+April 2017 Market RSVPs@smart@2017-4-24@2017-4-26@2017-4-26
 April 2017 Market Purchasers@normal@2017-4-24@2017-4-26@2017-4-26
 April 2018 Lapsed Buyer Sale Suppression@normal@2018-5-18@@2018-5-22
-April Market Email Onsite Sign Up - Never Purchased@smart@2017-4-24@2017-4-26@2017-4-26
 April 2019 Five Two Design Event Invite List - 2@smart@2019-4-2@2019-4-2@2019-4-2
 April 2019 Five Two Event Invite List@smart@2019-3-26@2019-3-28@2019-4-2
+April Market Email Onsite Sign Up - Never Purchased@smart@2017-4-24@2017-4-26@2017-4-26
 Apron Interest@smart@@@
-BAM Investor Optin@normal@2016-6-13@2016-6-13@
-Aspiring-VIP@normal@2017-4-27@@
 Aspiring VIP Mailing List@smart@2017-4-27@@
+Aspiring-VIP@normal@2017-4-27@@
+BAM Investor Optin@normal@2016-6-13@2016-6-13@
 BTDB Box - Purchased@smart@@2015-8-6@2015-8-6
-Baking Interest@smart@@2015-10-18@
-BTDB_member_signups@normal@2015-6-11@@
 BTDB Interest@smart@@2016-2-12@2015-9-24
+BTDB_member_signups@normal@2015-6-11@@
+Baking Interest@smart@@2015-10-18@
 Ballarini Non-Stick Purchasers@smart@2017-5-16@2017-5-16@
 Ballarini Waitlist 20170725@normal@2017-7-25@2017-7-25@2017-8-1
-Balsamic Gift IOU Manual 20161224@normal@2016-12-24@2016-12-24@
 Balsamic Gift IOU Manual 20161220@normal@2016-12-20@2016-12-20@2016-12-24
+Balsamic Gift IOU Manual 20161224@normal@2016-12-24@2016-12-24@
 Barware and Cocktail Interest@smart@@@
 Biz Dev_New York@smart@2017-4-5@2017-4-8@
 Black Friday, Didn't open Friday am@smart@@2014-11-28@
-Boston@smart@@2014-11-25@
 Blurb Dedicated 20151208@normal@2015-12-7@@
+Boston@smart@@2014-11-25@
 Boston Metro Area@smart@@2015-7-24@2015-7-24
+Bounce Exchange Email Subscribers@smart@2017-6-22@@
 Brooklynzipsgoodeggs@smart@@2015-5-3@
 Browses Site Using iPhone or iPad@smart@2016-3-18@@
-Bounce Exchange Email Subscribers@smart@2017-6-22@@
-CTWYC_PartII@normal@2018-2-26@@
 Butter Keeper Preview@normal@2015-11-13@@2015-11-14
 CLUB SANDWICH PURCHASED FROM 11/26/2018 EMAIL@smart@2018-11-30@2018-12-1@2018-12-1
-Cabot Dedicated Email 20160206@smart@2017-1-24@2017-2-2@
+CTWYC_PartII@normal@2018-2-26@@
 CTWYC_optouts@smart@2018-3-21@@
+Cabot Dedicated Email 20160206@smart@2017-1-24@2017-2-2@
 Cabot_2017@smart@2017-1-24@@
 Canvas Pouch Interest@smart@@2015-3-6@2015-3-6
 Cast Iron Preview 2017-Jan Part 1@smart@2017-1-20@@
 Cast Iron Preview 2017-Jan Send List@smart@2017-1-20@2017-1-22@
-Central Market_Austin@smart@2016-10-25@2016-11-21@2016-11-21
 Cast Iron Preview 2017-Jan Source List@normal@2017-1-20@@
+Central Market_Austin@smart@2016-10-25@2016-11-21@2016-11-21
 Central Market_Dallas@smart@2016-10-25@2016-11-21@2016-11-21
-Central Market_San Antonio@smart@2016-10-25@2016-11-21@2016-11-21
 Central Market_Houston@smart@2016-10-25@2016-11-21@2016-11-21
+Central Market_San Antonio@smart@2016-10-25@2016-11-21@2016-11-21
+Chicago 100mi Radius@smart@@2015-7-17@
 Charleston, SC 100mi radius@smart@@@
 Chicago 150mi Radius@smart@@2015-2-20@
 Chicago Metro Area@smart@@@
-Chicago 100mi Radius@smart@@2015-7-17@
 Cleaned: Active Non-Shopper: Shop List@smart@2018-10-29@@
 Cleaned Shopper: Shop List@smart@2018-10-22@@
 Cleaned: Non-Shopper: Eds List@smart@2018-10-29@@
@@ -295,67 +295,67 @@ Cleaned: Sunday Digest Weekly@smart@2018-10-29@@
 Cleaned:New_Club_Sandwich@smart@2018-10-29@@
 Clicked 1-2x in the last month@smart@@@
 Clicked 20170119_shop_raf@normal@2017-1-31@@
+Clicked 16-24x in the last month@smart@@@
 Clicked 2-3x in the last week@smart@@@
-Clicked 4-5x in the last week@smart@@@
 Clicked 3-4x in the last month@smart@@@
-Clicked 6-7x in the last week@smart@@@
+Clicked 4-5x in the last week@smart@@@
 Clicked 5-8x in  the last month@smart@@@
-Clicked more than 24x in the last month@smart@@@
+Clicked 6-7x in the last week@smart@@@
 Clicked 9-15x in the last month@smart@@@
+Clicked more than 24x in the last month@smart@@@
 Club Sandwich Purchased from 10/25/2018 Email@smart@2018-10-30@2018-11-1@2018-11-1
 Club_Sandwich_Master@smart@2018-9-4@2019-12-1@2019-11-18
 Connecticut@smart@@@
 Control Group food52_mailing Shop@normal@2016-12-8@@
-Copy 2 of Has Purchased Vintage Copper 160318@smart@2016-3-18@@
 Control Tues, Thurs, Fri, Sat New Send@normal@2016-1-26@2016-3-17@2016-3-17
-Copy of Has Purchased Vintage Copper 160318@smart@2016-3-18@@
+Copy 2 of Has Purchased Vintage Copper 160318@smart@2016-3-18@@
 Copy 3 of Has Purchased Vintage Copper 160318@smart@2016-3-18@@
+Copy of Has Purchased Vintage Copper 160318@smart@2016-3-18@@
 Countries not US or CA@smart@2017-1-24@@
 Craig Holiday Test@smart@2017-9-20@@
 Curious List_opened once in the last 30 days@smart@@@2015-6-11
-Clicked 16-24x in the last month@smart@@@
+Custom Butter Keeper Preview@smart@@2015-11-3@
 Custom Has Purchased Ever@smart@@@2017-6-19
 Custom Has Purchased Never@smart@@@
 Custom Lapsed Buyer 6 Months (Natural List)@normal@2016-12-11@@
 Custom Non-Buyers 20151118 v2@normal@2016-12-9@@
-Custom VIP Preview Cliff Spencer@smart@@2015-10-21@2015-10-21
 Custom Targeted Lapsed Buyer 20151118@normal@2015-11-18@2015-11-18@2015-11-18
+Custom VIP Preview Cliff Spencer@smart@@2015-10-21@2015-10-21
 Customer Appreciation - Cookie Truck Delivery 2015@smart@@@
+Cyber Monday_Did Not Open@smart@@2014-12-1@
 Customers_Who_Did_Not_Make_Repeat_Purchase_Following_Pop_Up@normal@2016-5-11@@
 CyberMonday_Reminder to Redeem_1192015@normal@2015-1-18@2015-1-19@2015-1-19
-Cyber Monday_Did Not Open@smart@@2014-12-1@
-Custom Butter Keeper Preview@smart@@2015-11-3@
 DIY interest@smart@@@
-Daily Suppressions@smart@2016-5-24@2016-7-18@2019-12-31
-Denver list@smart@@@
+Daily Suppressions@smart@2016-5-24@2016-7-18@2020-1-1
 Didn't click in the last month@smart@@@
 Didn't click in last week@smart@@@
+Denver list@smart@@@
 Digest Automation Control 160519@normal@2016-5-19@2016-6-12@2016-6-12
 Digest Automation Test 160519@normal@2016-5-19@2016-6-12@2016-6-12
 Dinnerware-Flatware+@smart@@2015-7-26@
+Disengaged List_hasn't opened in the last 30 days@smart@@@2015-6-11
 Disengaged 20150330_TenSpeed_Sweeps15@smart@@@2015-5-12
 Dormant Sweeps Users@smart@2016-8-9@@
-Disengaged List_hasn't opened in the last 30 days@smart@@@2015-6-11
 Durham 100 miles@smart@@2015-6-30@2015-6-30
 EDITORIAL LIST - FULL LIST@smart@2019-6-17@@
-Editorial AND Provisions@smart@@2015-3-30@
 Editorial OR Provisions@smart@@2015-3-17@2015-4-1
-Editorial Only = True@smart@2019-12-2@@
+Editorial AND Provisions@smart@@2015-3-30@
 Editorial OR Provisions Revised@smart@@@
+Editorial Only = True@smart@2019-12-2@@
 Editorial Only exists@smart@2018-11-16@@
-Editorial Signups_Last6Months@smart@@2014-9-15@
 Editorial Only is True@smart@2018-6-19@@
+Editorial Signups_Last6Months@smart@@2014-9-15@
 Editorial_Only: Active, Passive, New@smart@2019-12-2@2019-12-2@2019-12-2
-Eds Template Test Control 160308@normal@2016-3-8@2016-3-9@2016-3-9
 Eds List@smart@2016-10-31@2017-11-18@
+Eds Template Test Control 160308@normal@2016-3-8@2016-3-9@2016-3-9
 Eds Template Test Test 160308@normal@2016-3-8@2016-3-9@2016-3-9
 Eligible for reengagement _ ND@smart@2018-11-19@@
 Email Capture Test Audience@normal@2016-8-17@@
 Email Capture Test Audience Final@smart@2016-8-17@2016-9-13@
-Email_Capture_Test_160915_recipes@normal@2016-9-14@2016-9-14@
 Email_Capture_Test_160616@normal@2016-6-16@@
 Emails for users with bad addresses@normal@2016-7-18@2016-7-21@2016-7-21
 Equinox_Spring15_emailMay12@normal@2015-5-12@2015-5-12@
+Email_Capture_Test_160915_recipes@normal@2016-9-14@2016-9-14@
 ExtID exists@normal@2015-10-13@@
 FB Ad Leads@normal@2019-10-24@@
 FB Ad Leads Known Users@normal@2019-10-24@@
@@ -368,9 +368,11 @@ FirstTimeBuyers_Nov2018@smart@2018-12-4@2018-12-5@2018-12-5
 First Purchase last 30 days, messaged 1x today@smart@2016-5-12@@2016-5-12
 Five Two Buyers - Nov 2019@smart@2019-11-12@2019-11-14@2019-11-14
 Five Two Cutting Board - Buyers - Promo Code@normal@2019-10-10@2019-10-15@2019-10-15
-Five Two Design Team - NY@smart@2019-11-25@2019-11-25@
-Five Two Silicone Straws - NYC@smart@2019-4-21@2019-4-22@2019-4-22
+Five Two Cutting Board - New Orders for Free Board@normal@2019-10-15@@2019-10-15
+Five Two Design Team@smart@2018-10-15@2019-12-19@2019-12-19
 Five Two Wooden Spoons Purchasers@normal@2019-12-5@2019-12-9@2019-12-9
+Five Two Silicone Straws - NYC@smart@2019-4-21@2019-4-22@2019-4-22
+Five Two Design Team - NY@smart@2019-11-25@2019-11-25@
 Five-Two-Super-Users@normal@2018-8-27@@
 FiveTwo Cutting Board Buyers - Free@normal@2019-10-2@2019-10-2@2019-10-15
 FiveTwoGiveawayLP_list@normal@2019-4-30@@
@@ -391,36 +393,35 @@ Food52 list@smart@@2015-4-2@
 Food52_Mailing - Non-Buyers 112019@smart@2019-11-11@@
 Friends-Family App Testers@normal@2016-3-21@@2016-3-23
 Friends-Family App Testers - iOS only@normal@2016-3-21@@
-Full List Less Disengaged, Dormant, Optouts, Soft/Hard Bounce@smart@2019-10-4@@
 Full List for Sweeps Send March4@smart@@@
 Full US List for Sweeps Sends@smart@@@
+Full List Less Disengaged, Dormant, Optouts, Soft/Hard Bounce@smart@2019-10-4@@
 Full US List for Sweeps Sends March 4@normal@2015-3-4@@
 GHG Delamar Mid-Atlantic and New England@smart@2016-6-20@2016-7-12@
 Genius Book Email Send March 25@smart@@2015-3-25@2015-5-29
 Genius Book Signing Invite - Sacramento - 2016@smart@2016-12-12@2016-12-13@2016-12-13
 Genius Interest@smart@@@
-Geo Radius Princeton NJ 30 miles@smart@@@2015-10-15
 Geo_Radius_San_Francisco_100miles@smart@@2016-6-18@
 German Caroler Pyramid Waitlist@normal@2017-8-2@2017-8-4@2017-8-4
 Glassware Interest@smart@@2015-3-10@
+Geo Radius Princeton NJ 30 miles@smart@@@2015-10-15
 Good_Eggs_allZips@smart@@2015-8-2@
 Greater DC Metro Area@smart@@2014-10-22@
-Five Two Design Team@smart@2018-10-15@2019-12-19@2019-12-19
 Growl Tap Interest@smart@2016-5-19@2016-5-20@
-Had Incomplete Purchase in the Last 14 Days@smart@@@
 Hanger1_LP_signup_adsales@normal@2019-11-5@@
-Hanging Cutting Board Preview 20160906@smart@2016-8-25@2016-9-6@2016-9-6
-Hanging Spherical Basket List@smart@@2015-2-27@2015-2-27
+Had Incomplete Purchase in the Last 14 Days@smart@@@
 Hardbounce or Has bounced@smart@2018-8-23@@
+Hanging Spherical Basket List@smart@@2015-2-27@2015-2-27
+Hanging Cutting Board Preview 20160906@smart@2016-8-25@2016-9-6@2016-9-6
 Harford Metro Area@smart@@@
 Has Incomplete Purchase@smart@@@
 Has Purchased Baking@smart@@@2015-8-26
 Has Purchased Genius@smart@@2015-8-31@2015-10-23
 Has Purchased GrowlTap@smart@2016-5-19@@2016-5-20
 Has Purchased Olympia Provisions Salami of the Month Club@smart@@@
-Has Purchased Today@smart@@@2019-12-30
 Has Purchased Tortilla Warmer@smart@2016-8-16@@2016-8-17
 Has Purchased Vegan@smart@@@2015-8-26
+Has Purchased Today@smart@@@2019-12-31
 Has Purchased Vegan in the last 14 days@smart@2016-8-17@@2016-8-19
 Has Purchased Vegan or Baking@smart@@@2015-9-16
 Has Purchased Vintage Copper 160318@smart@2016-3-18@@
@@ -429,16 +430,16 @@ Has Purchased in the Last 6 Months@smart@@@
 Has purchased Bog Berry Wool Dryer Balls@smart@2016-7-6@2016-8-10@2016-8-10
 Has purchased Dew Drop Wired LED Lights@smart@2016-6-22@@
 Has purchased GrowlTap in the last 14 days@smart@2016-8-23@@2016-8-30
-Have saved a product@smart@@@
 Has_Pre_Ordered_ANWTD@smart@2016-9-16@@
-Holiday Market 2015 Mailchimp Signups@normal@2015-11-23@@
+Have saved a product@smart@@@
 Holiday Market 2015 Shopify Purchasers@normal@2015-12-20@2016-1-5@2016-1-5
-HolidayShoppers10_26_14_12_31_14@smart@@@
+Holiday Market 2015 Mailchimp Signups@normal@2015-11-23@@
 Holiday Shoppers 11/21/16-12/24/16@smart@2017-11-9@@
+HolidayShoppers10_26_14_12_31_14@smart@@@
 Horizon Bakeware Interest@smart@2016-7-22@2016-9-2@2016-9-2
 Horizon Barware + Outdoor Interest@smart@2016-8-26@2016-8-28@
-Horizon Interest Coffee & Tea@smart@2016-9-8@2016-9-9@
 Horizon Cookware Interest@smart@2017-1-20@@
+Horizon Interest Coffee & Tea@smart@2016-9-8@2016-9-9@
 Horizon Interest Entertaining@smart@2016-9-8@2016-9-9@2016-9-9
 Horizon Interest Knives & Cutting Boards@smart@2016-9-16@2016-9-16@2016-9-16
 Horizon Interest Lighting & Candles@smart@2016-9-16@2016-9-16@2016-9-16
@@ -447,10 +448,10 @@ Horizon Interest Wearables@smart@2016-9-16@2016-9-16@2016-9-18
 Horizon Outdoor Entertaining Interest@smart@2016-8-26@2016-9-2@2016-9-2
 Horizon Tabletop Interest@smart@2016-7-22@2016-9-2@
 Houston@smart@@2014-10-22@
-Houston Metro Area (50 mile radius)@smart@@@
+Ice Cream Scoop Interest@smart@@2015-5-5@
 Houston2@smart@@@
 Houston3@smart@@2014-10-30@
-Ice Cream Scoop Interest@smart@@2015-5-5@
+Houston Metro Area (50 mile radius)@smart@@@
 Interest Kitchen Tools@smart@@2015-10-29@
 Interest jewelry-clothing@smart@@@
 International Subscribers@smart@2016-7-22@@2016-7-25
@@ -466,8 +467,8 @@ LOT Proposal@normal@2015-7-22@@
 LTV < 100@smart@2016-8-23@@
 LTV > 100@smart@2016-8-23@@
 Lake Austin Subs@smart@@@
-Landing Page Control 160418@normal@2016-4-18@2016-5-3@2016-5-3
 Landing Page Test Article 160418@normal@2016-4-18@2016-5-3@2016-5-3
+Landing Page Control 160418@normal@2016-4-18@2016-5-3@2016-5-3
 Landing Page Test CMS 160418@normal@2016-4-18@2016-5-3@2016-5-3
 Landing Page Test Group@normal@2016-12-8@@2016-4-18
 Landing Page Test Topic 160418@normal@2016-4-18@2016-5-3@2016-5-3
@@ -475,8 +476,8 @@ Lapsed Buyer 180 Days@normal@2015-11-9@2015-11-10@2015-11-10
 Lapsed Buyers (No Engagement In Past Year)@smart@2019-9-16@@
 Lapsed First Time Shoppers@smart@2017-7-11@2017-7-12@2017-7-12
 Lapsed Users 20190326@smart@2019-3-26@2019-3-27@2019-3-27
-LapsedShoppers_Q42017@smart@2018-12-6@2018-12-6@2018-12-6
 Last Messaged 12-15 mos ago (emailed 3x)@smart@2019-5-30@@
+LapsedShoppers_Q42017@smart@2018-12-6@2018-12-6@2018-12-6
 Last Opened Or Clicked 12-15 Mos Ago@smart@2019-5-30@2019-5-30@
 Last Purchased in the Last 180 Days@smart@@@2015-11-10
 List for Nicole@smart@@@
@@ -489,12 +490,12 @@ MZ Bag Overlap interest@smart@@2015-5-10@
 Made a purchase Nov-Dec 2015@normal@2016-1-4@@
 Madura Purchasers@smart@2017-6-6@2017-6-6@2017-6-6
 MailChimp Cleans@normal@2014-8-14@@
+Majority resident - San Francisco_CA - valids@smart@2016-6-23@2016-6-30@2016-6-30
 MailChimp Optouts@normal@2014-8-14@@
 Maille_NY Event Invite@smart@2016-10-4@2016-11-3@
-Majority resident - San Francisco_CA - valids@smart@2016-6-23@2016-6-30@2016-6-30
 Majority resident - Scottsdale_AZ - valids@smart@2016-6-23@2016-6-28@
-Makers Conference 2015 Invite@normal@2015-8-10@2015-8-11@2015-8-11
 Marble Slab Targeted 20150723@smart@@2015-7-23@
+Makers Conference 2015 Invite@normal@2015-8-10@2015-8-11@2015-8-11
 March_2018_Openers@smart@2018-4-19@@
 McCormick Geo Targeting@normal@2015-11-20@@
 McCormick Geo Targeting (Smart List)@smart@@@
@@ -507,24 +508,23 @@ Mon and Wed Email Send - iOS only@smart@2016-3-21@2016-6-9@2016-6-1
 Monday_Automated_Eds_Email@smart@2018-10-5@@
 Mortar&Pestle interest group@smart@@2015-4-29@
 Mountain Rose Apples 20161026@smart@2016-10-26@2016-10-26@2016-10-26
-Five Two Cutting Board - New Orders for Free Board@normal@2019-10-15@@2019-10-15
 Munchery List- NY, SF, Seattle@smart@@2015-4-18@2015-4-18
-Munchery_welcomeemail_may11@smart@@@
 Munchery_Spring15_query@normal@2015-5-11@2015-5-11@
+Munchery_welcomeemail_may11@smart@@@
 Mystery Offer Test 20151212@normal@2015-12-11@@
 Mystery Offer Test 20151212 Final@normal@2015-12-11@2015-12-12@2015-12-12
 NEW Fluent 2018@smart@2019-4-22@@
 NEW Fluent 2019@smart@2019-4-22@@
-NEW Fluent June 2019@smart@2019-6-10@@
 NEW Fluent April 2019@smart@2019-5-8@@
+NEW Fluent June 2019@smart@2019-6-10@@
 NEW Fluent May 2019@smart@2019-5-22@@
 NEW_Editorial_SuppressionList@smart@@@2015-4-15
 NEW_Provisions_SuppressionList@smart@@@2015-5-20
 NON ENGAGERS: Not Shopped; Low Pageviews@smart@2018-8-17@@
-NON SHOPPERS: Potential Shopper@smart@2018-8-17@@
 NON SHOPPERS: Potential Pageviewers@smart@2018-8-17@@
-NON SHOPPERS: Potential Shopper V2 (Site Vists 5+)@smart@2018-8-17@@
+NON SHOPPERS: Potential Shopper@smart@2018-8-17@@
 NON SHOPPERS: Potential Shopper V1@smart@2018-8-17@@
+NON SHOPPERS: Potential Shopper V2 (Site Vists 5+)@smart@2018-8-17@@
 NPS Oct 2015: Non-Purchasers@normal@2015-10-12@2015-10-13@2016-1-21
 NPS Oct 2015: Purchasers@normal@2015-10-12@2015-10-13@2016-1-21
 NPS Q1 2017 - Buyers v2@normal@2017-2-14@2017-2-18@2017-2-18
@@ -534,52 +534,52 @@ NPS Q1 2017 - Non Buyers v2 Resend@normal@2017-2-23@2017-2-25@2017-2-25
 NPS Q1 2017- Non Buyers@normal@2017-2-10@@
 NPS Q2 2016 - Buyers (final)@normal@2016-5-2@@
 NPS Q2 2016 - Non Buyers (final)@normal@2016-5-2@2016-5-3@2016-5-3
-NPS Suppression@normal@2016-5-2@@2016-5-4
 NPS Survey - Buyers@smart@2016-8-15@@
+NPS Suppression@normal@2016-5-2@@2016-5-4
 NPS Survey - Non-Buyers@smart@2016-8-15@@
 NPS Survey Q2 2016 - Buyers@normal@2016-4-11@2016-5-3@2016-5-3
 NPS Survey Q2 2016 - Non-Buyers@normal@2016-4-11@2016-5-3@2016-5-3
-NYC - Within 60 Mi of 10019@smart@2019-11-1@2019-11-11@
 NYC - 25% visitor@smart@@@
+NYC - Within 60 Mi of 10019@smart@2019-11-1@2019-11-11@
 NYC Boroughs + LI + JC + Hoboken + Stamford@smart@2019-11-1@2019-11-5@
 NYC Metro 2017@smart@2017-8-1@2017-11-2@2017-11-2
 NYC Metro Area@smart@@2015-12-7@2015-12-7
 NYC VIP 2017@smart@2017-8-21@2017-9-14@2017-9-14
 NYC Valid Subscribers - Brooklyn@smart@2016-11-2@@
 NYC Valid Subscribers - Manhattan@smart@2016-11-2@@
-NYCWFF100@normal@2015-9-21@2015-9-22@2015-9-22
 NYC and Surrounding Areas@smart@@@
 NYC_50 miles_Nicole 040715@smart@@@
+NYCWFF100@normal@2015-9-21@2015-9-22@2015-9-22
 NYC_FallFeast_Sweeps_09232014@normal@2014-9-23@@
 Napa Sweeps_08142014@normal@2014-8-14@@
 NapaSweeps_09092014@normal@2014-9-9@@
-Naturebox_Group2_090814@normal@2014-9-5@2014-12-9@2014-12-16
 Napa_Sweeps_08212014@normal@2014-8-21@@
+Naturebox_Group2_090814@normal@2014-9-5@2014-12-9@2014-12-16
 Necklace List_Under50@smart@@@
-Nellie's 4/29@smart@2016-4-26@2016-6-24@2016-6-24
 NeverPurchased_DoesNotCollect@smart@@@
+Nellie's 4/29@smart@2016-4-26@2016-6-24@2016-6-24
 New Haven Metro Area@smart@@@
 New Jersey@smart@@@
 New Leaf_Updated_021717@smart@2017-2-17@2017-2-19@2017-2-19
-New Seasons_SanJose@smart@2016-10-19@2016-10-21@2016-10-21
 New Seasons_Portland@smart@2016-10-19@2016-11-22@2016-11-22
-New York Metro@smart@2017-4-18@2017-8-24@2017-8-24
+New Seasons_SanJose@smart@2016-10-19@2016-10-21@2016-10-21
 New Welcome Email May1 send@normal@2015-5-1@2015-5-1@
-NewSeasons_Sunnyvale@smart@2017-10-3@2017-10-6@2017-10-6
+New York Metro@smart@2017-4-18@2017-8-24@2017-8-24
 New York Metro VIPs@smart@2017-8-1@2017-8-6@2017-8-6
-New_Club_Sandwich@smart@2018-9-10@2019-12-30@
-New_Food52_Mailing_Suppression@smart@@@2015-5-10
+NewSeasons_Sunnyvale@smart@2017-10-3@2017-10-6@2017-10-6
 Newark Metro Area@smart@@@
+New_Food52_Mailing_Suppression@smart@@@2015-5-10
+New_Club_Sandwich@smart@2018-9-10@2019-12-31@
 Non-Buyer Promo AB Test - 20160725@smart@2016-7-22@2016-7-25@2016-7-25
-Non-Purchasers_10082014@smart@@@
 Non-Buyers (has not made 1 purchase)@smart@2019-5-31@2019-5-31@2019-5-31
-Non-Shopper: Eds List@smart@2017-5-8@2019-12-27@2019-5-18
+Non-Purchasers_10082014@smart@@@
 Non-Purchasers_CollectsProducts@smart@@2014-10-21@
 Non-Shopper: Eds List +  Active Non-Shopper: Shop List - Overlap@smart@2018-8-7@@
+Non-Shopper: Eds List@smart@2017-5-8@2020-1-1@2019-5-18
 Non-Shopper: Shop List@smart@2017-5-8@2019-12-31@
 Non-Shopper: Shop List - Subscribe 30 Days Ago@smart@2019-12-5@@
-Non-Shopper: Shop List - Including Weekly Only@smart@2017-11-22@2017-11-26@
 Non-Shoppers - SailthruTEST@smart@2017-5-3@@
+Non-Shopper: Shop List - Including Weekly Only@smart@2017-11-22@2017-11-26@
 Non-Shoppers Mailing List@smart@2017-5-2@2017-5-8@
 Non-Sweeps Active Subscribers@smart@2017-2-14@@
 Non-purchasers_Non-collectors@smart@@2014-10-21@
@@ -587,10 +587,10 @@ Northeast Blizzard 2015@smart@@2015-1-27@2015-1-27
 Not member of food52_mailing@smart@2016-4-12@@2017-2-4
 Not opened in the last month@smart@@@
 NotRecipesUsers2019@normal@2019-1-22@2019-1-25@2019-1-25
-Nov_Retargeting_Promo_Codes@smart@2017-12-19@2018-1-1@2018-1-1
 Nov_Dec13xBuyers@smart@@@
-ONE TIME SHOPPERS: HOLIDAY 2017 (NON ENGAGERS)@smart@2018-8-17@@
+Nov_Retargeting_Promo_Codes@smart@2017-12-19@2018-1-1@2018-1-1
 ONE TIME SHOPPERS: HOLIDAY 2017@smart@2018-8-17@@
+ONE TIME SHOPPERS: HOLIDAY 2017 (NON ENGAGERS)@smart@2018-8-17@@
 Oakland_30mi_Radius@smart@@2015-6-8@2015-6-8
 Olive Oil Gift IOU Manual 20161219@normal@2016-12-19@2016-12-19@2016-12-24
 Olive Oil Gift IOU Manual 20161220@normal@2016-12-20@2016-12-20@2016-12-24
@@ -601,9 +601,9 @@ Oopsie email group_May2015@normal@2015-5-8@2015-5-9@
 Oopsie email group_May2015_nonOpen@normal@2015-5-12@2015-5-12@
 Opened 1-2x in the last month@smart@@@
 Opened 16-24x in the last month@smart@@@
-Opened 20160924_ads_craftsy@normal@2016-11-11@@2016-11-12
-Opened 20180130_shop_lidmaster@normal@2018-1-30@@2018-1-30
 Opened 24x+ in the last month@smart@@@
+Opened 20180130_shop_lidmaster@normal@2018-1-30@@2018-1-30
+Opened 20160924_ads_craftsy@normal@2016-11-11@@2016-11-12
 Opened 3-4x in the last month@smart@@@
 Opened 5-8x in the last month@smart@@@
 Opened 9-15x in the last month@smart@@@
@@ -611,9 +611,9 @@ Opened and Purchased 20180317_shop_dansk@normal@2018-6-1@@2018-6-2
 Opened at Least 1x Today@smart@@@2016-3-14
 Opened at Least 1x Today_Test_160304@normal@2016-3-4@@2016-3-4
 Opened at Least 1x Today_Test_160307@normal@2016-3-7@@2016-3-7
-Opened at least once in the last 3 days@smart@@@2015-8-3
-Opened in the last day@smart@@@2015-3-10
 Opened or Clicked at Least 1x Today@smart@@@
+Opened in the last day@smart@@@2015-3-10
+Opened at least once in the last 3 days@smart@@@2015-8-3
 Openers_Suppression_20180824_shop_greenpanvippresale_vip@normal@2018-8-26@@2018-8-27
 Opt Out Review 20170117@normal@2017-1-16@@
 Opt Outs@smart@2017-8-24@@
@@ -625,29 +625,29 @@ PAID: purchased 5/1/19 - 11/1/19@smart@2019-12-13@@
 PAID: purchased 5/20 2017 to 2019@smart@2019-5-20@@
 PAID: purchased since 12/13/17@smart@2019-12-13@@
 PAID: registry exists@smart@2019-5-21@@
-Page Views - 30 day is Segment 3@smart@2018-7-12@@
 Page Views - 30 day is Segment 4@smart@2018-7-12@@
-Paid - 11117 made purchase on or after@smart@2019-11-1@@
+Page Views - 30 day is Segment 3@smart@2018-7-12@@
 Page Views - 30 day is Segments 3 & 4@smart@2018-7-12@2018-7-13@2018-7-13
-Paid Marketing: Purchased Sept 2018@smart@2018-10-8@@
 Paid - purchased 11/1/18 - 12/25/18@smart@2019-11-1@@
+Paid - 11117 made purchase on or after@smart@2019-11-1@@
+Paid Marketing: Purchased Sept 2018@smart@2018-10-8@@
 Paid Marketing: purchasers_nov_and_dec_2017@smart@2018-10-9@@
 Paid Marketing:high_value_purchasers_1k_ever@smart@2018-10-8@@
 Paid marketing:high_frequency_purchasers_3orders_120days@smart@2018-10-4@@
 Palm_Springs_Email_Sweeps@normal@2018-8-23@@
-Passive: opened in last 30 days, not clicked@smart@@@2016-1-6
 Parachute_110916@smart@2016-11-7@2016-11-18@
-Personalized Send Time 2016 Control@normal@2016-3-4@2016-4-12@2016-4-12
+Passive: opened in last 30 days, not clicked@smart@@@2016-1-6
 Past Shoppers@smart@2017-8-24@@
+Personalized Send Time 2016 Control@normal@2016-3-4@2016-4-12@2016-4-12
 Personalized Send Time 2016 Test@normal@2016-3-4@2016-4-12@2016-4-12
 Petbrosia Ad List - NY, LA, SD@smart@@2015-9-11@2015-9-22
 Petbrosia Suppression@smart@@@
 Philly List 39@smart@@@
-Piglet Ticket Orders_31 SUPPRESS@normal@2016-3-1@@2016-3-14
 Piglet Pot Waitlist@normal@2017-3-30@2017-3-31@2017-4-2
-Pitcher Interest@smart@@2015-3-14@
+Piglet Ticket Orders_31 SUPPRESS@normal@2016-3-1@@2016-3-14
 Piglet_2017_Staub_Giveaway@normal@2017-2-28@2017-3-16@2017-3-17
 Poncho jan18 send list@smart@@2015-1-18@2015-1-18
+Pitcher Interest@smart@@2015-3-14@
 Poncho_10262014@smart@@2014-10-26@2014-10-26
 Porcelain Grinder List@smart@2018-10-18@@
 Posted Recipe - iOS only@normal@2016-3-21@2016-3-23@2016-3-23
@@ -684,8 +684,8 @@ Purchased Madura@smart@2017-6-9@@
 Purchased at least once 2015@smart@@@2015-4-13
 Purchased between 11/1/13-12/31/13_only purchased once@smart@@2015-1-21@
 Purchased from 20180416_shop_staub2in1@normal@2018-4-23@@2018-4-24
-Purchased from Abandoned Browse Email in last 30 days - 20160721@normal@2016-7-21@@2016-7-24
 Purchased in Last 6 months@smart@@@
+Purchased from Abandoned Browse Email in last 30 days - 20160721@normal@2016-7-21@@2016-7-24
 Purchased today or before@smart@2016-3-29@@
 Purchaser@smart@@@
 Purchasers@smart@2019-1-16@@
@@ -716,8 +716,8 @@ Received Cyber Monday Credit@smart@@@2014-12-26
 Received NPS Q4 2016@normal@2017-2-10@@
 Received Post Purchase Trigger@normal@2016-8-21@@
 Received Simax 20151111@normal@2015-11-11@@2015-11-11
-Received Wrong SL 20181109_eds_holidayhelper_buyer@normal@2018-11-9@@2018-11-9
 Received Wrong SL 20181109_eds_holidayhelper_nonbuyer@normal@2018-11-9@@2018-11-9
+Received Wrong SL 20181109_eds_holidayhelper_buyer@normal@2018-11-9@@2018-11-9
 Recipe Uploaders 20160706@normal@2016-7-5@@
 Recipe Uploaders 20160706 - Valids@smart@2016-7-5@2016-7-6@2016-7-6
 Ref29Afar_WelcomeSeries_09302014@smart@@2014-10-4@
@@ -747,8 +747,8 @@ SailthruTEST - Abandoned Browse 14 days@smart@2017-1-12@2017-2-5@
 SailthruTEST - Abandoned Browse 14 days - Control@normal@2017-1-27@@
 SailthruTEST - Mon and Wed Email Send@smart@2017-1-23@2017-2-3@2017-2-3
 SailthruTEST - Mon and Wed Email Send - Control@normal@2017-1-27@2017-2-3@2017-2-3
-SailthruTEST - Tues, Thurs, Fri, Sat New Send@smart@2016-11-26@2017-2-4@2017-2-4
 SailthruTEST - Tues, Thurs, Fri, Sat New Send - Control@normal@2017-1-27@2017-2-4@2017-2-4
+SailthruTEST - Tues, Thurs, Fri, Sat New Send@smart@2016-11-26@2017-2-4@2017-2-4
 SailthruTEST1@smart@2019-11-20@@
 SailthruTest@normal@2015-10-15@@
 San Diego@smart@@2014-11-25@
@@ -761,12 +761,12 @@ Send Frequency Test 160404@normal@2016-4-4@2016-4-26@2016-4-26
 Send List: Travel&LesiureSp15_March23@smart@@2015-4-1@
 SeptemberSweepsWebSummitLisbonEntries@normal@2016-9-14@@
 Shop & Editorial List Overlap@smart@2019-6-17@@
-Shop List@smart@2016-6-8@@
 Shop Open House Survey - 20150730@normal@2015-7-31@2015-7-31@2015-7-31
 Shop Overlay Sign-Ups - First Subbed After July 1@smart@2019-7-8@@
+Shop List@smart@2016-6-8@@
 Shop Push 20151120@normal@2015-11-20@2015-11-20@2015-11-20
-Shop Targeted 20151208@normal@2015-12-8@2015-12-8@2015-12-8
 Shop Targeted 20151209@normal@2015-12-9@2015-12-9@2015-12-9
+Shop Targeted 20151208@normal@2015-12-8@2015-12-8@2015-12-8
 Shop Targeted 20151211@normal@2015-12-11@2015-12-11@2015-12-11
 Shop Targeted 20151214@normal@2015-12-11@2015-12-14@2015-12-14
 Shop Targeted 20151216@normal@2015-12-16@@
@@ -774,10 +774,10 @@ Shop and Eds List@smart@2019-10-10@2019-10-10@
 Shop&Ship Users@smart@@@
 ShopandShip_S2015_10262014thru12312014@normal@2015-1-2@2015-1-31@2015-1-31
 Shopper and Non Shopper Overlap - SailthruTEST@smart@2017-5-3@@
-Shopper: Eds List@smart@2017-5-8@2019-12-27@
+Shopper: Eds List@smart@2017-5-8@2020-1-1@
 Shopper: Shop List@smart@2017-5-8@2019-12-31@2019-12-21
-Shopper: Shop List - Including Weekly Only@smart@2017-11-22@2017-11-26@
 Shoppers Mailing List@smart@2017-5-2@2017-5-8@
+Shopper: Shop List - Including Weekly Only@smart@2017-11-22@2017-11-26@
 Shoppers from October-December 2015@normal@2016-10-12@@
 Signed Up August 2014@smart@@@
 Signed Up Since 2 Days Ago@smart@2016-6-8@@2018-1-13
@@ -791,11 +791,11 @@ Source is Modal 20161219@normal@2016-12-19@@
 Source is Sweeps@smart@@@
 Source: app-accountcreate@smart@2016-3-22@@
 Source: onsite@smart@2017-1-18@@
-Source: onsite-accountcreate@smart@2017-8-1@@
 Source: onsite-checkout@smart@@@
 Source: onsite-globalfooter@smart@2017-1-13@@
-Source: onsite-landingpage@smart@2017-4-4@@
+Source: onsite-accountcreate@smart@2017-8-1@@
 Source: onsite-modal@smart@@@
+Source: onsite-landingpage@smart@2017-4-4@@
 Source: onsite-referral@smart@2017-1-19@@
 Source: onsite-widget@smart@@@
 Source: sticky footer@smart@2017-2-15@@
@@ -812,38 +812,38 @@ Subway_Ad_Landing_Page@normal@2019-8-19@@
 Sunbasket_20160916@smart@2016-9-13@2016-9-16@2016-9-16
 Sunday Digest Control 160318@normal@2016-3-18@2016-3-20@2016-3-20
 Sunday Digest Daily@smart@2017-6-22@2019-12-29@
-Sunday Digest Test_A 160318@normal@2016-3-18@2016-3-20@2016-3-20
 Sunday Digest Test_B 160318@normal@2016-3-18@2016-3-20@2016-3-20
-Sunday Email Send@smart@2016-6-8@2017-6-18@
 Sunday Digest Weekly@smart@2017-6-22@2019-12-29@
-Super VIP Mailing List@smart@2017-4-27@2017-4-28@2017-4-28
+Sunday Email Send@smart@2016-6-8@2017-6-18@
+Sunday Digest Test_A 160318@normal@2016-3-18@2016-3-20@2016-3-20
 Super VIP Import@normal@2017-4-27@@
+Super VIP Mailing List@smart@2017-4-27@2017-4-28@2017-4-28
 Super_Purchasers_10082014@smart@@2014-10-21@
 Suppress from Feb24th Aloha send@normal@2015-2-24@@2015-2-24
 Suppression Editorial Only@smart@@@2017-6-19
 Suppression Has Purchased White Butter Keeper@smart@@@2015-11-6
-Suppression Weekly Only@smart@@@2018-7-13
 Suppression Messaged At Least Once Ever@smart@@@2016-1-6
+Suppression Weekly Only@smart@@@2018-7-13
 Sweeps@smart@2017-4-27@@
-Sweeps R29 Italian Riviera 201602@normal@2016-2-8@2016-2-10@
 Sweeps Active Subscribers@smart@2017-1-24@@
+Sweeps R29 Italian Riviera 201602@normal@2016-2-8@2016-2-10@
 Sweeps Subscribers@smart@2017-1-23@@
-Sweeps_AnthroTerrain_11132014@normal@2014-11-13@@
 Sweeps Welcome FNW 2015@normal@2015-10-28@2015-10-28@2015-10-28
+Sweeps_AnthroTerrain_11132014@normal@2014-11-13@@
 Sweeps_Anthro_Terrain_NewSubscribers@smart@@2014-11-17@
 Sweeps_Ref29@normal@2014-9-16@@
 Swoon_081115_Final@normal@2015-8-17@2015-8-17@
 Syracuse Metro Area@smart@@@
-Tasting Table Sweeps_227@normal@2015-2-26@2015-3-5@2015-3-8
 TODAYshow@normal@2017-8-7@@
+Tasting Table Sweeps_227@normal@2015-2-26@2015-3-5@2015-3-8
 Tasting Table Sweeps_Mar18@normal@2015-3-23@@2015-4-13
-TenSpeed_April1st2015_send@smart@@2015-4-13@
 Tasting Table Sweeps_March4@normal@2015-3-4@2015-3-8@
+TenSpeed_April1st2015_send@smart@@2015-4-13@
 Test Group food52_mailing Shop@normal@2016-12-8@@
 Test List Issue 20160216@smart@@@
-Thanksgiving_2019_Non_Signup@smart@2019-10-17@@
 Test Tues, Thurs, Fri, Sat New Send@normal@2016-1-26@2016-3-17@2016-3-17
-Thanksgiving_2019_newsletter_signup@normal@2019-10-7@NaN-NaN-NaN@2019-11-28
+Thanksgiving_2019_Non_Signup@smart@2019-10-17@@
+Thanksgiving_2019_newsletter_signup@normal@2019-10-7@2019-11-28@2019-11-28
 Tillamook 4/29@smart@2016-4-28@2016-12-14@2016-12-14
 Tillamook_092616@smart@2016-9-26@2016-10-9@2016-10-9
 Total Email Signups on 7/15/15@normal@2015-9-10@@
@@ -853,14 +853,16 @@ Total Purchase Value at least 250@smart@@@
 Total Purchase Value at least 500@smart@@@2015-7-23
 Travel&LesiureSp15@normal@2015-3-16@2015-3-24@
 Travel&LesiureSp15_March23@normal@2015-3-23@@
-Tri-State Area 2019 Purchasers@smart@2019-12-10@@
 Tri-State Area 2019@smart@2019-12-9@2019-12-23@2019-12-23
+Tri-State Area 2019 Purchasers@smart@2019-12-10@@
 TriState - NY, CT, NJ@smart@2016-11-3@2017-3-14@2017-3-14
+Try the World - France Box - 20160622@normal@2016-6-21@2016-6-22@2016-6-22
 Tues, Thurs, Fri, Sat New Send - iOS only@smart@2016-3-29@2016-3-29@
 Tues, Thurs, Fri, Sat New Send Non-Buyers@smart@2016-7-22@@
+Turnco Carafe Targeted@smart@2016-5-13@2016-5-13@
 Ultimate Spring Refresh! Sweeps List@smart@2018-5-18@@
 Unredeemed E-Gift Cards v3-60@normal@2016-8-25@2016-8-25@2016-8-25
-Turnco Carafe Targeted@smart@2016-5-13@2016-5-13@
+Unredeemed E-Gift Cards v3-90@normal@2016-8-25@2016-8-25@
 Unsubscribed in the last 7 days@smart@@@
 Unused Credits 20151124@normal@2015-11-24@@
 Unused Credits 20151124 Send@normal@2015-11-24@2015-11-24@2015-11-24
@@ -869,18 +871,18 @@ UsersWhoPurchasedFrenchButterKeeper@normal@2016-3-1@2016-3-2@2016-3-9
 UsersWhoPurchasedWhiteButterKeeper_160309@normal@2016-3-8@2016-3-9@2016-3-9
 VIP Import@normal@2017-4-27@@
 VIP Mailing List@smart@2017-4-27@@
-VIP Promo 20160720@smart@2016-7-19@2016-7-20@2016-7-20
 Valid Email Signups on 7/15/15@normal@2015-9-10@@
 Valid Email Signups on 8/15/15@normal@2015-9-10@@
+VIP Promo 20160720@smart@2016-7-19@2016-7-20@2016-7-20
 Valid Emails Signed Up 9/3@normal@2015-9-8@@
 Valids Has Purchased with Tags: oils-vinegars-syrups@normal@2015-12-7@@
-Valids Interest with Tags: oils-vinegars-syrups|fresh-ingredients|snacks|canned-goods-condiments@normal@2015-12-7@@
 Valids who purchased from jewelry-clothing@smart@@@
 Valids, Has Purchased A New Way to Dinner (ALL)@smart@2016-10-18@@
+Valids Interest with Tags: oils-vinegars-syrups|fresh-ingredients|snacks|canned-goods-condiments@normal@2015-12-7@@
 Valids, Has Purchased PRESALE A New Way to Dinner, by Amanda Hesser & Merrill Stubbs@smart@@@2016-5-18
 Var exists: registry_completion_promo@normal@2016-5-17@@
-Variable la_seafood_ad_151206@normal@2016-1-29@@
 Variable_la_seafood_ad_151206@normal@2016-1-29@@
+Variable la_seafood_ad_151206@normal@2016-1-29@@
 Veg_10062014@smart@@2014-10-6@
 Vegan / Vegetarian Interest@smart@@@
 Vegan and Vegetarian_10062014@smart@@@
@@ -894,19 +896,19 @@ Webbula Suppression@smart@2018-10-25@@
 Wedding Date@normal@2015-8-24@@
 Wedding Date: September & October 2015@smart@@2015-8-31@2015-8-31
 Wedding Registrants March 2017@normal@2017-3-23@2017-3-24@
-Weekly Email Sends_ OR@smart@@@
 Weddington Way Popup Los Angeles 2016@normal@2016-2-12@2016-2-23@2016-2-23
-Weekly Suppressions 20190328@smart@2019-3-28@@2019-12-31
+Weekly Email Sends_ OR@smart@@@
 Weekly Only = True@smart@2019-12-2@@
-Weekly_Editorial_Digest_1@normal@2015-2-23@2015-3-15@2015-3-26
+Weekly Suppressions 20190328@smart@2019-3-28@@2020-1-1
 Weekly_Editorial_Digest@smart@@2015-2-23@2015-3-5
-Welcome Series@smart@@@
+Weekly_Editorial_Digest_1@normal@2015-2-23@2015-3-15@2015-3-26
 Whole Foods 20160824@smart@2016-8-23@2016-9-30@2016-9-30
-Winter Weather@smart@@2016-1-23@
+Welcome Series@smart@@@
 Win Back & Five Two, CS, DT + Suppressions@smart@2019-11-18@@
-YTD High LTV Customers 1000+ 2016@normal@2016-10-12@@
-Unredeemed E-Gift Cards v3-90@normal@2016-8-25@2016-8-25@
+Winter Weather@smart@@2016-1-23@
+Wreaths Targeted 20151204@normal@2015-12-4@2015-12-4@2015-12-4
 YTD Purchasers 2016@normal@2016-10-12@@
+YTD High LTV Customers 1000+ 2016@normal@2016-10-12@@
 YTD Repeat Purchasers 2016@normal@2016-10-12@@
 Yummly Dedicated Email April 2017@smart@2017-4-18@@
 Zwilling Exclusive Preview: 20151002@smart@@2015-10-2@
@@ -914,14 +916,15 @@ Zwilling Team@normal@2017-3-31@@2017-4-2
 [ST] Purchase Count@smart@@@
 [Sailthru] New Subscribes in Last 6 Months@smart@@@
 a_SeptemberSweepsWebSummitLisbonEntries@normal@2016-9-14@2016-9-21@2016-9-24
+amcuttingboardsurveytakers@normal@2018-5-8@2018-5-11@2018-5-11
 amys_invite_nyc_2016_2@normal@2016-9-19@2016-9-19@2016-9-20
-anwtd_september_2016_push@normal@2016-9-19@@
 aprilmarketemail2017@normal@2017-4-18@@
+anwtd_september_2016_push@normal@2016-9-19@@
 atk_2017_sweeps@smart@2017-7-17@2017-8-4@2017-7-23
-b_SeptemberSweepsWebSummitLisbonEntries@normal@2016-9-14@2016-9-22@2016-9-24
 backsplash_vip_didnotpurchase@smart@2017-6-16@2017-6-16@2017-6-16
+b_SeptemberSweepsWebSummitLisbonEntries@normal@2016-9-14@2016-9-22@2016-9-24
 backsplash_vip_opened_didnotpurchase@normal@2017-6-16@@
-banned_site_users_2018@normal@2018-8-31@@2019-12-31
+banned_site_users_2018@normal@2018-8-31@@2020-1-1
 bf_promotional_data_upload@normal@2015-12-9@@2015-12-11
 blackfriday_am_a@smart@2018-11-16@2018-11-23@
 blackfriday_am_b@smart@2018-11-16@2018-11-23@
@@ -930,12 +933,12 @@ blackfriday_pm_abc@smart@2018-11-16@2018-11-23@
 brimfieldemail2017@normal@2017-5-3@2017-5-15@2017-5-15
 c_SeptemberSweepsWebSummitLisbonEntries@normal@2016-9-14@2016-9-23@2016-9-24
 cake_a_day_2016@normal@2016-8-25@2016-10-31@2016-10-31
-cake_a_day_2016_welcome_buyer@smart@2016-10-31@2016-11-4@2016-11-4
 cake_a_day_2016_welcome_nonbuyer@smart@2016-10-31@2016-11-4@2016-11-4
+cake_a_day_2016_welcome_buyer@smart@2016-10-31@2016-11-4@2016-11-4
 caskers_pappy_2015_welcome@smart@@2015-6-23@
 change_the_way_you_cook_post011718@smart@2018-1-4@@
-change_the_way_you_cook_pre011718@smart@2018-1-4@@
 change_the_way_you_cook_pre011718 v2@smart@2018-3-8@@
+change_the_way_you_cook_pre011718@smart@2018-1-4@@
 change_the_way_you_cook_pre011718_natural@normal@2018-1-17@@
 changethewayyoubake@normal@2018-8-7@@
 changethewayyoucook@normal@2017-12-19@@
@@ -949,12 +952,12 @@ cyber_monday_100credits@smart@@2014-12-26@
 cyber_monday_20credit@smart@@2014-12-26@
 cyber_monday_250credit@smart@@2014-12-26@
 cyber_monday_50credit@smart@@2014-12-26@
-cybermonday_am_a@smart@2018-11-16@2018-11-26@
 cybermonday_am_b@smart@2018-11-16@2018-11-26@
-cybermonday_am_c@smart@2018-11-16@2018-11-26@
+cybermonday_am_a@smart@2018-11-16@2018-11-26@
 cybermonday_midday@smart@2018-11-16@2018-11-26@
-cybermonday_pm_abc@smart@2018-11-16@2018-11-26@
+cybermonday_am_c@smart@2018-11-16@2018-11-26@
 d_SeptemberSweepsWebSummitLisbonEntries@normal@2016-9-14@2016-9-24@2016-9-24
+cybermonday_pm_abc@smart@2018-11-16@2018-11-26@
 day22_nonbuyer@smart@2016-6-20@2017-6-19@2017-7-25
 day29_nonbuyer@smart@2016-6-20@2017-4-27@2017-7-25
 delamar_sweeps_2016_summer@normal@2016-6-22@@
@@ -966,9 +969,9 @@ facebook_lead_ads@normal@2017-5-24@2017-6-2@
 fathom_italy_trip_2016@normal@2016-6-30@@
 fathom_italy_trip_2016_welcome@smart@2016-6-30@2016-7-1@2016-7-1
 feast_2017_sweeps@smart@2017-10-5@@
-feb23 suppression list@normal@2015-2-23@@
-first_time_purchase_promo exists 160524@normal@2016-5-24@@
 food52_mailing@normal@2015-3-5@2015-3-30@2017-1-23
+first_time_purchase_promo exists 160524@normal@2016-5-24@@
+feb23 suppression list@normal@2015-2-23@@
 food52_mailing - duplicate@normal@2019-11-27@@
 food52_mailing_buyers20160128@normal@2016-1-28@@
 food52_mailing_nonbuyers20160128@normal@2016-1-28@@
@@ -976,8 +979,8 @@ giftcardredemption2019@normal@2019-1-22@2019-1-26@2019-1-26
 green mason jar interest@smart@@2015-3-30@
 hayneedle_sws_160311_new@normal@2016-3-11@2016-3-12@2016-3-12
 holiday 2016 unredeemed gift cards@normal@2017-1-11@2017-1-13@2017-1-13
-holiday_apology_cancelled_orders@normal@2019-1-8@@
 holiday_apology_orders@normal@2019-1-8@@
+holiday_apology_cancelled_orders@normal@2019-1-8@@
 holiday_cheatsheet@normal@2014-7-8@@
 holidayhelper2017@normal@2017-10-12@2017-12-27@2017-12-27
 holidaypurchasers_10262014to12312014@smart@@@
@@ -1017,11 +1020,11 @@ popsugar_sweeps_2016@normal@2016-7-27@@
 popsugar_sweeps_2016_welcome@smart@2016-7-27@2016-7-28@2016-7-28
 potterybarn_2017_sweeps@smart@2017-7-17@2017-7-23@2017-7-23
 prediction_pageviews_30days@smart@2018-6-26@@
-private_label_sweeps@normal@2018-3-28@@
 privatelabelkitchenmatsgiveaway@normal@2018-5-22@@
+private_label_sweeps@normal@2018-3-28@@
 privatelabelkitchentowelsgiveaway@normal@2018-6-14@@
-privatelabelmixingbowlsgiveaway@normal@2018-6-7@@
 provisions_newsletter@normal@2014-7-8@2014-8-3@
+privatelabelmixingbowlsgiveaway@normal@2018-6-7@@
 q3_2015_retention@normal@2016-9-26@2016-9-27@2016-9-27
 query_test@normal@2019-11-12@@
 r29_sws_2016@normal@2016-11-16@@
@@ -1032,8 +1035,8 @@ registry_batch_01_20150707@normal@2015-7-7@2015-8-4@
 registry_batch_02_20150708@normal@2015-7-7@2015-8-5@
 registry_batch_03_20150709@normal@2015-7-7@2015-8-6@
 registry_batch_04_20150710@normal@2015-7-7@2015-8-7@
-registry_batch_05_20150711@normal@2015-7-7@2015-8-8@
 registry_batch_06_20150712@normal@2015-7-7@2015-8-9@
+registry_batch_05_20150711@normal@2015-7-7@2015-8-8@
 registry_batch_07_20150713@normal@2015-7-7@2015-8-10@
 registry_batch_08@normal@2015-7-17@2015-8-11@
 registry_batch_09@normal@2015-7-17@2015-8-12@
@@ -1043,8 +1046,8 @@ registry_batch_12@normal@2015-7-17@2015-8-15@
 registry_batch_13@normal@2015-7-17@2015-8-16@
 registry_batch_14@normal@2015-7-17@2015-8-17@
 registry_interest - 100 mi NYC@smart@@@
-registry_mailinglist@smart@@2015-5-27@2015-5-27
 retargeted shopandship nonpurchasers@smart@@2015-2-10@2015-2-10
+registry_mailinglist@smart@@2015-5-27@2015-5-27
 room-board-thrive-2016@normal@2016-10-28@@
 room-board-thrive-2016-final@smart@2016-10-28@2016-10-29@2016-10-29
 roosterknobgiveaway2017@normal@2017-6-19@@
@@ -1052,8 +1055,8 @@ rostimepalgiveaway2017@normal@2017-4-14@@
 sailthru CSV test@normal@2017-7-18@@
 sailthru-rbt@normal@2014-9-8@@
 sailthruTEST - 13578847@normal@2018-6-18@@
-saturday_am_ab@smart@2018-11-16@2018-11-24@
 saturday_am_c@smart@2018-11-16@2018-11-24@
+saturday_am_ab@smart@2018-11-16@2018-11-24@
 saturday_pm_ c@smart@2018-11-16@2018-11-24@
 saturday_pm_a@smart@2018-11-16@2018-11-24@
 saturday_pm_b@smart@2018-11-16@2018-11-24@
@@ -1081,26 +1084,26 @@ st_week2@normal@2018-3-14@@
 st_week3@normal@2018-3-14@@
 st_week4@normal@2018-3-14@@
 st_week5@normal@2018-3-14@@
-st_week6@normal@2018-3-14@@
 staub_purchasers@smart@2017-6-16@2017-11-25@2017-11-27
+st_week6@normal@2018-3-14@@
 summer_romance_2017_sweeps@smart@2017-6-14@2017-6-15@
 sunday_am_ab@smart@2018-11-16@2018-11-25@
 sunday_am_c@smart@2018-11-16@2018-11-25@
-sunday_pm_abc@smart@2018-11-16@2018-11-25@
 suppression_invalid_emails-sendgrid@normal@2017-2-3@@
-sweeps_napa_2016_master@normal@2016-9-30@@
+sunday_pm_abc@smart@2018-11-16@2018-11-25@
 sweeps_napa_2016_master_final@smart@2016-9-30@2016-10-4@2016-10-4
-sws_2016_bandier@normal@2017-1-31@@
 sws_2016_bandier_welcome@smart@2017-1-31@2017-2-3@2017-2-3
+sws_2016_bandier@normal@2017-1-31@@
+sweeps_napa_2016_master@normal@2016-9-30@@
 sws_2016_general_assembly@normal@2017-1-31@@
 sws_2016_general_assembly_wecome@smart@2017-1-31@2017-2-3@
 sws_2017_foodkick_welcome@smart@2017-5-9@2017-5-9@2017-5-9
 sws_2017_mexicocity@normal@2017-3-31@2017-3-31@
 sws_2017_simonschuster_welcome@normal@2017-2-28@2017-2-28@2017-2-28
 sws_panache_2015@normal@2015-12-14@2015-12-15@2015-12-15
-sws_shoptique_2015@normal@2015-11-23@2015-11-24@2015-11-24
 test@smart@2017-4-12@@
 test - yeay@smart@2017-6-9@@
+sws_shoptique_2015@normal@2015-11-23@2015-11-24@2015-11-24
 test-20160812@normal@2016-8-12@@
 theskimm adulting@normal@2018-7-12@@
 theskimmadulting@normal@2018-7-12@@
@@ -1120,8 +1123,8 @@ z_old_Baking Interest@smart@@@
 z_old_CakeplatePromo_11042014@normal@2014-11-4@@
 z_old_Clicked 1x in the last week@smart@@@
 z_old_Day 22 Manual@smart@@@
-z_old_Holiday Popup List (New York, NY)@smart@@@
 z_old_Landing Page Control 160414@normal@2016-4-14@@
+z_old_Holiday Popup List (New York, NY)@smart@@@
 z_old_Landing Page Test Article 160414@normal@2016-4-15@@
 z_old_Lapsed shopper, no purchase in past 90 days@smart@@@
 z_old_LoyaltyPromo_SHOPANDSHIP-N7_FromAdmin@smart@@@
@@ -1142,6 +1145,3 @@ zipcode_10014@smart@@@
 zwillingknivesgiveaway2017@normal@2017-5-12@@
 zzz_ST_20160701@smart@2016-7-5@@
 zzopt-intelligence-co-registration@normal@2017-8-30@@
-Try the World - France Box - 20160622@normal@2016-6-21@2016-6-22@2016-6-22
-Wreaths Targeted 20151204@normal@2015-12-4@2015-12-4@2015-12-4
-amcuttingboardsurveytakers@normal@2018-5-8@2018-5-11@2018-5-11
