@@ -43,7 +43,7 @@ const get_data = (content_data, content_type) => {
                         break;
                     }
                 };
-            }
+            };
 
             find_functions(personalize_functions, personalize_obj);
             find_functions(cancel_functions, canceled_obj);   
