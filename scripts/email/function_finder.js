@@ -1,10 +1,14 @@
 const path = require("path");
 const fs = require("fs");
+
+//Update these to objects and loop over to make code more prograammatic
 const personalizing_log = path.join(__dirname, "../../logs/personalizing.txt");
 const canceling_log = path.join(__dirname, "../../logs/canceling.txt");
 
-const blast_data = path.join(__dirname, "../../su_queries/blast_data.json");
-const template_data = path.join(__dirname, "../../su_queries/template_data.json");
+const data_files = {
+    blast_data: path.join(__dirname, "../../su_queries/blast_data.json"),
+    template_data: path.join(__dirname, "../../su_queries/template_data.json")
+};
 
 const clear_file = (file_name) => {
     fs.writeFile(file_name, "", function() { 
@@ -12,13 +16,23 @@ const clear_file = (file_name) => {
     }); 
 };
 
+//Loop through based on the above notes
 clear_file(personalizing_log);
 clear_file(canceling_log);
 
 const personalize_obj = {};
 const canceled_obj = {};
 
+/*
+Hacky way to get the save_date() function to run once,
+should think of a cleaner way to execute.
+*/
+
+const save_limit = 1;
+let run_limit = Object.keys(data_files);
+
 const get_data = (content_data, content_type) => {
+
     fs.readFile(content_data, (err, data) => {
         if (err) throw err;
         const content = JSON.parse(data);
@@ -33,7 +47,7 @@ const get_data = (content_data, content_type) => {
             const personalize_functions = ["personalize(", "horizon_select("];
             const cancel_functions = ["cancel(", "assert("];
 
-            const find_functions = (array_name, obj_name) => {
+            const find_functions = (array_name, obj_name, log_name) => {
                 for (let x = 0; x < array_name.length; x++) {
                     const function_name = array_name[x];
                     if ((setup && setup.indexOf(function_name) != -1) || (html && html.indexOf(function_name) != -1)) {
@@ -45,22 +59,29 @@ const get_data = (content_data, content_type) => {
                 };
             };
 
-            find_functions(personalize_functions, personalize_obj);
-            find_functions(cancel_functions, canceled_obj);   
+            find_functions(personalize_functions, personalize_obj, personalizing_log);
+            find_functions(cancel_functions, canceled_obj, canceling_log);   
         });
-        save_data();
+        if (save_limit == run_limit) {
+            save_data();
+            console.log("Data saving...");
+        }
+        run_limit = run_limit - 1;
     });
 };
 
-get_data(blast_data, "blast");
-get_data(template_data, "template");
+//Loop through based on the above notes
+get_data(data_files.blast_data, "blast");
+get_data(data_files.template_data, "template");
 
 const save_data = () => {
-    const obj_array = [personalize_obj, canceled_obj];
     let header;
     let log_name;
 
+    const obj_array = [personalize_obj, canceled_obj];
+
     obj_array.forEach(obj_name => {
+
         if (obj_name == personalize_obj) {
             header = "Name@Type@Function";
             log_name = personalizing_log;
@@ -71,9 +92,15 @@ const save_data = () => {
         }
 
         const content = Object.keys(obj_name);
+
+        console.log(content[0]);
+
         fs.appendFile(log_name, header + "\n", (err) => {
             if (err) {
-                console.log("Unable to append to file.");
+                console.log("Unable to append to file.", err);
+            }
+            else {
+                console.log("Header appended to file.");
             }
         });
         content.forEach(item => {
