@@ -31,6 +31,8 @@ sailthru.apiGet("list", {
             lists_obj[list.name].suppress_time = "";
             lists_obj[list.name].total_sends = 0;
             lists_obj[list.name].total_suppresses = 0;
+            lists_obj[list.name].status = "secondary";
+
             if (list.create_time == "Wed, 31 Dec 1969 19:00:00 -0500") {
                 lists_obj[list.name].create_time = "";
             }
@@ -42,6 +44,19 @@ sailthru.apiGet("list", {
 
                 lists_obj[list.name].create_time = year + "-" + month + "-" + day;
             }
+
+            sailthru.apiGet("list", {
+                list: list.name
+            }, function(err, response) {
+                if (err) {
+                    console.log(err);
+                }
+                else {
+                    if (response.primary == true) {
+                        lists_obj[list.name].status = status = "primary";
+                    }
+                }
+            });
         });
     }
     sailthru.apiGet("blast", {
@@ -109,13 +124,13 @@ sailthru.apiGet("list", {
 
 const save_data = () => {
     const all_lists = Object.keys(lists_obj);
-    fs.appendFile(log, "List Name@List Type@Create Time@Send Time@Suppress Time" + "\n", (err) => {
+    fs.appendFile(log, "List Name@List Status@List Type@Create Time@Send Time@Suppress Time" + "\n", (err) => {
         if (err) {
             console.log("Unable to append to file.");
         }
     });
     all_lists.forEach(list => {
-        fs.appendFile(log, list + "@" + lists_obj[list].type + "@" + lists_obj[list].create_time  + "@" + lists_obj[list].send_time + "@" + lists_obj[list].suppress_time + "\n", (err) => {
+        fs.appendFile(log, list + "@" + lists_obj[list].status + "@" + lists_obj[list].type + "@" + lists_obj[list].create_time  + "@" + lists_obj[list].send_time + "@" + lists_obj[list].suppress_time + "\n", (err) => {
             if (err) {
                 console.log("Unable to append to file.", err);
             }
