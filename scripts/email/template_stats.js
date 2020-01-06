@@ -30,25 +30,6 @@ sailthru.apiGet("template", {
         response.templates.forEach(template => {
             templates_obj[template.name] = {};
 
-            sailthru.apiGet("template", {
-                template: template.name
-            }, function(err, response) {
-                if (err) {
-                    console.log(err);
-                }
-                // else {
-                //     if (!response.setup && !response.sailthru_setup) {
-                //         templates_obj[template.name].personalizing = "no";
-                //     }
-                //     else if (response.setup.indexOf("personalize(") != -1 || (response.sailthru_setup && response.sailthru_setup.indexOf("personalize(") != -1)) {
-                //         templates_obj[template.name].personalizing = "yes";
-                //     }
-                //     else {
-                //         templates_obj[template.name].personalizing = "no";
-                //     } 
-                // }
-            });
-
             sailthru.apiGet("stats", {
                 stat: "send",
                 start_date: start_date,
@@ -84,14 +65,14 @@ const get_blasts = () => {
                 if (blast.copy_template) {
                     if (templates_obj[blast.copy_template]) {
                         if (templates_obj[blast.copy_template].blast_count) {
-                            templates_obj[blast.copy_template].blast_count = templates_obj[blast.copy_template].blast_count + blast.email_count;
+                            templates_obj[blast.copy_template].blast_count = templates_obj[blast.copy_template].blast_count + 1;
                         }
                         else {
-                            templates_obj[blast.copy_template].blast_count = blast.email_count; 
+                            templates_obj[blast.copy_template].blast_count = 1; 
                         }
                     }
                     else {
-                        templates_obj[blast.copy_template].blast_count = blast.email_count; 
+                        templates_obj[blast.copy_template].blast_count = 1; 
                     }
                 }
             })
@@ -102,7 +83,7 @@ const get_blasts = () => {
 
 const save_data = () => {
     const all_templates = Object.keys(templates_obj);
-    fs.appendFile(log, "template name@blast count@trigger count@personalizing" + "\n", (err) => {
+    fs.appendFile(log, "Template Name@Blast Count@Send Count" + "\n", (err) => {
         if (err) {
             console.log("Unable to append to file.");
         }
