@@ -17,7 +17,7 @@ const end_date = require("../modules/dates.js").end_date;
    
 console.log(`Finding stats between ${start_date} and ${end_date}`);
 
-let templates_obj = {};
+const templates_obj = {};
 
 sailthru.apiGet("template", {
     //No params

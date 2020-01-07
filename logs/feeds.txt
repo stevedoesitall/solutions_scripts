@@ -1,3 +1,14 @@
-Feed Name@Send Count
-Food52 - Shop Content@34
-Sailthru Active@4
+Feed Name@Send Count@Blast Count@Trigger Count@Timed Out@Blast Names@Template Names@Exists
+Trending Now Data Feed@6@0@6@N@N/A@2018_day0_2a@Y
+http://feed.sailthru.com/ws/feed?id=5bb3c51752f90844405fe4fc@1@0@1@Y@N/A@automated_editorial_email_template@Y
+http://feed.sailthru.com/ws/feed?id=54e667911092034b1e8b456e@3@0@3@Y@N/A@Sunday Digest@Y
+Food52 - All Content@1@0@1@N@N/A@sailthruTEST - Trending Now@Y
+Test Hotline@1@0@1@N@N/A@SailthruTEST - Hotline@Y
+http://feed.sailthru.com/ws/feed?id=577be4d83c8aa95a5f8b4567@2@0@2@N/A@N/A@2016_lapsed_buyer@N
+Sailthru Horizon Example@1@0@1@N@N/A@sailthruTEST - Personalization Test@Y
+http://feed.sailthru.com/ws/feed?id=564ba8b0ade9c2346f8b4568@1@0@1@N/A@N/A@horizon_editorial@N
+sailthru_support_example1@1@0@1@N@N/A@ST_Horizon_Zephyr@Y
+http://feed.sailthru.com/ws/feed?id=561ee6441aa3123f758b4569@1@0@1@N/A@N/A@0_dev_alexis@N
+Sailthru Active@20@4@16@N@20191013_shop_sundaydigest_nonbuyer,20191013_shop_sundaydigest_nonbuyer,201910_shop_sundaydigest_buyer_dynamic,201910_shop_sundaydigest_buyer_static@SailthruTEST - Product Email 2@Y
+Food52 - Shop Content@43@34@9@N@20200102_eds_trendingnow_nonbuyer_v1,20200102_eds_trendingnow_nonbuyer_v2,20200102_eds_trendingnow_buyer_v2,20200102_eds_trendingnow_buyer_v1,20191225_eds_trendingnow_nonbuyer,20191225_eds_trendingnow_buyer,20191219_eds_trendingnow_nonbuyer_v1,20191219_eds_trendingnow_nonbuyer_v2,20191219_eds_trendingnow_buyer_v2,20191219_eds_trendingnow_buyer_v1,20191212_eds_trendingnow_nonbuyer,20191212_eds_trendingnow_buyer,20191128_eds_trendingnow_nonbuyer,20191128_eds_trendingnow_buyer,20191121_eds_trendingnow_nonbuyer_v2,20191121_eds_trendingnow_buyer_v2,20191121_eds_trendingnow_nonbuyer_v1,20191121_eds_trendingnow_buyer_v1,20191114_eds_trendingnow_nonbuyer_v2,20191114_eds_trendingnow_nonbuyer_v1,20191114_eds_trendingnow_buyer_v2,20191114_eds_trendingnow_buyer_v1,20191107_eds_trendingnow_buyer,20191107_eds_trendingnow_nonbuyer,20191031_eds_trendingnow_nonbuyer,20191031_eds_trendingnow,20191017_eds_trendingnow_nonbuyer_v2,20191017_eds_trendingnow_nonbuyer_v1,20191017_eds_trendingnow_buyer_v2,20191017_eds_trendingnow_buyer_v1,20191010_eds_trendingnow_nonbuyer_dynamic,20191010_eds_trendingnow_nonbuyer_static,20191010_eds_trendingnow_buyer_dynamic,20191010_eds_trendingnow_buyer_static@sailthruTEST - Personalization with Manual Curation@Y
+http://feed.sailthru.com/ws/feed?id=5d5301b852f9084670404cdc@1@0@1@Y@N/A@LC - Trending Now Test@Y

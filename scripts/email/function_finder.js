@@ -42,6 +42,7 @@ should think of a cleaner way to execute.
 const save_limit = 1;
 let run_limit = Object.keys(data_files).length;
 
+//Currently does not parse includes; will want to eventually update for that
 const get_data = (content_data, content_type) => {
     console.log("Getting data...");
 
@@ -78,6 +79,9 @@ const get_data = (content_data, content_type) => {
                         obj_name[name].function = function_name + ")";
                         break;
                     }
+                    // else if ((setup && setup.indexOf("{include") != -1) || (html && html.indexOf("{include") != -1)) {
+                    //     console.log()
+                    // }
                 };
             };
 
