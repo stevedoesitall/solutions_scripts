@@ -1,5 +1,11 @@
 const path = require("path");
 const fs = require("fs");
+const creds = path.join(__dirname, "../../ignore/creds.js");
+
+const api_key = require(creds).api_key;
+const api_secret = require(creds).api_secret;
+
+const sailthru = require("sailthru-client").createSailthruClient(api_key, api_secret);
 
 const logs = {
     personalizing_log: path.join(__dirname, "../../logs/personalizing.txt"),
@@ -20,6 +26,18 @@ const clear_file = (file_name) => {
 Object.values(logs).forEach(log => {
     clear_file(log);
 });
+
+const all_includes = {};
+/*
+Ideal sample structure:
+{
+    "include_name" : {
+        "use_count": 10,
+        "templates": ["Template 1", "Template 2"],
+        "content_html": "<p>Content</p>"
+    }
+}
+*/
 
 const function_data = {
     personalize: {
@@ -44,6 +62,7 @@ let run_limit = Object.keys(data_files).length;
 
 //Currently does not parse includes; will want to eventually update for that
 const get_data = (content_data, content_type) => {
+
     console.log("Getting data...");
 
     fs.readFile(content_data, (err, data) => {
@@ -104,8 +123,46 @@ Object.keys(data_files).forEach(type => {
     get_data(data_files[type], type);
 });
 
+const get_includes = () => {
+    sailthru.apiGet("include", 
+    {
+        //No params
+    }, function(err, response) {
+        if (err) {
+            console.log(err);
+        }
+        else {
+            const includes = response.includes;
+            const include_length = includes.length;
+            let counter = 0;
+            let timer = 0;
+            includes.forEach(include => {
+                setTimeout(function() {
+                    sailthru.apiGet("include", 
+                    {
+                        include: include.name
+                    }, function(err, response) {
+                        if (err) {
+                            console.log(err);
+                        }
+                        else {
+                            all_includes[include.name];
+                        }
+                    });
+                    timer = timer + 50;
+                    // counter = counter + 1;
+                    // if (counter == include_length) {
+                    //     console.log(all_includes);
+                    // }
+                    console.log(timer);
+                }, timer);
+            });
+        }
+    });
+}
+
 const save_data = () => {
-    
+    // get_includes();
     const function_names = Object.keys(function_data);
 
     function_names.forEach(name => {
