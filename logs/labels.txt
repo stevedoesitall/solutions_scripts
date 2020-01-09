@@ -1,0 +1,15 @@
+Label@Count
+PM@237
+Shop@403
+AM@268
+Eds@104
+Friday Digest@12
+Trending Now@32
+Weekly Genius@26
+Ad Sales@4
+cyberweek@66
+Sunday Digest@16
+Base Template@12
+Five Two@19
+IAG@11
+Press@1
