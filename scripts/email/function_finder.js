@@ -123,6 +123,7 @@ Object.keys(data_files).forEach(type => {
     get_data(data_files[type], type);
 });
 
+//Update to reference the include_data.json file instead of the API
 const get_includes = () => {
     sailthru.apiGet("include", 
     {
