@@ -1,15 +1,56 @@
 Label@Count
-PM@237
-Shop@403
-AM@268
-Eds@104
-Friday Digest@12
-Trending Now@32
-Weekly Genius@26
-Ad Sales@4
-cyberweek@66
-Sunday Digest@16
-Base Template@12
-Five Two@19
-IAG@11
-Press@1
+Veggie@17
+Louise@101
+Weekly@46
+Eshot@79
+What Franchise@13
+Awards@37
+Craft Business@13
+Speciality Food@26
+Grow Your Own@14
+Crafts Beautiful@25
+Teach Secondary@24
+Teach Primary@32
+Monthly@29
+Primary School Management@21
+Hot Products@27
+Papercrafter@10
+Sew@13
+Lucy@43
+Lets Knit@12
+Newsletter@2
+Soul And Spirit@13
+gareth@6
+Product Finder@3
+Natural Health@25
+Great British Food@8
+Teach R and W@11
+Hotel Business@3
+Subscriptions@322
+SENCo@8
+Lets Get Crafting@5
+Wire@2
+Health And Wellbeing@20
+Teach Early Years@4
+gazza@1
+Gun Mart@6
+Rory@3
+kaly@2
+Adam@57
+Promotions@13
+Asia@1
+Top Crochet Patterns@2
+Global Franchise@33
+Reader Survey@1
+review@1
+Gazza@1
+Darrell@2
+Sports Insight@4
+knit your style@1
+Health Solus@2
+Retail Packaging@1
+Make It Today@1
+Crochet Club@1
+Plazoom@24
+Special@3
+pla@1
