@@ -14,7 +14,8 @@ const logs = {
 
 const data_files = {
     blast: path.join(__dirname, "../../su_queries/blast_data.json"),
-    template: path.join(__dirname, "../../su_queries/template_data.json")
+    template: path.join(__dirname, "../../su_queries/template_data.json"),
+    include: path.join(__dirname, "../../su_queries/include_data.json")
 };
 
 const clear_file = (file_name) => {
@@ -38,6 +39,21 @@ Ideal sample structure:
     }
 }
 */
+
+//Update to reference the .json file instead of the API
+const get_includes = () => {
+    fs.readFile(data_files.include, (err, data) => {
+        if (err) throw err;
+        const all_include_data = JSON.parse(data);
+        const all_include_ids = Object.keys(all_include_data);
+        all_include_ids.forEach(include => {
+            const include_data = all_include_data[include]
+            all_includes[include_data.name] = include_data.content_html;
+        });
+    });
+};
+
+get_includes();
 
 const function_data = {
     personalize: {
@@ -123,47 +139,7 @@ Object.keys(data_files).forEach(type => {
     get_data(data_files[type], type);
 });
 
-//Update to reference the include_data.json file instead of the API
-const get_includes = () => {
-    sailthru.apiGet("include", 
-    {
-        //No params
-    }, function(err, response) {
-        if (err) {
-            console.log(err);
-        }
-        else {
-            const includes = response.includes;
-            const include_length = includes.length;
-            let counter = 0;
-            let timer = 0;
-            includes.forEach(include => {
-                setTimeout(function() {
-                    sailthru.apiGet("include", 
-                    {
-                        include: include.name
-                    }, function(err, response) {
-                        if (err) {
-                            console.log(err);
-                        }
-                        else {
-                            all_includes[include.name];
-                        }
-                    });
-                    timer = timer + 50;
-                    // counter = counter + 1;
-                    // if (counter == include_length) {
-                    //     console.log(all_includes);
-                    // }
-                    console.log(timer);
-                }, timer);
-            });
-        }
-    });
-}
-
 const save_data = () => {
-    // get_includes();
     const function_names = Object.keys(function_data);
 
     function_names.forEach(name => {
