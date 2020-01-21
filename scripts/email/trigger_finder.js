@@ -54,7 +54,7 @@ sailthru.apiGet("template", {
                 template: template.name
             }, function(err, response) {
                 if (err) {
-                    //No triggers
+                    console.log("No trigger on template", template.name);
                 }
                 else {
                     template_triggers.push(template.name);

@@ -28,33 +28,6 @@ Object.values(logs).forEach(log => {
     clear_file(log);
 });
 
-const all_includes = {};
-/*
-Ideal sample structure:
-{
-    "include_name" : {
-        "use_count": 10,
-        "templates": ["Template 1", "Template 2"],
-        "content_html": "<p>Content</p>"
-    }
-}
-*/
-
-//Update to reference the .json file instead of the API
-const get_includes = () => {
-    fs.readFile(data_files.include, (err, data) => {
-        if (err) throw err;
-        const all_include_data = JSON.parse(data);
-        const all_include_ids = Object.keys(all_include_data);
-        all_include_ids.forEach(include => {
-            const include_data = all_include_data[include]
-            all_includes[include_data.name] = include_data.content_html;
-        });
-    });
-};
-
-get_includes();
-
 const function_data = {
     personalize: {
         obj: {},
@@ -87,6 +60,7 @@ const get_data = (content_data, content_type) => {
         const content_ids = Object.keys(content);
     
         total_content = content_ids.length;
+        console.log(total_content);
     
         content_ids.forEach(id => {
             const setup = content[id].setup;
@@ -114,9 +88,6 @@ const get_data = (content_data, content_type) => {
                         obj_name[name].function = function_name + ")";
                         break;
                     }
-                    // else if ((setup && setup.indexOf("{include") != -1) || (html && html.indexOf("{include") != -1)) {
-                    //     console.log()
-                    // }
                 };
             };
 
@@ -137,6 +108,7 @@ const get_data = (content_data, content_type) => {
 
 Object.keys(data_files).forEach(type => {
     get_data(data_files[type], type);
+    console.log("Getting data for", type);
 });
 
 const save_data = () => {

@@ -87,20 +87,36 @@ sailthru.apiGet("list", {
 
                 if (blast.suppress_list) {
                     const suppress_lists = blast.suppress_list;
-                    suppress_lists.forEach(suppression => {
-                        if (lists_obj[suppression]) {
-                            lists_obj[suppression].total_suppresses++;
-                            if (lists_obj[suppression].suppress_time) {
-                                const suppress_time_unix = new Date(lists_obj[suppression].suppress_time).getTime();
-                                if (suppress_time_unix < send_time_unix) {
+                    if (typeof suppress_lists == "object") {
+                        suppress_lists.forEach(suppression => {
+                            if (lists_obj[suppression]) {
+                                lists_obj[suppression].total_suppresses++;
+                                if (lists_obj[suppression].suppress_time) {
+                                    const suppress_time_unix = new Date(lists_obj[suppression].suppress_time).getTime();
+                                    if (suppress_time_unix < send_time_unix) {
+                                        lists_obj[suppression].suppress_time = send_time;
+                                    }
+                                }
+                                else {
                                     lists_obj[suppression].suppress_time = send_time;
                                 }
                             }
+                        });
+                    }
+                    else {
+                        if (lists_obj[suppress_lists]) {
+                            lists_obj[suppress_lists].total_suppresses++;
+                            if (lists_obj[suppress_lists].suppress_time) {
+                                const suppress_time_unix = new Date(lists_obj[suppress_lists].suppress_time).getTime();
+                                if (suppress_time_unix < send_time_unix) {
+                                    lists_obj[suppress_lists].suppress_time = send_time;
+                                }
+                            }
                             else {
-                                lists_obj[suppression].suppress_time = send_time;
+                                lists_obj[suppress_lists].suppress_time = send_time;
                             }
                         }
-                    })
+                    }
                 }
 
                 if (lists_obj[blast.list]) {

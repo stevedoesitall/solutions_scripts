@@ -51,7 +51,7 @@ sailthru.apiGet("content",
             console.log("GET 2");
             all_content.forEach(content => {
                 const content_data = {};
-                content_data.url = content.url;
+                content_data.url = content.url.replace(/@/g, "(at)");
                 if (content.date) {
                     content_data.date = content.date.replace(/,/g, " ");
                 }
@@ -147,6 +147,7 @@ sailthru.apiGet("content",
                     content_data.description = "[n/a]";
                 }
                 if (content.vars) {
+                    console.log(content.vars);
                     all_vars_sorted.forEach(val => {
                         if (content.vars[val]) {
                             let content_var = content.vars[val];
