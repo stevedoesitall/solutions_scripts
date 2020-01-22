@@ -140,13 +140,13 @@ sailthru.apiGet("list", {
 
 const save_data = () => {
     const all_lists = Object.keys(lists_obj);
-    fs.appendFile(log, "List Name@List Status@List Type@Create Time@Send Time@Suppress Time" + "\n", (err) => {
+    fs.appendFile(log, "List Name@List Status@List Type@Create Time@Send Time@Total Sends@Suppress Time@Total Suppresses" + "\n", (err) => {
         if (err) {
             console.log("Unable to append to file.");
         }
     });
     all_lists.forEach(list => {
-        fs.appendFile(log, list + "@" + lists_obj[list].status + "@" + lists_obj[list].type + "@" + lists_obj[list].create_time  + "@" + lists_obj[list].send_time + "@" + lists_obj[list].suppress_time + "\n", (err) => {
+        fs.appendFile(log, list + "@" + lists_obj[list].status + "@" + lists_obj[list].type + "@" + lists_obj[list].create_time  + "@" + lists_obj[list].send_time + "@" + lists_obj[list].total_sends + "@" + lists_obj[list].suppress_time + "@" + lists_obj[list].total_suppresses + "\n", (err) => {
             if (err) {
                 console.log("Unable to append to file.", err);
             }
