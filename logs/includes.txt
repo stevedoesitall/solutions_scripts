@@ -1,0 +1,23 @@
+Include Name@Blast Count@Template Count
+header_tread@0@1
+modern_loafer_header@0@0
+footer_brand-social-compliant@0@24
+ST TEST Footer_complaint@0@0
+new_footer_anton_modified@7@0
+header_no-nav@88@74
+Header No Links@0@0
+header_no_nav_expandedversion@0@0
+Footer Updated Copy and Address@0@0
+footer@403@214
+header_no-logo-no-nav@315@33
+header@403@218
+footer_compliant_mobile@0@11
+nomenuheader2@0@0
+header3@0@0
+footer3@0@0
+footer_compliant@396@95
+header_new-no-nav@0@11
+Footer Updated Address@0@0
+footer2@0@84
+header2@0@84
+nomenuheader@0@2

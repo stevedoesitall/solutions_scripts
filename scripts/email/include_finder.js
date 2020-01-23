@@ -1,15 +1,8 @@
 const path = require("path");
 const fs = require("fs");
-const creds = path.join(__dirname, "../../ignore/creds.js");
-
-const api_key = require(creds).api_key;
-const api_secret = require(creds).api_secret;
-
-const sailthru = require("sailthru-client").createSailthruClient(api_key, api_secret);
 
 const logs = {
-    personalizing_log: path.join(__dirname, "../../logs/personalizing.txt"),
-    canceling_log: path.join(__dirname, "../../logs/canceling.txt")
+    include_log: path.join(__dirname, "../../logs/includes.txt")
 };
 
 const data_files = {
@@ -29,32 +22,95 @@ Object.values(logs).forEach(log => {
 });
 
 const all_includes = {};
-/*
-Ideal sample structure:
-{
-    "include_name" : {
-        "use_count": 10,
-        "templates": ["Template 1", "Template 2"],
-        "content_html": "<p>Content</p>"
-    }
-}
-*/
 
-const get_includes = () => {
-    fs.readFile(data_files.include, (err, data) => {
+fs.readFile(data_files.include, (err, data) => {
+    if (err) throw err;
+    const content = JSON.parse(data);
+    const content_ids = Object.keys(content);
+
+    content_ids.forEach(id => {
+        const include_name = content[id].name;
+        all_includes[include_name] = {
+            "use_count" : 0,
+            "templates" : [],
+            "blasts" : [],
+            "includes" : []
+        };
+    });
+});
+
+const save_limit = 1;
+let run_limit = Object.keys(data_files).length;
+
+const get_includes = (content_data, content_type) => {
+
+    console.log("Getting include data...");
+
+    fs.readFile(content_data, (err, data) => {
         if (err) throw err;
-        const all_include_data = JSON.parse(data);
-        const all_include_ids = Object.keys(all_include_data);
-        let total_includes = 1;
-        all_include_ids.forEach(include => {
-            const include_data = all_include_data[include]
-            all_includes[include_data.name] = include_data.content_html;
-            total_includes++;
-            if (total_includes == all_include_ids.length) {
-                // console.log(all_includes);
-            }
+        const content = JSON.parse(data);
+        const content_ids = Object.keys(content);
+
+        content_ids.forEach(id => {
+            const setup = content[id].setup;
+            const html = content[id].content_html;
+
+            const name = content[id].name;
+
+            Object.keys(all_includes).forEach(include => {
+                if (html && html.indexOf(include) != -1) {
+                    all_includes[include].use_count++;
+                    if (content_type == "template") {
+                        all_includes[include].templates.push(name);
+                    }
+                    else if (content_type == "blast") {
+                        all_includes[include].blasts.push(name);
+                    }
+                    else if (content_type == "include") {
+                        all_includes[include].includes.push(name);
+                    }
+                }
+                if (setup && setup.indexOf(include) != -1) {
+                    all_includes[include].use_count++;
+                    if (content_type == "template") {
+                        all_includes[include].templates.push(name);
+                    }
+                    else if (content_type == "blast") {
+                        all_includes[include].blasts.push(name);
+                    }
+                    else if (content_type == "include") {
+                        all_includes[include].includes.push(name);
+                    }
+                }
+            });       
         });
+
+        if (save_limit == run_limit) {
+            console.log("Data saving...");
+            save_data();
+        }
+        run_limit = run_limit - 1;
     });
 };
 
-get_includes();
+Object.keys(data_files).forEach(type => {
+    get_includes(data_files[type], type);
+    console.log("Getting data for", type);
+});
+
+const save_data = () => {
+    const log = logs.include_log;
+    const includes = Object.keys(all_includes);
+    fs.appendFile(log, "Include Name@Blast Count@Template Count" + "\n", (err) => {
+        if (err) {
+            console.log("Unable to append to file.");
+        }
+    });
+    includes.forEach(include => {
+        fs.appendFile(log, include + "@" + all_includes[include].blasts.length + "@" + all_includes[include].templates.length + "\n", (err) => {
+            if (err) {
+                console.log("Unable to append to file.");
+            }
+        });
+    })
+};
