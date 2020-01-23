@@ -1,23 +1,23 @@
-Include Name@Blast Count@Template Count
-header_tread@0@1
-modern_loafer_header@0@0
-footer_brand-social-compliant@0@24
-ST TEST Footer_complaint@0@0
-new_footer_anton_modified@7@0
-header_no-nav@88@74
-Header No Links@0@0
-header_no_nav_expandedversion@0@0
-Footer Updated Copy and Address@0@0
-footer@403@214
-header_no-logo-no-nav@315@33
-header@403@218
-footer_compliant_mobile@0@11
-nomenuheader2@0@0
-header3@0@0
-footer3@0@0
-footer_compliant@396@95
-header_new-no-nav@0@11
-Footer Updated Address@0@0
-footer2@0@84
-header2@0@84
-nomenuheader@0@2
+Include Name@Blast Count@Template Count@Include Count@Sample Blast@Sample Template@Sample Include
+header_tread@0@1@0@N/A@transactional_sale-receipt@N/A
+modern_loafer_header@0@0@0@N/A@N/A@N/A
+new_footer_anton_modified@7@0@0@Content - M -  Uniform French Terry CR - - 2020_01_19@N/A@N/A
+ST TEST Footer_complaint@0@0@0@N/A@N/A@N/A
+footer_brand-social-compliant@0@24@0@N/A@Referral Reward@N/A
+header_no-nav@88@74@0@Promotion - Australia CX -  $20 Credit_October_17_2019@Everlane Order Confirmed Email@N/A
+header_no_nav_expandedversion@0@0@0@N/A@N/A@N/A
+Footer Updated Copy and Address@0@0@0@N/A@N/A@N/A
+Header No Links@0@0@0@N/A@N/A@N/A
+footer@396@204@0@Promotion - Australia CX -  $20 Credit_October_17_2019@Everlane Order Confirmed Email@N/A
+footer_compliant_mobile@0@11@0@N/A@transactional_order-confirmation@N/A
+header@403@205@0@Promotion - Australia CX -  $20 Credit_October_17_2019@Everlane Order Confirmed Email@N/A
+header_no-logo-no-nav@315@33@0@Event - Geotargeted ATL - Denim Counter - 2019_10_23@Tread Welcome Series Pre Launch@N/A
+nomenuheader2@0@0@0@N/A@N/A@N/A
+footer3@0@0@0@N/A@N/A@N/A
+footer_compliant@396@95@0@Promotion - Australia CX -  $20 Credit_October_17_2019@Everlane Order Confirmed Email@N/A
+header3@0@0@0@N/A@N/A@N/A
+header_new-no-nav@0@11@0@N/A@transactional_order-confirmation@N/A
+nomenuheader@0@2@0@N/A@automated_cwyp_female@N/A
+footer2@0@83@0@N/A@Everlane Shipping Confirmed Email@N/A
+header2@0@84@0@N/A@Everlane Shipping Confirmed Email@N/A
+Footer Updated Address@0@0@0@N/A@N/A@N/A

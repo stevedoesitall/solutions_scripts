@@ -58,7 +58,7 @@ const get_includes = (content_data, content_type) => {
             const name = content[id].name;
 
             Object.keys(all_includes).forEach(include => {
-                if (html && html.indexOf(include) != -1) {
+                if (html && (html.indexOf('include "' + include) != -1 || html.indexOf("include '" + include) != -1)) {
                     all_includes[include].use_count++;
                     if (content_type == "template") {
                         all_includes[include].templates.push(name);
@@ -70,7 +70,7 @@ const get_includes = (content_data, content_type) => {
                         all_includes[include].includes.push(name);
                     }
                 }
-                if (setup && setup.indexOf(include) != -1) {
+                if (setup && (setup.indexOf('include "' + include) != -1 || setup.indexOf("include '" + include) != -1)) {
                     all_includes[include].use_count++;
                     if (content_type == "template") {
                         all_includes[include].templates.push(name);
@@ -101,13 +101,36 @@ Object.keys(data_files).forEach(type => {
 const save_data = () => {
     const log = logs.include_log;
     const includes = Object.keys(all_includes);
-    fs.appendFile(log, "Include Name@Blast Count@Template Count" + "\n", (err) => {
+    fs.appendFile(log, "Include Name@Blast Count@Template Count@Include Count@Sample Blast@Sample Template@Sample Include" + "\n", (err) => {
         if (err) {
             console.log("Unable to append to file.");
         }
     });
     includes.forEach(include => {
-        fs.appendFile(log, include + "@" + all_includes[include].blasts.length + "@" + all_includes[include].templates.length + "\n", (err) => {
+        let blast_example;
+        let template_example;
+        let include_example;
+        if (all_includes[include].blasts.length > 0) {
+            blast_example = all_includes[include].blasts[0];
+        }
+        else {
+            blast_example = "N/A";
+        }
+
+        if (all_includes[include].templates.length > 0) {
+            template_example = all_includes[include].templates[0];
+        }
+        else {
+            template_example = "N/A";
+        }
+
+        if (all_includes[include].includes.length > 0) {
+            include_example = all_includes[include].includes[0];
+        }
+        else {
+            include_example = "N/A";
+        }
+        fs.appendFile(log, include + "@" + all_includes[include].blasts.length + "@" + all_includes[include].templates.length + "@" + all_includes[include].includes.length + "@" + blast_example + "@" + template_example + "@" + include_example + "\n", (err) => {
             if (err) {
                 console.log("Unable to append to file.");
             }
