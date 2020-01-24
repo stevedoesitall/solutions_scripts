@@ -1,4 +1,3 @@
 Name@Type@Function
-Footer Updated Address@include@personalize()
 Sample Browse Abandon: 1 hero@template@personalize()
 Sample Browse Abandon: 1 hero and 4 small items@template@personalize()
