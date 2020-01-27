@@ -107,29 +107,22 @@ const save_data = () => {
         }
     });
     includes.forEach(include => {
-        let blast_example;
-        let template_example;
-        let include_example;
+        let blast_example = "N/A";
+        let template_example = "N/A";
+        let include_example = "N/A";
+        
         if (all_includes[include].blasts.length > 0) {
             blast_example = all_includes[include].blasts[0];
-        }
-        else {
-            blast_example = "N/A";
         }
 
         if (all_includes[include].templates.length > 0) {
             template_example = all_includes[include].templates[0];
         }
-        else {
-            template_example = "N/A";
-        }
 
         if (all_includes[include].includes.length > 0) {
             include_example = all_includes[include].includes[0];
         }
-        else {
-            include_example = "N/A";
-        }
+
         fs.appendFile(log, include + "@" + all_includes[include].blasts.length + "@" + all_includes[include].templates.length + "@" + all_includes[include].includes.length + "@" + blast_example + "@" + template_example + "@" + include_example + "\n", (err) => {
             if (err) {
                 console.log("Unable to append to file.");

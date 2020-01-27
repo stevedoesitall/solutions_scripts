@@ -118,7 +118,7 @@ const save_data = () => {
                     try {
                         total_feeds++;
 
-                        if (raw_data.substr(0,7) == "<h1>404") {
+                        if (raw_data.substr(4,3) == "404") {
                             console.log(feed + " does not exist");
                             feed_obj[feed].name = feed;
                             feed_obj[feed].exists = "N";

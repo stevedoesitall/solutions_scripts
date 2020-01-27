@@ -1,0 +1,17 @@
+/*Example user /POST call 
+with the fields parameter:*/
+
+{
+    "id":"steve+test@sailthru.com",
+    "vars": {
+        "name":"Steve Giordano"
+    },
+    "lists": {
+        "Everlane (All)": 1
+    },
+    "fields": {
+        "keys": 1
+        }
+    }
+    
+

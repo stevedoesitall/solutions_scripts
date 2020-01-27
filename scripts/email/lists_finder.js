@@ -13,6 +13,7 @@ fs.writeFile(log, "", function() {
 });
 
 let lists_obj = {};
+let total_calls = 0;
 
 sailthru.apiGet("list", {
     //No params
@@ -57,8 +58,19 @@ sailthru.apiGet("list", {
                     }
                 }
             });
+
+            total_calls++;
+
+            if (total_calls == all_lists.length) {
+                console.log("Triggering get_blasts()");
+                get_blasts();
+            }
+
         });
     }
+});
+
+const get_blasts = () => {
     sailthru.apiGet("blast", {
         status: "sent",
         limit: 0
@@ -66,7 +78,7 @@ sailthru.apiGet("list", {
         if (err) {
             console.log(err);
         }
-    
+
         else {
             const all_blasts = response.blasts;
             all_blasts.forEach(blast => {
@@ -136,7 +148,7 @@ sailthru.apiGet("list", {
         }
         save_data();
     });
-});
+};
 
 const save_data = () => {
     const all_lists = Object.keys(lists_obj);

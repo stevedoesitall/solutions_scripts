@@ -18,6 +18,7 @@ const end_date = require("../modules/dates.js").end_date;
 console.log(`Finding stats between ${start_date} and ${end_date}`);
 
 const templates_obj = {};
+let total_calls = 0;
 
 sailthru.apiGet("template", {
     //No params
@@ -36,16 +37,27 @@ sailthru.apiGet("template", {
                 end_date: end_date,
                 template: template.name
             }, function(err, response) {
+
                 if (err) {
                     templates_obj[template.name].trigger_count = 0;
+                    // console.log(err);
                 }
                 else {
                     templates_obj[template.name].trigger_count = response.count;
                 }
 
+                console.log(total_calls, total_templates);
+
+                total_calls++;
+
+                if (total_calls == total_templates) {
+                    console.log("Triggering get_blasts()");
+                    console.log(templates_obj["transactional_return-instructions"]);
+                    get_blasts();
+                }
+
             });
         });
-        get_blasts();
     }
 });
 
