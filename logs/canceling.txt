@@ -1,3 +1,0 @@
-Name@Type@Function@Convertible (Y/N)@Notes
-Sample Browse Abandon: 1 hero@template@assert()
-Sample Browse Abandon: 1 hero and 4 small items@template@assert()

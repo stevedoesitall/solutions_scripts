@@ -1,7 +1,0 @@
-Blast Type@Count
-Total blasts@404
-Template blasts@10
-Copied blasts@262
-Template blasts copied@0
-Scratch blasts@132
-Used feed@0

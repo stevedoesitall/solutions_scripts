@@ -1,3 +1,4 @@
 .DS_Store
 creds.js
 su_queries.txt
+logs/

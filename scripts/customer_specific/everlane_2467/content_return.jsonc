@@ -1,0 +1,95 @@
+{
+    "sku" : "7104-503",
+    "url" : "https://www.everlane.com/products/womens-oversized-alpaca-cardigan-biscuit",
+    "title" : "The Oversized Alpaca Cardigan",
+    "date" : "Fri, 31 Jan 2020 10:15:41 -0500",
+    "tags" : [
+        "adult",
+        "apparel-and-accessories",
+        "apparel-and-accessories-clothing-shirts-and-tops",
+        "camel",
+        "clothing",
+        "everlane",
+        "female",
+        "l",
+        "m",
+        "new",
+        "shirts-and-tops",
+        "xl"
+    ],
+    "vars" : {
+        "variants" : [
+            {
+                "availability" : "in stock",
+                "condition" : "new",
+                "color" : "Camel",
+                "size" : "M",
+                "pattern" : "",
+                "gender" : "female",
+                "age_group" : "adult",
+                "brand" : "Everlane",
+                "price" : 12800,
+                "sale_price" : 0,
+                "sale_price_effective_from" : null,
+                "sale_price_effective_to" : null
+            },
+            {
+                "availability" : "in stock",
+                "condition" : "new",
+                "color" : "Camel",
+                "size" : "L",
+                "pattern" : "",
+                "gender" : "female",
+                "age_group" : "adult",
+                "brand" : "Everlane",
+                "price" : 12800,
+                "sale_price" : 0,
+                "sale_price_effective_from" : null,
+                "sale_price_effective_to" : null
+            },
+            {
+                "availability" : "in stock",
+                "condition" : "new",
+                "color" : "Camel",
+                "size" : "XL",
+                "pattern" : "",
+                "gender" : "female",
+                "age_group" : "adult",
+                "brand" : "Everlane",
+                "price" : 12800,
+                "sale_price" : 0,
+                "sale_price_effective_from" : null,
+                "sale_price_effective_to" : null
+            }
+        ],
+        "google_product_category" : "Apparel & Accessories > Clothing > Shirts & Tops",
+        "google_product_categories" : [
+            "Apparel & Accessories",
+            "Clothing",
+            "Shirts & Tops"
+        ],
+        "product_type" : "clothing",
+        "product_types" : [
+            "clothing"
+        ],
+        "shipping" : {
+            "country" : "CA",
+            "service" : "",
+            "price" : 994
+        },
+        "shipping_weight" : "0"
+    },
+    "location" : null,
+    "price" : 12800,
+    "description" : "It\u2019s the layer you\u2019ve been looking for. Made of light and airy alpaca yarn  the Oversized Alpaca Cardigan is complete with a button front and two patch pockets. Plus  it\u2019s easy enough to wear with anything\u2014and long enough to cover your backside. ",
+    "site_name" : "",
+    "author" : "",
+    "images" : {
+        "full" : {
+            "url" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill%2cdpr_auto%2cf_jpg%2ch_1600%2cq_auto%2cw_1600/v1/i/27f7a75f_fda8.jpg"
+        },
+        "thumb" : {
+            "url" : "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill%2cdpr_auto%2cf_jpg%2ch_1600%2cq_auto%2cw_1600/v1/i/27f7a75f_fda8.jpg"
+        }
+    }
+}
