@@ -52,7 +52,6 @@ sailthru.apiGet("template", {
 
                 if (total_calls == total_templates) {
                     console.log("Triggering get_blasts()");
-                    console.log(templates_obj["transactional_return-instructions"]);
                     get_blasts();
                 }
 
