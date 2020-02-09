@@ -54,7 +54,7 @@ sailthru.apiGet("list", {
                 }
                 else {
                     if (response.primary == true) {
-                        lists_obj[list.name].status = status = "primary";
+                        lists_obj[list.name].status = "primary";
                     }
                 }
             });
