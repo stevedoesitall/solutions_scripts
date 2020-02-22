@@ -19,8 +19,7 @@ const options = {
 
 const req = https.get(options, (res) => {
   let total_opens = 0;
-  console.log("statusCode:", res.statusCode);
-  console.log("headers:", res.headers);
+  console.log("Status Code:", res.statusCode);
 
   res.setEncoding("utf8");
   let raw_data = "";
