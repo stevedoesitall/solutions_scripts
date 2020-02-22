@@ -5,7 +5,7 @@ const creds = path.join(__dirname, "../../ignore/creds.js");
 const api_key = require(creds).mobile_api_key;
 
 const authorization = "Basic " + new Buffer(api_key, "utf8").toString("base64");
-const endpoint = "total_installs";
+const endpoint = "opens";
 
 const options = {
   hostname: "api.carnivalmobile.com",
@@ -18,6 +18,7 @@ const options = {
 };
 
 const req = https.get(options, (res) => {
+  let total_opens = 0;
   console.log("statusCode:", res.statusCode);
   console.log("headers:", res.headers);
 
@@ -26,7 +27,11 @@ const req = https.get(options, (res) => {
   res.on("data", (chunk) => { raw_data += chunk; });
   res.on("end", () => {
     const response = JSON.parse(raw_data)
-    console.log("Total Installs:", response.total_installs);
+    response.forEach(day => {
+      total_opens = total_opens + day.count;
+    });
+
+    console.log("Total Opens:", total_opens);
   });
 });
 
