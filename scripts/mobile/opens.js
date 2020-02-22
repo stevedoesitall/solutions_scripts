@@ -4,7 +4,7 @@ const path = require("path");
 const creds = path.join(__dirname, "../../ignore/creds.js");
 const api_key = require(creds).mobile_api_key;
 
-const authorization = "Basic " + new Buffer(api_key, "utf8").toString("base64");
+const authorization = "Basic " + Buffer.from(api_key, "utf8").toString("base64");
 const endpoint = "opens";
 
 const options = {
