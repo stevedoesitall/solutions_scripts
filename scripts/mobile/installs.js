@@ -23,6 +23,7 @@ const req = https.get(options, (res) => {
   res.setEncoding("utf8");
   let raw_data = "";
   res.on("data", (chunk) => { raw_data += chunk; });
+  
   res.on("end", () => {
     const response = JSON.parse(raw_data)
     console.log("Total Installs:", response.total_installs);
