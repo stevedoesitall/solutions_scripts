@@ -51,10 +51,10 @@ sailthru.apiGet("template", {
                 total_calls++;
 
                 if (total_calls == total_templates) {
+                    console.log(templates_obj);
                     console.log("Triggering get_blasts()");
                     get_blasts();
                 }
-
             });
         });
     }
@@ -68,10 +68,11 @@ const get_blasts = () => {
         limit: 0
     }, function(err, response) {
         if (err) {
-            console.log("ERROR:", err);
+            console.log("Error retrieving blasts:", err);
         }
         else {
             const blasts = response.blasts;
+            console.log(blasts);
             blasts.forEach(blast => {
                 if (blast.copy_template) {
                     if (templates_obj[blast.copy_template]) {
@@ -83,6 +84,7 @@ const get_blasts = () => {
                         }
                     }
                     else {
+                        templates_obj[blast.copy_template] = {};
                         templates_obj[blast.copy_template].blast_count = 1; 
                     }
                 }
