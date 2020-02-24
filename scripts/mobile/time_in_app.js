@@ -33,7 +33,7 @@ const req = https.get(options, (res) => {
   res.on("data", (chunk) => { raw_data += chunk; });
   
   res.on("end", () => {
-    const response = JSON.parse(raw_data)
+    const response = JSON.parse(raw_data);
     response.forEach(day => {
       total_sessions = total_sessions + day.count;
     });
@@ -45,4 +45,5 @@ const req = https.get(options, (res) => {
 req.on("error", (e) => {
   console.error("Something went wrong: ", e);
 });
+
 req.end();

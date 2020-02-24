@@ -27,22 +27,20 @@ const event_obj = {};
 
 let audience_ids = [];
 
+//Keep getting 429 errors; need to add better rate limiting
 fs.readFile(audience_log, "utf8", (err, data) => {
     if (err) throw err;
     let parsed_data = data.match(/\@(.*?)\@/g);
-    parsed_data = parsed_data.slice(1, parsed_data.length)
+    parsed_data = parsed_data.slice(1, parsed_data.length);
     
     parsed_data.forEach(id => {
-        let cleaned_id;
-        cleaned_id = id.substr(1, id.length-2)
+        const cleaned_id = id.substr(1, id.length-2);
         audience_ids.push(cleaned_id);
     });
     
     audience_ids.forEach(audience => {
         options.path = null;
         options.path = options_path + "/" + audience + "/devices";
-
-        console.log(options.path)
 
             setTimeout(function() {
             const req = https.get(options, (res) => {
@@ -54,7 +52,7 @@ fs.readFile(audience_log, "utf8", (err, data) => {
                 res.on("data", (chunk) => { raw_data += chunk; });
                 
                 res.on("end", () => {
-                    const response = JSON.parse(raw_data)
+                    const response = JSON.parse(raw_data);
                     response.devices.forEach(device => {
                         console.log("Device Attributes", device.user_attributes);
                         console.log("Event Attributes", device.user_events);
@@ -64,9 +62,10 @@ fs.readFile(audience_log, "utf8", (err, data) => {
             req.on("error", (e) => {
             console.error("Something went wrong: ", e);
         });
-
         req.end();
+        
     }, 1000);
+
     });
 });
 

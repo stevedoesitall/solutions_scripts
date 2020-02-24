@@ -32,7 +32,7 @@ const req = https.get(options, (res) => {
   res.on("data", (chunk) => { raw_data += chunk; });
   
   res.on("end", () => {
-    const response = JSON.parse(raw_data)
+    const response = JSON.parse(raw_data);
     console.log("Total Installs:", response.total_installs);
   });
 });
@@ -40,4 +40,5 @@ const req = https.get(options, (res) => {
 req.on("error", (e) => {
   console.error("Something went wrong: ", e);
 });
+
 req.end();

@@ -37,8 +37,7 @@ const req = https.get(options, (res) => {
   res.on("end", () => {
 
     //Get the audience-specific data
-    //TO DO: Save the IDs to the audiences.txt, which will be scraped by the devices.js script
-    const response = JSON.parse(raw_data)
+    const response = JSON.parse(raw_data);
     const all_audiences = response.audiences;
     const audience_obj = {};
 
@@ -59,7 +58,7 @@ const req = https.get(options, (res) => {
         res.on("data", (chunk) => { raw_data += chunk; });
         
         res.on("end", () => {
-          const response = JSON.parse(raw_data)
+          const response = JSON.parse(raw_data);
           const audience_data = response.audience;
           
           if (audience_data.name.substring(0,13) != "api_audience_") {
@@ -69,7 +68,6 @@ const req = https.get(options, (res) => {
           }
 
           run_count++;
-          console.log(run_count, all_audiences.length)
           if (run_count == all_audiences.length) {
             save_data(audience_obj);
           }
@@ -105,4 +103,5 @@ const save_data = (audience_obj) => {
 req.on("error", (e) => {
   console.error("Something went wrong (GET 1): ", e);
 });
+
 req.end();
