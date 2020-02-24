@@ -4,12 +4,17 @@ const path = require("path");
 const creds = path.join(__dirname, "../../ignore/creds.js");
 const api_key = require(creds).mobile_api_key;
 
+const start_date = require("../modules/dates.js").start_date;
+const end_date = require("../modules/dates.js").end_date;
+
 const authorization = "Basic " + Buffer.from(api_key, "utf8").toString("base64");
 const endpoint = "opens";
 
+const query = "?from=" + start_date + "&to=" + end_date;
+
 const options = {
   hostname: "api.carnivalmobile.com",
-  path: "/v6/stats/" + endpoint + "?",
+  path: "/v6/stats/" + endpoint + query,
   port: null,
   headers: {
     authorization,
@@ -18,6 +23,8 @@ const options = {
 };
 
 const req = https.get(options, (res) => {
+  console.log(`Getting data from ${start_date} to ${end_date}`);
+
   let total_opens = 0;
   console.log("Status Code:", res.statusCode);
 
