@@ -28,22 +28,32 @@ sailthru.apiGet("template", {
     }
     else {
         total_templates = response.templates.length;
+        console.log(total_templates);
         response.templates.forEach(template => {
-            templates_obj[template.name] = {};
+            let template_name;
+            
+            if (template.sample) {
+                template_name = template.name + " [" + template.sample + "]";
+            }
+            else {
+                template_name = template.name;
+            }
+
+            templates_obj[template_name] = {};
 
             sailthru.apiGet("stats", {
                 stat: "send",
                 start_date: start_date,
                 end_date: end_date,
-                template: template.name
+                template_id: template.template_id
             }, function(err, response) {
 
                 if (err) {
-                    templates_obj[template.name].trigger_count = 0;
+                    templates_obj[template_name].trigger_count = 0;
                     // console.log(err);
                 }
                 else {
-                    templates_obj[template.name].trigger_count = response.count;
+                    templates_obj[template_name].trigger_count = response.count;
                 }
 
                 console.log(total_calls, total_templates);
@@ -96,6 +106,7 @@ const get_blasts = () => {
 
 const save_data = () => {
     const all_templates = Object.keys(templates_obj);
+    console.log("All templates length:", all_templates.length);
     fs.appendFile(log, "Template Name@Blast Count@Send Count" + "\n", (err) => {
         if (err) {
             console.log("Unable to append to file.");
