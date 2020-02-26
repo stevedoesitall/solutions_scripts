@@ -50,16 +50,24 @@ sailthru.apiGet("template", {
         let template_count = 0;
         total_templates = response.templates.length;
         response.templates.forEach(template => {
-            sailthru.apiGet("trigger", {
-                template: template.name
-            }, function(err, response) {
+            const trigger_obj = {};
+            let template_name = template.name;
+
+            trigger_obj.template = template_name;
+
+            if (template.sample) {
+                trigger_obj.sample = template.sample;
+                template_name = template_name + " [" + template.sample + "]";
+            }
+
+            sailthru.apiGet("trigger", trigger_obj, function(err, response) {
                 if (err) {
-                    console.log("No trigger on template", template.name);
+                    console.log("No trigger on template", template_name);
                 }
                 else {
-                    template_triggers.push(template.name);
-                    console.log("Success", template.name);
-                    fs.appendFile(log, "template@" + template.name + "\n", (err) => {
+                    template_triggers.push(template_name);
+                    console.log("Success", response);
+                    fs.appendFile(log, "template@" + template_name + "\n", (err) => {
                         if (err) {
                             console.log("Unable to append to file.");
                         }
