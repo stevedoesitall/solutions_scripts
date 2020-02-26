@@ -43,7 +43,6 @@ should think of a cleaner way to execute.
 const save_limit = 1;
 let run_limit = Object.keys(data_files).length;
 
-//Currently does not parse includes; will want to eventually update for that
 const get_data = (content_data, content_type) => {
 
     console.log("Getting data...");
@@ -59,7 +58,10 @@ const get_data = (content_data, content_type) => {
         content_ids.forEach(id => {
             const setup = content[id].setup;
             const html = content[id].content_html;
-            const name = content[id].name;
+            let name = content[id].name;
+            if (content[id].sample) {
+                name = name + " [" + content[id].sample + "]";
+            }
             const args = {
                 personalize: {
                     functions: ["personalize(", "horizon_select("],
