@@ -147,7 +147,7 @@ sailthru.apiGet("content",
                     content_data.description = "[n/a]";
                 }
                 if (content.vars) {
-                    console.log(content.vars);
+                    console.log("Content Vars:", content.vars);
                     all_vars_sorted.forEach(val => {
                         if (content.vars[val]) {
                             let content_var = content.vars[val];
