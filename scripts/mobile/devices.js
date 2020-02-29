@@ -1,3 +1,5 @@
+//NOTE: Run the audiences.js script to get audience data prior to running this script
+
 const https = require("https");
 const path = require("path");
 const fs = require("fs");
@@ -25,7 +27,7 @@ const options = {
 const attribute_obj = {};
 const event_obj = {};
 
-let audience_ids = [];
+const audience_ids = [];
 
 //Keep getting 429 errors; need to add better rate limiting
 fs.readFile(audience_log, "utf8", (err, data) => {
@@ -38,14 +40,19 @@ fs.readFile(audience_log, "utf8", (err, data) => {
         audience_ids.push(cleaned_id);
     });
     
-    audience_ids.forEach(audience => {
-        options.path = null;
-        options.path = options_path + "/" + audience + "/devices";
-
-            setTimeout(function() {
+    const timer = 2000;
+    audience_ids.forEach((audience, index) => {
+        setTimeout(() => {
+            console.log("Index is:", index);
+            options.path = null;
+            options.path = options_path + "/" + audience + "/devices";
             const req = https.get(options, (res) => {
             
                 console.log(`Status Code: ${res.statusCode} ${res.statusMessage}`);
+                if (res.statusCode == 429) {
+                    console.log("Terminating!");
+                    return false;
+                }
 
                 res.setEncoding("utf8");
                 let raw_data = "";
@@ -53,19 +60,44 @@ fs.readFile(audience_log, "utf8", (err, data) => {
                 
                 res.on("end", () => {
                     const response = JSON.parse(raw_data);
-                    response.devices.forEach(device => {
-                        console.log("Device Attributes", device.user_attributes);
-                        console.log("Event Attributes", device.user_events);
+                    response.devices.forEach((device) => {
+                        
+                        const user_attributes = Object.keys(device.user_attributes);
+                        const user_events = Object.keys(device.user_events);
+
+                        user_attributes.forEach(attribute => {
+                            if (attribute_obj[attribute]) {
+                                attribute_obj[attribute]++;
+                            }
+                            else {
+                                attribute_obj[attribute] = 1;
+                            }
+                        });
+
+                        user_events.forEach(event => {
+                            if (event_obj[event]) {
+                                event_obj[event]++;
+                            }
+                            else {
+                                event_obj[event] = 1;
+                            }
+                        });
+                        // if (index == (response.devices.length - 1)) {
+                        //     console.log("User attributes", attribute_obj);
+                        //     console.log("User events", event_obj);
+                        // }
                     });
                 });
-            });            
+            });     
+
             req.on("error", (e) => {
             console.error("Something went wrong: ", e);
-        });
-        req.end();
-        
-    }, 1000);
 
+            });
+            
+            req.end();
+            console.log("Waiting " + (timer * (index + 1)) + " seconds.");
+        }, 1000 * (index + 1));
     });
 });
 
