@@ -8,7 +8,7 @@
     "description": "Black cotton (98% Cotton, 2% Spandex). Hourglass. Short sleeve. Off the shoulder neckline. Exposed front button down placet and hidden back zipper closure. 48\" from bust to hemline. Imported.",
     "price": 5000,
     "inventory": 42,
-    "tags": "color-black, designer-staud, formality-3, sizescale-us_standard_gown, type-dress",
+    "tags": ["color-black", "designer-staud", "formality-3", "sizescale-us-standard-gown", "type-dress", "in-stock"],
     "vars": {
         "category": "rental",
         "designer": "Staud",
