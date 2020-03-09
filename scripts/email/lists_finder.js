@@ -13,7 +13,6 @@ fs.writeFile(log, "", function() {
 });
 
 let lists_obj = {};
-let total_calls = 0;
 
 sailthru.apiGet("list", {
     //No params
@@ -24,7 +23,10 @@ sailthru.apiGet("list", {
 
     else {
         const all_lists = response.lists;
-        all_lists.forEach(list => {
+        all_lists.forEach((list, index) => {
+
+            const total_calls = index + 1;
+
             lists_obj[list.name] = {};
 
             lists_obj[list.name].type = list.type;
@@ -34,7 +36,7 @@ sailthru.apiGet("list", {
             lists_obj[list.name].total_suppresses = 0;
             lists_obj[list.name].status = "secondary";
 
-            if (list.create_time == "Wed, 31 Dec 1969 19:00:00 -0500") {
+            if (list.create_time === "Wed, 31 Dec 1969 19:00:00 -0500") {
                 lists_obj[list.name].create_time = "";
             }
             else {
@@ -53,15 +55,13 @@ sailthru.apiGet("list", {
                     console.log(err);
                 }
                 else {
-                    if (response.primary == true) {
+                    if (response.primary === true) {
                         lists_obj[list.name].status = "primary";
                     }
                 }
             });
 
-            total_calls++;
-
-            if (total_calls == all_lists.length) {
+            if (total_calls === all_lists.length) {
                 console.log("Triggering get_blasts()");
                 get_blasts();
             }
@@ -99,7 +99,7 @@ const get_blasts = () => {
 
                 if (blast.suppress_list) {
                     const suppress_lists = blast.suppress_list;
-                    if (typeof suppress_lists == "object") {
+                    if (typeof suppress_lists === "object") {
                         suppress_lists.forEach(suppression => {
                             if (lists_obj[suppression]) {
                                 lists_obj[suppression].total_suppresses++;

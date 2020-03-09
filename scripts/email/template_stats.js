@@ -29,7 +29,10 @@ sailthru.apiGet("template", {
     else {
         total_templates = response.templates.length;
         console.log(total_templates);
-        response.templates.forEach(template => {
+        response.templates.forEach((template, index) => {
+            
+            const total_calls = index + 1;
+
             let template_name;
             
             if (template.sample) {
@@ -58,9 +61,7 @@ sailthru.apiGet("template", {
 
                 console.log(total_calls, total_templates);
 
-                total_calls++;
-
-                if (total_calls == total_templates) {
+                if (total_calls === total_templates) {
                     console.log(templates_obj);
                     console.log("Triggering get_blasts()");
                     get_blasts();

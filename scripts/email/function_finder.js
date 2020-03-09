@@ -94,7 +94,7 @@ const get_data = (content_data, content_type) => {
             });
 
         });
-        if (save_limit == run_limit) {
+        if (save_limit === run_limit) {
             save_data();
             console.log("Data saving...");
         }

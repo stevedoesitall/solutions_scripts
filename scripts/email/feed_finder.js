@@ -1,3 +1,5 @@
+//BROKEN NEED TO FIX
+
 const path = require("path");
 const creds = path.join(__dirname, "../../ignore/creds.js");
 const feed_log = path.join(__dirname, "../../logs/feeds.txt");
@@ -8,6 +10,7 @@ const api_secret = require(creds).api_secret;
 const sailthru = require("sailthru-client").createSailthruClient(api_key, api_secret);
 const fs = require("fs");
 const http = require("http");
+const https = require("https");
 
 fs.writeFile(feed_log, "", function() { 
     console.log("Feed file cleared.");
@@ -108,9 +111,9 @@ const save_data = () => {
         console.log("No feeds!");
     }
     else {
-        all_feeds.forEach(feed => {
-            
-            http.get(feed, (cb) => {
+        all_feeds.forEach((feed, index) => {
+            if (feed.substr(0,7) === "http://") {
+                http.get(feed, (cb) => {
                 cb.setEncoding("utf8");
                 let raw_data = "";
                 cb.on("data", (chunk) => { raw_data += chunk; });
@@ -118,14 +121,22 @@ const save_data = () => {
                     try {
                         total_feeds++;
 
-                        if (raw_data.substr(4,3) == "404") {
+                        if (raw_data.substr(4,3) == "404" || feed === null) {
                             console.log(feed + " does not exist");
                             feed_obj[feed].name = feed;
                             feed_obj[feed].exists = "N";
                             feed_obj[feed].timed_out = "N/A";
                         }
 
+                        else if (raw_data.substr(0,6) == "<html>") {
+                            console.log(feed + " is parsing HTML");
+                            feed_obj[feed].name = feed;
+                            feed_obj[feed].exists = "Y";
+                            feed_obj[feed].timed_out = "N/A";
+                        }
+
                         else {
+                            console.log(feed);
                             feed_obj[feed].exists = "Y";
                             const parsed_data = JSON.parse(raw_data);
 
@@ -138,8 +149,8 @@ const save_data = () => {
                                 feed_obj[feed].timed_out = "Y";
                             }
                         }
-
-                        if (total_feeds == all_feeds.length) {
+                        
+                        if (total_feeds == 69) {
                             const all_feeds_new = Object.keys(feed_obj);
                             fs.appendFile(feed_log, `Feed Name@Send Count@Blast Count@Trigger Count@Timed Out@Blast Names@Template Names@Exists` + "\n", (err) => {
                                 if (err) {
@@ -165,6 +176,18 @@ const save_data = () => {
                 }).on("error", (e) => {
                     console.error(`Got error: ${e.message}`);
             });
+            }
+
+            // else if (feed.substr(0,8) == "https://") {
+                
+            // }
+
+            // else {
+                
+            // }
+            
+
+
         });
     }
 }
