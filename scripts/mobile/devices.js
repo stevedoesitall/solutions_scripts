@@ -39,9 +39,14 @@ fs.readFile(audience_log, "utf8", (err, data) => {
         const cleaned_id = id.substr(1, id.length-2);
         audience_ids.push(cleaned_id);
     });
-    
-    const timer = 2000;
+
     audience_ids.forEach((audience, index) => {
+        find_audiences(audience, index);
+    });
+
+    const timer = 2000;
+    
+    const find_audiences = (audience, index) => {
         setTimeout(() => {
             console.log("Index is:", index);
             options.path = null;
@@ -98,6 +103,6 @@ fs.readFile(audience_log, "utf8", (err, data) => {
             req.end();
             console.log("Waiting " + (timer * (index + 1)) + " seconds.");
         }, 1000 * (index + 1));
-    });
+    };
 });
 
