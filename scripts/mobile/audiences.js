@@ -97,7 +97,7 @@ const save_data = (audience_obj) => {
           console.log("Unable to append to file.");
       }
     });
-  })
+  });
 };
 
 req.on("error", (e) => {

@@ -2,16 +2,16 @@
 with the fields parameter:*/
 
 {
-    "id":"steve+test@sailthru.com",
-    "vars": {
-        "name":"Steve Giordano"
-    },
+    "id": "sgiordano+test@sailthru.com",
     "lists": {
-        "Everlane (All)": 1
+        "RTR _ Master Subscriber List": 1
+    },
+    "vars": {
+        "last_signin_date": "2020-03-06"
     },
     "fields": {
         "keys": 1
-        }
     }
+}
     
 

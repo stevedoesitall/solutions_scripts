@@ -151,15 +151,15 @@ sailthru.apiGet("content",
                     all_vars_sorted.forEach(val => {
                         if (content.vars[val]) {
                             let content_var = content.vars[val];
-                            if (typeof content_var == "object") {
+                            if (typeof content_var === "object") {
                                 content_var = JSON.stringify(content_var).replace(/,/g, "|");
                             }
-                            else if (typeof content_var == "string") {
+                            else if (typeof content_var === "string") {
                                 content_var = content_var.replace(/,/g, " - ");
                                 content_var = content_var.replace(/\n/g, "");
                             }
-                            else if (typeof content_var == "boolean") {
-                                if (content_var == true) {
+                            else if (typeof content_var === "boolean") {
+                                if (content_var === true) {
                                     content_var = "true";
                                 }
                                 else {
@@ -188,9 +188,8 @@ sailthru.apiGet("content",
 const save_data = (data) => {
     const all_fields = Object.keys(data[0]);
     let header = "";
-    let field_count = 0;
-    all_fields.forEach(field => {
-        field_count++;
+    all_fields.forEach((field, index) => {
+        const field_count = index + 1;
         if (field_count == all_fields.length) {
             header = header + field;
             console.log(header);
@@ -208,9 +207,8 @@ const save_data = (data) => {
     items.forEach(item => {
         let row = "";
         const all_values = Object.values(item);
-        let value_count = 0;
-        all_values.forEach(value => {
-            value_count++;
+        all_values.forEach((value, index) => {
+            const value_count = index + 1;
             if (value_count == all_values.length) {
                 row = row + value;
                 fs.appendFile(log, row + "\n", (err) => {
