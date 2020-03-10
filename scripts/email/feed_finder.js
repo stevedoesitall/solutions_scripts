@@ -1,5 +1,3 @@
-//BROKEN NEED TO FIX
-
 const path = require("path");
 const creds = path.join(__dirname, "../../ignore/creds.js");
 const feed_log = path.join(__dirname, "../../logs/feeds.txt");
@@ -103,91 +101,103 @@ const get_templates = () => {
 };
 
 const save_data = () => {
+    let total_runs = 0;
     const all_feeds = Object.keys(feed_obj);
-
-    let total_feeds = 0;
 
     if (all_feeds.length == 0) {
         console.log("No feeds!");
     }
     else {
         all_feeds.forEach((feed, index) => {
-            if (feed.substr(0,7) === "http://") {
-                http.get(feed, (cb) => {
-                cb.setEncoding("utf8");
-                let raw_data = "";
-                cb.on("data", (chunk) => { raw_data += chunk; });
-                cb.on("end", () => {
-                    try {
-                        total_feeds++;
 
-                        if (raw_data.substr(4,3) == "404" || feed === null) {
-                            console.log(feed + " does not exist");
-                            feed_obj[feed].name = feed;
+            let protocol;
+
+            if (feed.substr(0,7) === "http://") {
+                protocol = http;
+            }
+            else if (feed.substr(0,8) === "https://") {
+                protocol = https;
+            }
+
+            if (protocol) {
+                protocol.get(feed, (cb) => {
+                    cb.setEncoding("utf8");
+                    let raw_data = "";
+                    cb.on("data", (chunk) => { raw_data += chunk; });
+                    cb.on("end", () => {
+                        try {
+                            if (raw_data.substr(4,3) == "404" || !feed) {
+                                console.log(feed + " does not exist");
+                                feed_obj[feed].name = "?";
+                                feed_obj[feed].exists = "N";
+                                feed_obj[feed].timed_out = "N/A";
+                            }
+                            else if (raw_data.substr(0,6) == "<html>") {
+                                console.log(feed + " is parsing HTML");
+                                feed_obj[feed].name = "?";
+                                feed_obj[feed].exists = "Y";
+                                feed_obj[feed].timed_out = "N/A";
+                            }
+                            else {
+                                feed_obj[feed].exists = "Y";
+                                const parsed_data = JSON.parse(raw_data);
+
+                                if (typeof parsed_data.feed != "undefined" || (parsed_data.statusCode && parsed_data.statusCode !== 404)) {
+                                    feed_obj[feed].name = parsed_data.feed.name; 
+                                    feed_obj[feed].timed_out = "N";
+                                }
+                                else {
+                                    feed_obj[feed].name = "?";
+                                    feed_obj[feed].timed_out = "Y";
+                                }
+                            }
+                        } 
+                        catch (e) {
+                            console.error(feed + " error: " + e.message);
+                            feed_obj[feed].name = "?";
                             feed_obj[feed].exists = "N";
                             feed_obj[feed].timed_out = "N/A";
                         }
-
-                        else if (raw_data.substr(0,6) == "<html>") {
-                            console.log(feed + " is parsing HTML");
-                            feed_obj[feed].name = feed;
-                            feed_obj[feed].exists = "Y";
-                            feed_obj[feed].timed_out = "N/A";
+                        total_runs++;
+                        console.log("INDEX: " + index + ". TOTAL RUNS: " + total_runs);
+                        if (total_runs === all_feeds.length) {
+                            save_feed();
                         }
-
-                        else {
-                            console.log(feed);
-                            feed_obj[feed].exists = "Y";
-                            const parsed_data = JSON.parse(raw_data);
-
-                            if (typeof parsed_data.feed != "undefined") {
-                                feed_obj[feed].name = parsed_data.feed.name; 
-                                feed_obj[feed].timed_out = "N";
-                            }
-                            else {
-                                feed_obj[feed].name = feed;
-                                feed_obj[feed].timed_out = "Y";
-                            }
-                        }
-                        
-                        if (total_feeds == 69) {
-                            const all_feeds_new = Object.keys(feed_obj);
-                            fs.appendFile(feed_log, `Feed Name@Send Count@Blast Count@Trigger Count@Timed Out@Blast Names@Template Names@Exists` + "\n", (err) => {
-                                if (err) {
-                                    console.log("Unable to append to file.");
-                                }
-                            });
-                            
-                            all_feeds_new.forEach(feed => {
-
-                                console.log(`${feed_obj[feed].name} feed was used ${feed_obj[feed].blast_count + feed_obj[feed].template_count} times.`);
-                                fs.appendFile(feed_log, `${feed_obj[feed].name}@${feed_obj[feed].blast_count + feed_obj[feed].template_count}@${feed_obj[feed].blast_count}@${feed_obj[feed].template_count}@${feed_obj[feed].timed_out}@${feed_obj[feed].blast_names}@${feed_obj[feed].template_names}@${feed_obj[feed].exists}` + "\n", (err) => {
-                                    if (err) {
-                                        console.log("Unable to append to file.");
-                                    }
-                                });
-                            });
-                        }
-                    } 
-                    catch (e) {
-                        console.error(e.message);
-                    }
-                });
+                    });
                 }).on("error", (e) => {
                     console.error(`Got error: ${e.message}`);
-            });
+                });
             }
 
-            // else if (feed.substr(0,8) == "https://") {
-                
-            // }
-
-            // else {
-                
-            // }
-            
-
-
+            else {
+                feed_obj[feed].name = "?";
+                feed_obj[feed].exists = "?";
+                feed_obj[feed].timed_out = "?";
+                total_runs++;
+                console.log("INDEX: " + index + ". TOTAL RUNS: " + total_runs);
+                if (total_runs === all_feeds.length) {
+                    save_feed();
+                }
+            }
         });
     }
 }
+
+const save_feed = () => {
+    const all_feeds_new = Object.keys(feed_obj);
+    fs.appendFile(feed_log, `Feed Name@Feed URL@Send Count@Blast Count@Trigger Count@Timed Out@Blast Names@Template Names@Exists` + "\n", (err) => {
+        if (err) {
+            console.log("Unable to append to file.");
+        }
+    });
+    
+    all_feeds_new.forEach(feed => {
+
+        console.log(`${feed_obj[feed].name} feed was used ${feed_obj[feed].blast_count + feed_obj[feed].template_count} times.`);
+        fs.appendFile(feed_log, `${feed_obj[feed].name}@${feed}@${feed_obj[feed].blast_count + feed_obj[feed].template_count}@${feed_obj[feed].blast_count}@${feed_obj[feed].template_count}@${feed_obj[feed].timed_out}@${feed_obj[feed].blast_names}@${feed_obj[feed].template_names}@${feed_obj[feed].exists}` + "\n", (err) => {
+            if (err) {
+                console.log("Unable to append to file.");
+            }
+        });
+    });
+};
