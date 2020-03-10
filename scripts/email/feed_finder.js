@@ -104,7 +104,7 @@ const save_data = () => {
     let total_runs = 0;
     const all_feeds = Object.keys(feed_obj);
 
-    if (all_feeds.length == 0) {
+    if (all_feeds.length === 0) {
         console.log("No feeds!");
     }
     else {
@@ -126,13 +126,13 @@ const save_data = () => {
                     cb.on("data", (chunk) => { raw_data += chunk; });
                     cb.on("end", () => {
                         try {
-                            if (raw_data.substr(4,3) == "404" || !feed) {
+                            if (raw_data.substr(4,3) === "404" || !feed) {
                                 console.log(feed + " does not exist");
                                 feed_obj[feed].name = "?";
                                 feed_obj[feed].exists = "N";
                                 feed_obj[feed].timed_out = "N/A";
                             }
-                            else if (raw_data.substr(0,6) == "<html>") {
+                            else if (raw_data.substr(0,6) === "<html>") {
                                 console.log(feed + " is parsing HTML");
                                 feed_obj[feed].name = "?";
                                 feed_obj[feed].exists = "Y";
