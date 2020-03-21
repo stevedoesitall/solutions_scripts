@@ -60,25 +60,25 @@ const get_includes = (content_data, content_type) => {
             Object.keys(all_includes).forEach(include => {
                 if (html && (html.indexOf('include "' + include) != -1 || html.indexOf("include '" + include) != -1)) {
                     all_includes[include].use_count++;
-                    if (content_type == "template") {
+                    if (content_type === "template") {
                         all_includes[include].templates.push(name);
                     }
-                    else if (content_type == "blast") {
+                    else if (content_type === "blast") {
                         all_includes[include].blasts.push(name);
                     }
-                    else if (content_type == "include") {
+                    else if (content_type === "include") {
                         all_includes[include].includes.push(name);
                     }
                 }
                 if (setup && (setup.indexOf('include "' + include) != -1 || setup.indexOf("include '" + include) != -1)) {
                     all_includes[include].use_count++;
-                    if (content_type == "template") {
+                    if (content_type === "template") {
                         all_includes[include].templates.push(name);
                     }
-                    else if (content_type == "blast") {
+                    else if (content_type === "blast") {
                         all_includes[include].blasts.push(name);
                     }
-                    else if (content_type == "include") {
+                    else if (content_type === "include") {
                         all_includes[include].includes.push(name);
                     }
                 }

@@ -47,10 +47,12 @@ sailthru.apiGet("template", {
         console.log(err);
     }
     else {
-        let template_count = 0;
         total_templates = response.templates.length;
-        response.templates.forEach(template => {
+        response.templates.forEach((template, index) => {
             const trigger_obj = {};
+            
+            const template_count = index + 1;
+
             let template_name = template.name;
 
             trigger_obj.template = template_name;
@@ -73,9 +75,8 @@ sailthru.apiGet("template", {
                         }
                     });
                 }
-                template_count++;
                 console.log(`Template Count: ${template_count}. Total Templates: ${total_templates}`);
-                if (template_count == total_templates) {
+                if (template_count === total_templates) {
                     console.log(template_triggers);
                 }
             });
