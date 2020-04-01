@@ -2,8 +2,8 @@ const path = require("path");
 const fs = require("fs");
 
 const logs = {
-    personalizing_log: path.join(__dirname, "../../logs/personalizing.txt"),
-    canceling_log: path.join(__dirname, "../../logs/canceling.txt")
+    personalizing_log: path.join(__dirname, "../../logs/email/personalizing.txt"),
+    canceling_log: path.join(__dirname, "../../logs/email/canceling.txt")
 };
 
 const data_files = {

@@ -8,8 +8,8 @@ const sailthru = require("sailthru-client").createSailthruClient(api_key, api_se
 const fs = require("fs");
 
 const logs = {
-    blast_log: path.join(__dirname, "../../logs/blasts.txt"),
-    labels_log: path.join(__dirname, "../../logs/labels.txt")
+    blast_log: path.join(__dirname, "../../logs/email/blasts.txt"),
+    labels_log: path.join(__dirname, "../../logs/email/labels.txt")
 };
 
 const clear_file = (file_name) => {
@@ -18,13 +18,13 @@ const clear_file = (file_name) => {
     }); 
 };
 
-Object.values(logs).forEach(log => {
-    clear_file(log);
-});
+for (const log in logs) {
+    clear_file(logs[log]);
+}
+
 const start_date = require("../modules/dates.js").start_date;
 const end_date = require("../modules/dates.js").end_date;
 
-//Need to get label data as well
 let total_blasts = 0;
 let template_blasts = 0;
 let template_blasts_copied = 0;

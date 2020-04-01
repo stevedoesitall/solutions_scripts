@@ -16,11 +16,11 @@ const clear_file = (file_name) => {
     }); 
 };
 
-Object.values(logs).forEach(log => {
-    if (log.indexOf("audiences.txt") == -1) {
-        clear_file(log);
+for (const log in logs) {
+    if (logs[log].indexOf("audiences.txt") == -1) {
+        clear_file(logs[log]);
     }
-});
+}
 
 const audience_log = logs.audiences;
 const attribute_log = logs.attributes;

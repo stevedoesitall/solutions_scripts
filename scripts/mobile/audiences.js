@@ -14,6 +14,8 @@ const api_key = require(creds).mobile_api_key;
 const authorization = "Basic " + Buffer.from(api_key, "utf8").toString("base64");
 const endpoint = "audiences";
 
+console.log("Username is:", authorization);
+
 const options = {
   hostname: "api.carnivalmobile.com",
   path: "/v6/" + endpoint,

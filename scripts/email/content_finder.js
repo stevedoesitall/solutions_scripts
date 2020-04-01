@@ -1,6 +1,6 @@
 const path = require("path");
 const creds = path.join(__dirname, "../../ignore/creds.js");
-const log = path.join(__dirname, "../../logs/content.txt");
+const log = path.join(__dirname, "../../logs/email/content.txt");
 
 const api_key = require(creds).api_key;
 const api_secret = require(creds).api_secret;
@@ -155,8 +155,7 @@ sailthru.apiGet("content",
                                 content_var = JSON.stringify(content_var).replace(/,/g, "|");
                             }
                             else if (typeof content_var === "string") {
-                                content_var = content_var.replace(/,/g, " - ");
-                                content_var = content_var.replace(/\n/g, "");
+                                content_var = content_var.replace(/,/g, " - ").replace(/\n/g, "").replace(/\r/g, "");
                             }
                             else if (typeof content_var === "boolean") {
                                 if (content_var === true) {
@@ -202,24 +201,26 @@ const save_data = (data) => {
         if (err) {
             console.log("Unable to append to file.");
         }
-    });
-    const items = data.slice(1, data.length);
-    items.forEach(item => {
-        let row = "";
-        const all_values = Object.values(item);
-        all_values.forEach((value, index) => {
-            const value_count = index + 1;
-            if (value_count == all_values.length) {
-                row = row + value;
-                fs.appendFile(log, row + "\n", (err) => {
-                    if (err) {
-                        console.log("Unable to append to file.", err, row);
+        else {
+            const items = data.slice(1, data.length);
+            items.forEach(item => {
+                let row = "";
+                const all_values = Object.values(item);
+                all_values.forEach((value, index) => {
+                    const value_count = index + 1;
+                    if (value_count == all_values.length) {
+                        row = row + value;
+                        fs.appendFile(log, row + "\n", (err) => {
+                            if (err) {
+                                console.log("Unable to append to file.", err, row);
+                            }
+                        });
+                    }
+                    else {
+                        row = row + value + "@";
                     }
                 });
-            }
-            else {
-                row = row + value + "@";
-            }
-        });
+            });
+        }
     });
 };

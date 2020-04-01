@@ -1,6 +1,6 @@
 const path = require("path");
 const creds = path.join(__dirname, "../../ignore/creds.js");
-const log = path.join(__dirname, "../../logs/lists.txt");
+const log = path.join(__dirname, "../../logs/email/lists.txt");
 
 const api_key = require(creds).api_key;
 const api_secret = require(creds).api_secret;

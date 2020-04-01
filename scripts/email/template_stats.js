@@ -1,6 +1,6 @@
 const path = require("path");
 const creds = path.join(__dirname, "../../ignore/creds.js");
-const log = path.join(__dirname, "../../logs/templates.txt");
+const log = path.join(__dirname, "../../logs/email/email/templates.txt");
 
 const api_key = require(creds).api_key;
 const api_secret = require(creds).api_secret;
@@ -106,14 +106,15 @@ const get_blasts = () => {
 }
 
 const save_data = () => {
-    const all_templates = Object.keys(templates_obj);
-    console.log("All templates length:", all_templates.length);
+    const all_templates = Object.keys(templates_obj).length;
+    console.log("All templates length:", all_templates);
     fs.appendFile(log, "Template Name@Blast Count@Send Count" + "\n", (err) => {
         if (err) {
             console.log("Unable to append to file.");
         }
     });
-    all_templates.forEach(template => {
+
+    for (const template in templates_obj) {
         if (!templates_obj[template].trigger_count) {
             templates_obj[template].trigger_count = 0;
         }
@@ -124,6 +125,6 @@ const save_data = () => {
             if (err) {
                 console.log("Unable to append to file.");
             }
-        });
-    })
+        })
+    }
 };
