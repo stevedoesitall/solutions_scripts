@@ -1,10 +1,26 @@
-{"id":"sgiordano@sailthru.com",
-    "vars": {
-        "saved_items": [
-            "https://www.everlane.com/products/mens-slim-fit-performance-jean-dark-indigo", 
-            "https://www.everlane.com/products/mens-slim-fit-stretch-jean-washed-black"
-        ]
+{
+    "title" : "Declara\u021bia pe proprie r\u0103spundere pentru p\u0103r\u0103sirea localit\u0103\u021bii, obligatorie dup\u0103 15 mai",
+    "date" : "Tue, 12 May 2020 17:18:38 +0300",
+    "tags" : [
+        "stiri-romania"
+    ],
+    "description" : "Declara\u021bia pe proprie r\u0103spundere pentru p\u0103r\u0103sirea localit\u0103\u021bii, obligatorie dup\u0103 15 mai. \u00cen interiorul localit\u0103\u021bii nu mai e nevoie de declara\u021bie.",
+    "author" : "Petre Dobrescu",
+    "vars" : {
+        "post_type" : "post",
+        "id" : 2994950,
+        "author" : "45"
+    },
+    "url" : "https://www.libertatea.ro/stiri/declaratia-proprie-raspundere-parasirea-localitatii-obligatorie-dupa-15-mai-2994950",
+    "site_name" : "Libertatea",
+    "views" : 1087,
+    "images" : {
+        "full" : {
+            "url" : "https://static4.libertatea.ro/wp-content/uploads/2020/03/filtru-1.jpeg"
+        },
+        "thumb" : {
+            "url" : "https://mediacdn.libertatea.ro/unsafe/225x180/smart/filters:contrast(8):quality(80)/https://static4.libertatea.ro/wp-content/uploads/2020/03/filtru-1.jpeg"
+        }
     }
 }
-
 

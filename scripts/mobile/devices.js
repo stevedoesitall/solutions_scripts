@@ -1,11 +1,10 @@
-//NOTE: Run the audiences.js script to get audience data prior to running this script
-
 const https = require("https");
 const path = require("path");
 const fs = require("fs");
 
+const audience_id = "5e852f2fca763800016f9951";
+
 const logs = {
-    audiences: path.join(__dirname, "../../logs/mobile/audiences.txt"),
     attributes: path.join(__dirname, "../../logs/mobile/attributes.txt"),
     events: path.join(__dirname, "../../logs/mobile/events.txt")
 };
@@ -17,12 +16,9 @@ const clear_file = (file_name) => {
 };
 
 for (const log in logs) {
-    if (logs[log].indexOf("audiences.txt") == -1) {
-        clear_file(logs[log]);
-    }
+    clear_file(logs[log]);
 }
 
-const audience_log = logs.audiences;
 const attribute_log = logs.attributes;
 const event_log = logs.events;
 
@@ -31,11 +27,13 @@ const api_key = require(creds).mobile_api_key;
 
 const authorization = "Basic " + Buffer.from(api_key, "utf8").toString("base64");
 const endpoint = "audiences";
-const options_path = "/v6/" + endpoint;
+const options_path = "/v6/" + endpoint + "/" + audience_id + "/devices?cursor=";
+
+let cursor = null;
 
 const options = {
     hostname: "api.carnivalmobile.com",
-    path: options_path,
+    path: options_path + cursor,
     port: null,
     headers: {
         authorization,
@@ -46,122 +44,114 @@ const options = {
 const attribute_obj = {};
 const event_obj = {};
 
-const audience_ids = [];
-let success_count = 0;
+const cursors_obj = {};
 
-fs.readFile(audience_log, "utf8", (err, data) => {
-    if (err) throw err;
-    let parsed_data = data.match(/\@(.*?)\@/g);
-    parsed_data = parsed_data.slice(1, parsed_data.length);
+const get_data = (audience, options, cursor) => {
+    const req = https.get(options, (res) => {
     
-    parsed_data.forEach(id => {
-        const cleaned_id = id.substr(1, id.length-2);
-        audience_ids.push(cleaned_id);
-    });
+        console.log(`Status Code: ${res.statusCode} ${res.statusMessage}`);
 
-    const get_data = (audience, index) => {
-        const total_audiences = audience_ids.length;
-        setTimeout(() => {
-            console.log("Index is:", index);
-            options.path = null;
-            options.path = options_path + "/" + audience + "/devices";
-            const req = https.get(options, (res) => {
-            
-                console.log(`Status Code: ${res.statusCode} ${res.statusMessage}`);
-                if (res.statusCode == 429) {
-                    console.log("Retrying!");
-                    setTimeout(() => {
-                        get_data(audience, index);
-                    }, 5000);
+        res.setEncoding("utf8");
+        let raw_data = "";
+        res.on("data", (chunk) => { raw_data += chunk; });
+        
+        res.on("end", () => {
+            const new_options = options;
+            const response = JSON.parse(raw_data);
+            const total_devices = response.meta.total;
+
+            const new_cursor = response.meta.cursor;
+            console.log("New cursor is", new_cursor);
+
+            if (cursor) {
+                if (cursors_obj[cursor]) {
+                    cursors_obj[cursor]++;
+                } else {
+                    cursors_obj[cursor] = 1;
                 }
-                else {
-                    success_count++;
-                    res.setEncoding("utf8");
-                    let raw_data = "";
-                    res.on("data", (chunk) => { raw_data += chunk; });
-                    
-                    res.on("end", () => {
-                        const response = JSON.parse(raw_data);
-                        console.log(`Success count: ${success_count}. Total audiences: ${total_audiences}`);
+            }
 
-                        response.devices.forEach((device) => {
-                            
-                            const user_attributes = Object.keys(device.user_attributes);
-                            const user_events = Object.keys(device.user_events);
+            if (cursors_obj[cursor] === 5 || !cursor) {
+                cursor = new_cursor;
+                new_options.path = options_path + cursor;
+            }
 
-                            user_attributes.forEach(attribute => {
-                                if (attribute_obj[attribute]) {
-                                    attribute_obj[attribute]++;
-                                }
-                                else {
-                                    attribute_obj[attribute] = 1;
-                                }
-                            });
+            console.log("Using cursor 1:", cursor);
 
-                            user_events.forEach(event => {
-                                if (event_obj[event]) {
-                                    event_obj[event]++;
-                                }
-                                else {
-                                    event_obj[event] = 1;
-                                }
-                            });
-                        });
+            let remaining_devices = total_devices;
 
-                        if (success_count == total_audiences) {
-                            console.log("User attributes", attribute_obj);
-                            console.log("User events", event_obj);
-                            const all_attributes = Object.keys(attribute_obj);
-                            const all_events = Object.keys(event_obj);
+            const response_length = response.devices.length;
+            remaining_devices = remaining_devices - response_length;
 
-                            fs.appendFile(attribute_log, "Attribute Name@Attribute Count" + "\n", (err) => {
-                                if (err) {
-                                    console.log("Unable to append to file.");
-                                }
-                              });
-                              
-                            all_attributes.forEach(attr => {
-                                fs.appendFile(attribute_log, attr + "@" + attribute_obj[attr] + "\n", (err) => {
-                                    if (err) {
-                                        console.log("Unable to append to file.");
-                                    }
-                                });
-                            });
+            response.devices.forEach((device) => {
+                const user_attributes = Object.keys(device.user_attributes);
+                const user_events = Object.keys(device.user_events);
 
-                            fs.appendFile(event_log, "Event Name@Event Count" + "\n", (err) => {
-                                if (err) {
-                                    console.log("Unable to append to file.");
-                                }
-                            });
-                            
-                            all_events.forEach(event => {
-                                fs.appendFile(event_log, event + "@" + event_obj[event] + "\n", (err) => {
-                                    if (err) {
-                                        console.log("Unable to append to file.");
-                                    }
-                                });
-                            });
-                        }
-                        else {
-                            console.log(`${total_audiences - success_count} audiences left.`);
-                        }
+                user_attributes.forEach(attribute => {
+                    if (attribute_obj[attribute]) {
+                        attribute_obj[attribute]++;
+                    }
+                    else {
+                        attribute_obj[attribute] = 1;
+                    }
+                });
 
-                    });
-                }
-            });     
-
-            req.on("error", (e) => {
-            console.error("Something went wrong: ", e);
-
+                user_events.forEach(event => {
+                    if (event_obj[event]) {
+                        event_obj[event]++;
+                    }
+                    else {
+                        event_obj[event] = 1;
+                    }
+                });
             });
+
+            console.log("User attributes", attribute_obj);
+            console.log("User events", event_obj);
+            const all_attributes = Object.keys(attribute_obj);
+            const all_events = Object.keys(event_obj);
+
+            // fs.appendFile(attribute_log, "Attribute Name@Attribute Count" + "\n", (err) => {
+            //     if (err) {
+            //         console.log("Unable to append to file.");
+            //     }
+            //     });
+                
+            // all_attributes.forEach(attr => {
+            //     fs.appendFile(attribute_log, attr + "@" + attribute_obj[attr] + "\n", (err) => {
+            //         if (err) {
+            //             console.log("Unable to append to file.");
+            //         }
+            //     });
+            // });
+
+            // fs.appendFile(event_log, "Event Name@Event Count" + "\n", (err) => {
+            //     if (err) {
+            //         console.log("Unable to append to file.");
+            //     }
+            // });
             
-            req.end();
-            console.log("Waiting " + (timer * (index + 1)) + " seconds.");
-        }, 1000 * (index + 1));
-    };
-    
-    const timer = 2000;
-    audience_ids.forEach((audience, index) => {
-        get_data(audience, index);
+            // all_events.forEach(event => {
+            //     fs.appendFile(event_log, event + "@" + event_obj[event] + "\n", (err) => {
+            //         if (err) {
+            //             console.log("Unable to append to file.");
+            //         }
+            //     });
+            // });
+
+            if (remaining_devices > 0) {
+                get_data(audience, options, cursor);
+                console.log("Using cursor 2:", cursor);
+            }
+        });
+    });     
+
+    req.on("error", (e) => {
+    console.error("Something went wrong: ", e);
+
     });
-});
+    
+    req.end();
+};
+
+get_data(audience_id, options);

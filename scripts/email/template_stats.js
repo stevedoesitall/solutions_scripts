@@ -1,6 +1,6 @@
 const path = require("path");
 const creds = path.join(__dirname, "../../ignore/creds.js");
-const log = path.join(__dirname, "../../logs/email/email/templates.txt");
+const log = path.join(__dirname, "../../logs/email/templates.txt");
 
 const api_key = require(creds).api_key;
 const api_secret = require(creds).api_secret;
@@ -18,7 +18,6 @@ const end_date = require("../modules/dates.js").end_date;
 console.log(`Finding stats between ${start_date} and ${end_date}`);
 
 const templates_obj = {};
-let total_calls = 0;
 
 sailthru.apiGet("template", {
     //No params
@@ -110,21 +109,22 @@ const save_data = () => {
     console.log("All templates length:", all_templates);
     fs.appendFile(log, "Template Name@Blast Count@Send Count" + "\n", (err) => {
         if (err) {
-            console.log("Unable to append to file.");
+            console.log("Unable to append header to file:", err);
+        }
+        else {
+            for (const template in templates_obj) {
+                if (!templates_obj[template].trigger_count) {
+                    templates_obj[template].trigger_count = 0;
+                }
+                if (!templates_obj[template].blast_count) {
+                    templates_obj[template].blast_count = 0;
+                }
+                fs.appendFile(log, template + "@" + templates_obj[template].blast_count + "@" + templates_obj[template].trigger_count + "\n", (err) => {
+                    if (err) {
+                        console.log("Unable to append template data to file.");
+                    }
+                })
+            }
         }
     });
-
-    for (const template in templates_obj) {
-        if (!templates_obj[template].trigger_count) {
-            templates_obj[template].trigger_count = 0;
-        }
-        if (!templates_obj[template].blast_count) {
-            templates_obj[template].blast_count = 0;
-        }
-        fs.appendFile(log, template + "@" + templates_obj[template].blast_count + "@" + templates_obj[template].trigger_count + "\n", (err) => {
-            if (err) {
-                console.log("Unable to append to file.");
-            }
-        })
-    }
 };

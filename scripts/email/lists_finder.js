@@ -18,14 +18,12 @@ sailthru.apiGet("list", {
     //No params
 }, function(err, response) {
     if (err) {
-        console.log(err);
+        console.log("Error getting lists! ", err);
     }
 
     else {
         const all_lists = response.lists;
         all_lists.forEach((list, index) => {
-
-            const total_calls = index + 1;
 
             lists_obj[list.name] = {};
 
@@ -52,7 +50,7 @@ sailthru.apiGet("list", {
                 list: list.name
             }, function(err, response) {
                 if (err) {
-                    console.log(err);
+                    console.log("List " + list.name + " " + err);
                 }
                 else {
                     if (response.primary === true) {
@@ -61,7 +59,7 @@ sailthru.apiGet("list", {
                 }
             });
 
-            if (total_calls === all_lists.length) {
+            if (index + 1 === all_lists.length) {
                 console.log("Triggering get_blasts()");
                 get_blasts();
             }
@@ -73,10 +71,10 @@ sailthru.apiGet("list", {
 const get_blasts = () => {
     sailthru.apiGet("blast", {
         status: "sent",
-        limit: 0
+        limit: 10000
     }, function(err, response) {
         if (err) {
-            console.log(err);
+            console.log("Error getting blasts! ", err);
         }
 
         else {
@@ -151,17 +149,18 @@ const get_blasts = () => {
 };
 
 const save_data = () => {
-    const all_lists = Object.keys(lists_obj);
     fs.appendFile(log, "List Name@List Status@List Type@Create Time@Send Time@Total Sends@Suppress Time@Total Suppresses" + "\n", (err) => {
         if (err) {
             console.log("Unable to append to file.");
         }
-    });
-    all_lists.forEach(list => {
-        fs.appendFile(log, list + "@" + lists_obj[list].status + "@" + lists_obj[list].type + "@" + lists_obj[list].create_time  + "@" + lists_obj[list].send_time + "@" + lists_obj[list].total_sends + "@" + lists_obj[list].suppress_time + "@" + lists_obj[list].total_suppresses + "\n", (err) => {
-            if (err) {
-                console.log("Unable to append to file.", err);
+        else {
+            for (const list in lists_obj) {
+            fs.appendFile(log, list + "@" + lists_obj[list].status + "@" + lists_obj[list].type + "@" + lists_obj[list].create_time  + "@" + lists_obj[list].send_time + "@" + lists_obj[list].total_sends + "@" + lists_obj[list].suppress_time + "@" + lists_obj[list].total_suppresses + "\n", (err) => {
+                    if (err) {
+                        console.log("Unable to append to file.", err);
+                    }
+                });
             }
-        });
+        }
     });
 }

@@ -1,62 +1,23 @@
 {
     "email": "sgiordano@sailthru.com",
-    "items":
-        [
-            {
-                "qty": 1,
-                "title": "The Athletic Fit Performance Chino | Uniform - Dark Forest",
-                "price": 6800,
-                "id": "M-BTM-CTN-PNT-PERF.ATH-DKGRN-28x30",
-                "url":"https://www.everlane.com/products/mens-performance-chino-athletic-dark-forest",
-                "images": {
-                	"full": {
-            			"url": "https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_1.0,f_auto,q_auto,w_auto:100:1200/v1/i/4fc29ba4_6958.jpg"
-                    }
-                },
-    			"tags": //Helpful for querying and recommendations (ex. re-ordering abandoned cart email)
-                    ["gender-mens",
-                    "performance-chino",
-    				"price-50-99",
-    				"fit-atheletic",
-    				"collection-mens-bottoms"],
-                "vars": //Extremely useful data for querying as well as filtering purchase entries
-                {
-                    "color": "Dark Forest",
-                    "fit": "Athletic",
-                    "item_category": "M Bottoms",
-                    "width": 28,
-                    "length": 30
-                }
-            }
-        ],
-        "message_id": "23432.231",
-        "adjustments": //Great for templating and ensuring accurate reporting
-        [
-	        {
-				"price": 5050,
-				"title": "tax"
-			},
-			{
-				"price": -1000,
-				"title": "discount"
-			},
-			{
-				"price": 495,
-				"title": "shipping"
-			}  
-        ],
-       "send_template": "transactional_order-confirmation", //Recommended to send via the purchase API as it goes to optout-all users (not just basic) and it cuts down on extaneous API calls
-       "vars": //Helpful for templating, querying, and list building (ex. in a post purchase flow, follow up with users who haven't used a welcome coupon)
+    "items": [
         {
-            "shipping_details":
-            {
-                "name": "Steve Giordano",
-                "addr_1": "525 E. 82nd St.",
-                "addr_2": "5A",
-                "city": "New York", 
-                "state": "NY", 
-                "zip": "10028"    
+            "qty": 1,
+            "url": "https://www.cheki.co.ke/vehicle/land-rover-range-rover-l405-5gp8z2",
+            "price": 15850000,
+            "id": "q5gp8z2",
+            "title":"2015 Dark Green Automatic Land Rover Range Rover",
+            "images": {
+                "full": {
+                    "url": "https://vimg.cheki.co.ke/xl/1_inventory2167541_1589049651.jpg"
+                }
             },
-            "used_coupon": "WELCOME20"
+            "tags": ["cars", "land-rover", "petrol"],
+            "vars": //Extremely useful data for querying as well as filtering purchase entries
+            {
+                "listing_type": "organic"
+            }
         }
+    ]
 }
+

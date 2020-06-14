@@ -67,7 +67,7 @@ sailthru.apiGet("content",
                 else {
                     content_data.title = "[n/a]";
                 }
-                if (content.tags) {
+                if (content.tags.length > 0) {
                     content_data.tags = content.tags.toString().replace(/,/g, "|");
                 }
                 else {

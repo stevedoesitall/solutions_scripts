@@ -1,38 +1,8 @@
 {
-    "id": "https://www.renttherunway.com/shop/designers/blugirl/my_sweet_angel_dress",
-    "key": "url",
-    "keys": {
-        "sku": "STD8"
-    },
-    "title": "Elio Midi Dress",
-    "description": "Black cotton (98% Cotton, 2% Spandex). Hourglass. Short sleeve. Off the shoulder neckline. Exposed front button down placet and hidden back zipper closure. 48\" from bust to hemline. Imported.",
-    "price": 5000,
-    "inventory": 42,
-    "tags": ["color-black", "designer-staud", "formality-3", "sizescale-us-standard-gown", "type-dress", "in-stock"],
+    "id": "steve@sailthru.com",
+    "event": "sub_cancelled",
     "vars": {
-        "category": "rental",
-        "designer": "Staud",
-        "type": "dress",
-        "ratings": {
-            "worst_rating": 1,
-            "best_rating": 10,
-            "rating_value": 8
-        },
-        "price_range": {
-            "min": 5000,
-            "max": 6000
-        },
-        "skus": ["STD8_0R","STD8_2R","STD8_4R","STD8_6R","STD8_8R","STD8_10R","STD8_12R"]
-    },
-    "images": {
-        "full": {
-            "url": "https://pc-ap.renttherunway.com/productimages/front/1080x/25/STD8.jpg"
-        },
-        "thumb": {
-            "url": "https://pc-ap.renttherunway.com/productimages/front/70x/25/STD8.jpg"
-        }
+        "sub_name": "airforce-times"
     }
 }
-
-
 

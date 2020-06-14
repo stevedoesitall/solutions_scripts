@@ -121,17 +121,16 @@ const save_data = () => {
             }
             else {
                 console.log("Header appended to file.");
+                content.forEach(item => {
+                    const type = function_data[name].obj[item].type;
+                    const functon_name = function_data[name].obj[item].function;
+                    fs.appendFile(log_name, item + "@" + type + "@" + functon_name + "\n", (err) => {
+                        if (err) {
+                            console.log("Unable to append to file.", err);
+                        }
+                    });
+                });
             }
-        });
-
-        content.forEach(item => {
-            const type = function_data[name].obj[item].type;
-            const functon_name = function_data[name].obj[item].function;
-            fs.appendFile(log_name, item + "@" + type + "@" + functon_name + "\n", (err) => {
-                if (err) {
-                    console.log("Unable to append to file.", err);
-                }
-            });
         });
     });
 };

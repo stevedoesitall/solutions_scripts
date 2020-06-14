@@ -2,7 +2,7 @@ const path = require("path");
 const fs = require("fs");
 
 const logs = {
-    include_log: path.join(__dirname, "../../logs/includes.txt")
+    include_log: path.join(__dirname, "../../logs/email/includes.txt")
 };
 
 const data_files = {

@@ -1,17 +1,12 @@
-/*Example user /POST call 
-with the fields parameter:*/
+/*Example return:*/
 
 {
-    "id": "sgiordano+test@sailthru.com",
-    "lists": {
-        "RTR _ Master Subscriber List": 1
+    "keys" : {
+        "sid" : "5eb470206c28c771720eb721",
+        "cookie" : "566ae8659b371e85886558154da574535eb470206c28c771720eb72185d10f42d576137bae9cd09135dd5907",
+        "email" : "sgiordano@sailthru.com"
     },
-    "vars": {
-        "last_signin_date": "2020-03-06"
-    },
-    "fields": {
-        "keys": 1
-    }
+    "ok" : true
 }
     
 
