@@ -1,12 +1,10 @@
-/*Example return:*/
-
 {
     "keys" : {
-        "sid" : "5eb470206c28c771720eb721",
-        "cookie" : "566ae8659b371e85886558154da574535eb470206c28c771720eb72185d10f42d576137bae9cd09135dd5907",
-        "email" : "sgiordano@sailthru.com"
+        "sid" : "59026e02bcb59c0e768b4611",
+        "cookie" : "668558af9474aaabf2a75fd5337df6ee59026e02bcb59c0e768b46119a6aebdfd0d78cea6c9827281553f1e6",
+        "email" : "steve@sailthru.com",
+        "extid" : "LDMVAC2F"
     },
     "ok" : true
 }
-    
 
