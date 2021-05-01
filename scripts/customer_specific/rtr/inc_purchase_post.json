@@ -1,0 +1,9 @@
+{
+    "id": "user@example.com",
+    "event": "Cancelation Survey",
+    "vars": {
+        "survey_link": "http://example.com/survey_link"
+    }
+}
+
+

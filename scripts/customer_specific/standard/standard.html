@@ -1,0 +1,13 @@
+<script src="https://ak.sail-horizon.com/spm/spm.v1.min.js"></script>
+<script type="text/javascript">
+    Sailthru.init({ customerId: 'CUSTOMER-ID-HERE' })
+
+    const setCookie = () => {
+        Sailthru.integration("userSignUp", {
+            "email" : userEmail, //value from email input
+            "vars" : { "last_login_time": new Date().getTime() }
+            })
+        }
+
+</script>
+

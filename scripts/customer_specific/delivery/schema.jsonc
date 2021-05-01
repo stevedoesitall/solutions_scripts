@@ -1,0 +1,44 @@
+{
+    "url": "https://www.delivery.com/merchants/79417",
+    "keys": {
+        "sku": "79417"
+    },
+    "title": "Om Namaste",
+    "images": {
+        "thumb": {"url": "https://admin.delivery.com/merchant_logo.php?id=79417&w=40&h=40"},
+        "full": {"url": "https://admin.delivery.com/merchant_logo.php?id=79417&w=40&h=40"}},
+    "description": "The best Indian food on the Upper East Side!",
+    "location": [ 40.769870, -73.954100 ],
+    "date": "2020-08-01",
+    "expire_date": null,
+    "tags": ["indian", "restaurant", "city-new-york", "vegetarian"],
+    "vars": {
+        "address": {
+            "street": "1448 1st Ave",
+            "city": "New York",
+            "state": "NY",
+            "zip": "10021"
+        },
+        "category": "Restaurant",
+        "cuisine": ["Indian", "Vegeterian"],
+        "menu_url": "https://admin.delivery.com/menu/om-namaste",
+        "rating": 4.5,
+        "total_reviews": 105,
+        "free_delivery": true,
+        "popular_items": [
+            {
+                "name": "Idli",
+                "desc": "Steam rice patties. Served with sambar, coconut chutney.",
+                "price": 595
+            },
+            {
+                "name": "Lamb Tikka Masala",
+                "desc": "Lamb cooked in a mild, creamy tomato sauce.",
+                "price": 1696
+            }
+        ]
+    }
+}
+
+
+

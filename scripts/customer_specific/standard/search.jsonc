@@ -1,0 +1,8 @@
+{
+    "event": "search_abandon",
+    "id": "sailthru-hid-cookie-value", //Can be eamil or extid values
+    "key": "cookie",
+    "vars": {
+        "search_term": "mirrorless-cameras" //This should match a tag in the Content Library
+    }
+}

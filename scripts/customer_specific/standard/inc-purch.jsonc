@@ -1,0 +1,16 @@
+
+
+
+{
+    "profile_id": "example@example.com",
+    "profile_id_type": "email",
+    "watch": {
+        "interest_type": "back-in-stock",
+        "query": {
+            "content_id": "https://example.com/product-1",
+            "content_id_type": "url"
+        }
+    }
+ }
+ 
+ 

@@ -188,14 +188,14 @@ const save_data = () => {
 
 const save_feed = () => {
     const all_feeds_new = Object.keys(feed_obj);
-    fs.appendFile(feed_log, `Feed Name@Feed URL@Send Count@Blast Count@Trigger Count@Timed Out@Blast Names@Template Names@Exists` + "\n", (err) => {
+    fs.appendFile(feed_log, `Feed Name^Feed URL^Send Count^Blast Count^Trigger Count^Timed Out^Blast Names^Template Names^Exists` + "\n", (err) => {
         if (err) {
             console.log("Unable to append to file.");
         }
         else {
             all_feeds_new.forEach(feed => {
                 console.log(`${feed_obj[feed].name} feed was used ${feed_obj[feed].blast_count + feed_obj[feed].template_count} times.`);
-                fs.appendFile(feed_log, `${feed_obj[feed].name}@${feed}@${feed_obj[feed].blast_count + feed_obj[feed].template_count}@${feed_obj[feed].blast_count}@${feed_obj[feed].template_count}@${feed_obj[feed].timed_out}@${feed_obj[feed].blast_names}@${feed_obj[feed].template_names}@${feed_obj[feed].exists}` + "\n", (err) => {
+                fs.appendFile(feed_log, `${feed_obj[feed].name}^${feed}^${feed_obj[feed].blast_count + feed_obj[feed].template_count}^${feed_obj[feed].blast_count}^${feed_obj[feed].template_count}^${feed_obj[feed].timed_out}^${feed_obj[feed].blast_names}^${feed_obj[feed].template_names}^${feed_obj[feed].exists}` + "\n", (err) => {
                     if (err) {
                         console.log("Unable to append to file.");
                     }

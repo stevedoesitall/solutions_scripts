@@ -107,7 +107,7 @@ const get_blasts = () => {
 const save_data = () => {
     const all_templates = Object.keys(templates_obj).length;
     console.log("All templates length:", all_templates);
-    fs.appendFile(log, "Template Name@Blast Count@Send Count" + "\n", (err) => {
+    fs.appendFile(log, "Template Name^Blast Count^Send Count" + "\n", (err) => {
         if (err) {
             console.log("Unable to append header to file:", err);
         }
@@ -119,7 +119,7 @@ const save_data = () => {
                 if (!templates_obj[template].blast_count) {
                     templates_obj[template].blast_count = 0;
                 }
-                fs.appendFile(log, template + "@" + templates_obj[template].blast_count + "@" + templates_obj[template].trigger_count + "\n", (err) => {
+                fs.appendFile(log, template + "^" + templates_obj[template].blast_count + "^" + templates_obj[template].trigger_count + "\n", (err) => {
                     if (err) {
                         console.log("Unable to append template data to file.");
                     }

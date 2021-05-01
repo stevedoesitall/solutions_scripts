@@ -1,0 +1,2396 @@
+{
+    "date" : "Tue, 15 Oct 2019 21:31:04 -0700",
+    "description" : "Dark-Navy Dress Pant Yoga Pants combine a soft, stretchy performance knit with dress-pant style. The most comfortable pants you'll ever wear to work.",
+    "inventory" : 1042,
+    "price" : 6800,
+    "tags" : [
+        "sku-w0104-dnv",
+        "price-41-80",
+        "color-navy",
+        "occasion-party",
+        "occasion-travel",
+        "occasion-work",
+        "designer-betabrand-d",
+        "category-dress-pants",
+        "category-pants",
+        "subcategory-boot-cut",
+        "colorfamily-blue",
+        "gender-female",
+        "state-in-stock",
+        "collection-dress-pant-yoga-pants",
+        "collection-dress-pant-yoga-pants",
+        "collection-core-collection",
+        "collection-womens-pants"
+    ],
+    "title" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy)",
+    "url" : "https://www.betabrand.com/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/boot-cut-classic-dress-pant-yoga-pants-navy2",
+    "vars" : {
+        "sku" : "W0104-DNV",
+        "entityId" : "32312",
+        "tagLine" : "The Most Comfortable Pants You'll Ever Wear To Work",
+        "flatLay" : "no_selection",
+        "story" : "<p>Yoga pants for the office? We don't think that's a stretch. Especially when it comes to Dress Pant Yoga Pants, our most popular product ever. Imagine: a pair of ultra-comfy yoga pants that are also appropriate for work!</p>\n\n<p>Combining soft, stretchy performance knit with dress-pant styling, this professional workwear can double as workout wear, perfect for performing the Lunchtime Lotus and the Power Pointer, as well as other, more orthopedically sound postures. Now, what sort of new office yoga poses will you pioneer?</p>\n\n<p>Dress Pant Yoga Pants have appeared in publications around the world as they continue to shift the Global Dress-Pant Paradigm. (Not sure if this is an actual thing, but we'd like to think so.) Forgive our boasting, but we simply can't make enough of 'em to keep up with demand right now \u2014 order yours while you can!</p>",
+        "fit" : "",
+        "storeId" : "1",
+        "typeId" : "configurable",
+        "status" : "1",
+        "categoryId" : false,
+        "categoryIds" : [
+            "37",
+            "88",
+            "119",
+            "359",
+            "376",
+            "391",
+            "396",
+            "398",
+            "404",
+            "405",
+            "410",
+            "413",
+            "414",
+            "432",
+            "434",
+            "447",
+            "448"
+        ],
+        "websiteIds" : [
+            "1"
+        ],
+        "isConfigurable" : true,
+        "isSalable" : 1,
+        "isAvailable" : true,
+        "isInStock" : true,
+        "crowdfunding" : "0",
+        "state" : "In Stock",
+        "cardViewData" : {
+            "attributeSetId" : "66",
+            "attributes" : [
+                [
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "804",
+                        "value" : "X-Small Short Petite",
+                        "position" : 3
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "363",
+                        "value" : "X-Small Petite",
+                        "position" : 8
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "48",
+                        "value" : "X-Small",
+                        "position" : 9
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "803",
+                        "value" : "Small Short Petite",
+                        "position" : 11
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "364",
+                        "value" : "Small Petite",
+                        "position" : 12
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "49",
+                        "value" : "Small",
+                        "position" : 13
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "324",
+                        "value" : "Small Long",
+                        "position" : 15
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "802",
+                        "value" : "Medium Short Petite",
+                        "position" : 16
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "365",
+                        "value" : "Medium Petite",
+                        "position" : 17
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "50",
+                        "value" : "Medium",
+                        "position" : 18
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "252",
+                        "value" : "Medium Long",
+                        "position" : 20
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "801",
+                        "value" : "Large Short Petite",
+                        "position" : 21
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "366",
+                        "value" : "Large Petite",
+                        "position" : 22
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "51",
+                        "value" : "Large",
+                        "position" : 23
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "52",
+                        "value" : "Large Long",
+                        "position" : 25
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "800",
+                        "value" : "X-Large Short Petite",
+                        "position" : 26
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "367",
+                        "value" : "X-Large Petite",
+                        "position" : 27
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "53",
+                        "value" : "X-Large",
+                        "position" : 28
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "54",
+                        "value" : "X-Large Long",
+                        "position" : 30
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "798",
+                        "value" : "XX-Large Petite",
+                        "position" : 32
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "134",
+                        "value" : "XX-Large",
+                        "position" : 33
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "362",
+                        "value" : "XX-Large Long",
+                        "position" : 34
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "928",
+                        "value" : "1X Petite",
+                        "position" : 35
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "927",
+                        "value" : "1X",
+                        "position" : 36
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "926",
+                        "value" : "1X Long",
+                        "position" : 37
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "925",
+                        "value" : "2X Petite",
+                        "position" : 38
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "924",
+                        "value" : "2X",
+                        "position" : 39
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "923",
+                        "value" : "2X Long",
+                        "position" : 40
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "922",
+                        "value" : "3X Petite",
+                        "position" : 42
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "921",
+                        "value" : "3X",
+                        "position" : 43
+                    },
+                    {
+                        "id" : "537",
+                        "code" : "drawstring_size",
+                        "label" : "Size",
+                        "value_id" : "920",
+                        "value" : "3X Long",
+                        "position" : 44
+                    }
+                ]
+            ],
+            "betabrandFeatures" : [
+                "belted"
+            ],
+            "canonicalUrl" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/boot-cut-classic-dress-pant-yoga-pants-navy2",
+            "categoryNames" : [
+                "Dress Pant Yoga Pants",
+                "Women's Pants",
+                "Boot Cut",
+                "Core Collection"
+            ],
+            "classification" : [
+                "dress pants",
+                "pants"
+            ],
+            "color" : "navy",
+            "colorFamily" : [
+                "blue"
+            ],
+            "colorProducts" : {
+                "32312" : {
+                    "canonicalUrl" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/boot-cut-classic-dress-pant-yoga-pants-navy2",
+                    "categoryUrlMap" : {
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/boot-cut-classic-dress-pant-yoga-pants-navy2",
+                        "119" : "/womens/pants/boot-cut-classic-dress-pant-yoga-pants-navy2",
+                        "376" : "/collections/limited-edition-dpyp/boot-cut-classic-dress-pant-yoga-pants-navy2",
+                        "391" : "/collections/designs-you-love/boot-cut-classic-dress-pant-yoga-pants-navy2",
+                        "396" : "/collections/price-drop/boot-cut-classic-dress-pant-yoga-pants-navy2",
+                        "398" : "/collections/low-in-stock/boot-cut-classic-dress-pant-yoga-pants-navy2",
+                        "404" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut-classic-dress-pant-yoga-pants-navy2",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/boot-cut-classic-dress-pant-yoga-pants-navy2",
+                        "413" : "/collections/primary-collections/core-collection/boot-cut-classic-dress-pant-yoga-pants-navy2",
+                        "414" : "/collections/dress-pant-yoga-pants-by-color/solids/boot-cut-classic-dress-pant-yoga-pants-navy2",
+                        "432" : "/collections/womens-pants/boot-cut-classic-dress-pant-yoga-pants-navy2",
+                        "434" : "/collections/womens-pants/boot-cut/boot-cut-classic-dress-pant-yoga-pants-navy2",
+                        "447" : "/collections/plus/boot-cut-classic-dress-pant-yoga-pants-navy2",
+                        "448" : "/collections/back-in-stock/boot-cut-classic-dress-pant-yoga-pants-navy2"
+                    },
+                    "color" : "navy",
+                    "id" : "32312",
+                    "inventory" : 18361082,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___classic_dress_pant_yoga_pants__dark_navy__3_20191106011044.jpg",
+                    "hotnessRank" : 18
+                },
+                "6430" : {
+                    "id" : 6430,
+                    "color" : "black",
+                    "swatch" : "https://www.betabrand.com/media/catalog/product/b/o/boot_cut___classic_dress_pant_yoga_pants__black__101_20200414213704.jpg",
+                    "categoryUrlMap" : {
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/womens-black-boot-flare-dress-pant-yoga-pants",
+                        "119" : "/womens/pants/womens-black-boot-flare-dress-pant-yoga-pants",
+                        "162" : "/collections/womens-work-it-collection/womens-black-boot-flare-dress-pant-yoga-pants",
+                        "166" : "/collections/june-sale-collection/womens-black-boot-flare-dress-pant-yoga-pants",
+                        "242" : "/collections/retail-only/womens-black-boot-flare-dress-pant-yoga-pants",
+                        "351" : "/collections/dress-pant-yoga-pants/boot-cut/womens-black-boot-flare-dress-pant-yoga-pants",
+                        "386" : "/collections/designersofdpyp/ayesha/womens-black-boot-flare-dress-pant-yoga-pants",
+                        "391" : "/collections/designs-you-love/womens-black-boot-flare-dress-pant-yoga-pants",
+                        "394" : "/collections/summer-savings-event/womens-black-boot-flare-dress-pant-yoga-pants",
+                        "397" : "/collections/ready-to-ship/womens-black-boot-flare-dress-pant-yoga-pants",
+                        "398" : "/collections/low-in-stock/womens-black-boot-flare-dress-pant-yoga-pants",
+                        "404" : "/collections/dress-pant-yoga-pants-by-leg-opening/womens-black-boot-flare-dress-pant-yoga-pants",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/womens-black-boot-flare-dress-pant-yoga-pants",
+                        "413" : "/collections/primary-collections/core-collection/womens-black-boot-flare-dress-pant-yoga-pants",
+                        "414" : "/collections/dress-pant-yoga-pants-by-color/solids/womens-black-boot-flare-dress-pant-yoga-pants",
+                        "424" : "/collections/work-from-home/womens-black-boot-flare-dress-pant-yoga-pants",
+                        "431" : "/collections/fall-winter-styles/womens-black-boot-flare-dress-pant-yoga-pants",
+                        "432" : "/collections/womens-pants/womens-black-boot-flare-dress-pant-yoga-pants",
+                        "434" : "/collections/womens-pants/boot-cut/womens-black-boot-flare-dress-pant-yoga-pants",
+                        "447" : "/collections/plus/womens-black-boot-flare-dress-pant-yoga-pants"
+                    },
+                    "state" : "In Stock",
+                    "canonicalUrl" : "/womens/pants/dress-pant-yoga-pants-collection/womens-black-boot-flare-dress-pant-yoga-pants",
+                    "inventory" : 134536335,
+                    "hotnessRank" : 2
+                },
+                "6431" : {
+                    "canonicalUrl" : "/womens/pants/dress-pant-yoga-pants-collection/womens-gray-boot-cut-dress-pant-yoga-pants",
+                    "categoryUrlMap" : {
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/womens-gray-boot-cut-dress-pant-yoga-pants",
+                        "119" : "/womens/pants/womens-gray-boot-cut-dress-pant-yoga-pants",
+                        "166" : "/collections/june-sale-collection/womens-gray-boot-cut-dress-pant-yoga-pants",
+                        "242" : "/collections/retail-only/womens-gray-boot-cut-dress-pant-yoga-pants",
+                        "351" : "/collections/dress-pant-yoga-pants/boot-cut/womens-gray-boot-cut-dress-pant-yoga-pants",
+                        "387" : "/collections/designersofdpyp/cathy/womens-gray-boot-cut-dress-pant-yoga-pants",
+                        "391" : "/collections/designs-you-love/womens-gray-boot-cut-dress-pant-yoga-pants",
+                        "394" : "/collections/summer-savings-event/womens-gray-boot-cut-dress-pant-yoga-pants",
+                        "396" : "/collections/price-drop/womens-gray-boot-cut-dress-pant-yoga-pants",
+                        "397" : "/collections/ready-to-ship/womens-gray-boot-cut-dress-pant-yoga-pants",
+                        "398" : "/collections/low-in-stock/womens-gray-boot-cut-dress-pant-yoga-pants",
+                        "404" : "/collections/dress-pant-yoga-pants-by-leg-opening/womens-gray-boot-cut-dress-pant-yoga-pants",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/womens-gray-boot-cut-dress-pant-yoga-pants",
+                        "413" : "/collections/primary-collections/core-collection/womens-gray-boot-cut-dress-pant-yoga-pants",
+                        "434" : "/collections/womens-pants/boot-cut/womens-gray-boot-cut-dress-pant-yoga-pants",
+                        "444" : "/collections/charcoal-dress-pant-yoga-pants/womens-gray-boot-cut-dress-pant-yoga-pants",
+                        "447" : "/collections/plus/womens-gray-boot-cut-dress-pant-yoga-pants",
+                        "448" : "/collections/back-in-stock/womens-gray-boot-cut-dress-pant-yoga-pants"
+                    },
+                    "color" : "charcoal",
+                    "id" : "6431",
+                    "inventory" : 48722065,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___classic_dress_pant_yoga_pants__charcoal__13_20200407232156.jpg",
+                    "hotnessRank" : 19
+                },
+                "27345" : {
+                    "canonicalUrl" : "/womens/pants/dress-pant-yoga-pants-collection/womens-khaki-twill-boot-cut-dress-pant-yoga-pants",
+                    "categoryUrlMap" : {
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/womens-khaki-twill-boot-cut-dress-pant-yoga-pants",
+                        "119" : "/womens/pants/womens-khaki-twill-boot-cut-dress-pant-yoga-pants",
+                        "242" : "/collections/retail-only/womens-khaki-twill-boot-cut-dress-pant-yoga-pants",
+                        "351" : "/collections/dress-pant-yoga-pants/boot-cut/womens-khaki-twill-boot-cut-dress-pant-yoga-pants",
+                        "396" : "/collections/price-drop/womens-khaki-twill-boot-cut-dress-pant-yoga-pants",
+                        "398" : "/collections/low-in-stock/womens-khaki-twill-boot-cut-dress-pant-yoga-pants",
+                        "404" : "/collections/dress-pant-yoga-pants-by-leg-opening/womens-khaki-twill-boot-cut-dress-pant-yoga-pants",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/womens-khaki-twill-boot-cut-dress-pant-yoga-pants",
+                        "413" : "/collections/primary-collections/core-collection/womens-khaki-twill-boot-cut-dress-pant-yoga-pants",
+                        "414" : "/collections/dress-pant-yoga-pants-by-color/solids/womens-khaki-twill-boot-cut-dress-pant-yoga-pants",
+                        "423" : "/collections/spring-collection/womens-khaki-twill-boot-cut-dress-pant-yoga-pants",
+                        "431" : "/collections/fall-winter-styles/womens-khaki-twill-boot-cut-dress-pant-yoga-pants",
+                        "434" : "/collections/womens-pants/boot-cut/womens-khaki-twill-boot-cut-dress-pant-yoga-pants"
+                    },
+                    "color" : "khaki-twill",
+                    "id" : "27345",
+                    "inventory" : 25109925,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___classic_dress_pant_yoga_pants__khaki_twill__13_20200407215432.jpg",
+                    "hotnessRank" : 41
+                },
+                "28033" : {
+                    "canonicalUrl" : "/womens/pants/dress-pant-yoga-pants-collection/womens-black-pinstripe-boot-cut-dress-pant-yoga-pants",
+                    "categoryUrlMap" : {
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/womens-black-pinstripe-boot-cut-dress-pant-yoga-pants",
+                        "119" : "/womens/pants/womens-black-pinstripe-boot-cut-dress-pant-yoga-pants",
+                        "162" : "/collections/womens-work-it-collection/womens-black-pinstripe-boot-cut-dress-pant-yoga-pants",
+                        "391" : "/collections/designs-you-love/womens-black-pinstripe-boot-cut-dress-pant-yoga-pants",
+                        "404" : "/collections/dress-pant-yoga-pants-by-leg-opening/womens-black-pinstripe-boot-cut-dress-pant-yoga-pants",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/womens-black-pinstripe-boot-cut-dress-pant-yoga-pants",
+                        "415" : "/collections/dress-pant-yoga-pants-by-color/patterns/womens-black-pinstripe-boot-cut-dress-pant-yoga-pants",
+                        "417" : "/collections/primary-collections/prima-collection/womens-black-pinstripe-boot-cut-dress-pant-yoga-pants",
+                        "434" : "/collections/womens-pants/boot-cut/womens-black-pinstripe-boot-cut-dress-pant-yoga-pants",
+                        "448" : "/collections/back-in-stock/womens-black-pinstripe-boot-cut-dress-pant-yoga-pants"
+                    },
+                    "color" : "black",
+                    "id" : "28033",
+                    "inventory" : 16035110,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___classic_dress_pant_yoga_pants__black_pinstripe__12_20200407223604.jpg",
+                    "hotnessRank" : 44
+                },
+                "28428" : {
+                    "canonicalUrl" : "/womens/pants/glen-plaid-boot-cut-dress-pant-yoga-pants",
+                    "categoryUrlMap" : {
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/glen-plaid-boot-cut-dress-pant-yoga-pants",
+                        "119" : "/womens/pants/glen-plaid-boot-cut-dress-pant-yoga-pants",
+                        "351" : "/collections/dress-pant-yoga-pants/boot-cut/glen-plaid-boot-cut-dress-pant-yoga-pants",
+                        "404" : "/collections/dress-pant-yoga-pants-by-leg-opening/glen-plaid-boot-cut-dress-pant-yoga-pants",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/glen-plaid-boot-cut-dress-pant-yoga-pants",
+                        "417" : "/collections/primary-collections/prima-collection/glen-plaid-boot-cut-dress-pant-yoga-pants",
+                        "432" : "/collections/womens-pants/glen-plaid-boot-cut-dress-pant-yoga-pants",
+                        "434" : "/collections/womens-pants/boot-cut/glen-plaid-boot-cut-dress-pant-yoga-pants"
+                    },
+                    "color" : "b&w-glen-plaid",
+                    "id" : "28428",
+                    "inventory" : 6466907,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___classic_dress_pant_yoga_pants__black___white_glen_plaid__27_20200611171923.jpg",
+                    "hotnessRank" : 74
+                },
+                "30964" : {
+                    "canonicalUrl" : "/womens/pants/dress-pant-yoga-pants-collection/creme-twill-boot-cut-dress-pant-yoga-pants",
+                    "categoryUrlMap" : {
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/creme-twill-boot-cut-dress-pant-yoga-pants",
+                        "376" : "/collections/limited-edition-dpyp/creme-twill-boot-cut-dress-pant-yoga-pants",
+                        "391" : "/collections/designs-you-love/creme-twill-boot-cut-dress-pant-yoga-pants",
+                        "404" : "/collections/dress-pant-yoga-pants-by-leg-opening/creme-twill-boot-cut-dress-pant-yoga-pants",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/creme-twill-boot-cut-dress-pant-yoga-pants",
+                        "413" : "/collections/primary-collections/core-collection/creme-twill-boot-cut-dress-pant-yoga-pants",
+                        "414" : "/collections/dress-pant-yoga-pants-by-color/solids/creme-twill-boot-cut-dress-pant-yoga-pants",
+                        "423" : "/collections/spring-collection/creme-twill-boot-cut-dress-pant-yoga-pants",
+                        "432" : "/collections/womens-pants/creme-twill-boot-cut-dress-pant-yoga-pants",
+                        "434" : "/collections/womens-pants/boot-cut/creme-twill-boot-cut-dress-pant-yoga-pants"
+                    },
+                    "color" : "beige",
+                    "id" : "30964",
+                    "inventory" : 10220180,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___classic_dress_pant_yoga_pants__creme_twill__13_20200407181739.jpg",
+                    "hotnessRank" : 88
+                },
+                "31907" : {
+                    "canonicalUrl" : "/womens/pants/dress-pant-yoga-pants-collection/womens-savile-tailor-stretchy-boot-cut-yoga-pants",
+                    "categoryUrlMap" : {
+                        "376" : "/collections/limited-edition-dpyp/womens-savile-tailor-stretchy-boot-cut-yoga-pants",
+                        "398" : "/collections/low-in-stock/womens-savile-tailor-stretchy-boot-cut-yoga-pants",
+                        "404" : "/collections/dress-pant-yoga-pants-by-leg-opening/womens-savile-tailor-stretchy-boot-cut-yoga-pants",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/womens-savile-tailor-stretchy-boot-cut-yoga-pants",
+                        "432" : "/collections/womens-pants/womens-savile-tailor-stretchy-boot-cut-yoga-pants",
+                        "434" : "/collections/womens-pants/boot-cut/womens-savile-tailor-stretchy-boot-cut-yoga-pants",
+                        "448" : "/collections/back-in-stock/womens-savile-tailor-stretchy-boot-cut-yoga-pants"
+                    },
+                    "color" : "black-wull",
+                    "id" : "31907",
+                    "inventory" : 7982313,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___classic_dress_pant_yoga_pants__savile__14_20190905152823.png",
+                    "hotnessRank" : 113
+                },
+                "34325" : {
+                    "canonicalUrl" : "/womens/pants/dress-pant-yoga-pants-collection/boot-cut-classic-lightweight-dress-pant-yoga-pants-coral",
+                    "categoryUrlMap" : {
+                        "20" : "/collections/sale/boot-cut-classic-lightweight-dress-pant-yoga-pants-coral",
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/boot-cut-classic-lightweight-dress-pant-yoga-pants-coral",
+                        "119" : "/womens/pants/boot-cut-classic-lightweight-dress-pant-yoga-pants-coral",
+                        "376" : "/collections/limited-edition-dpyp/boot-cut-classic-lightweight-dress-pant-yoga-pants-coral",
+                        "377" : "/collections/new-arrivals/boot-cut-classic-lightweight-dress-pant-yoga-pants-coral",
+                        "404" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut-classic-lightweight-dress-pant-yoga-pants-coral",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/boot-cut-classic-lightweight-dress-pant-yoga-pants-coral",
+                        "421" : "/collections/primary-collections/limited-edition/boot-cut-classic-lightweight-dress-pant-yoga-pants-coral",
+                        "423" : "/collections/spring-collection/boot-cut-classic-lightweight-dress-pant-yoga-pants-coral",
+                        "426" : "/collections/summer-styles/boot-cut-classic-lightweight-dress-pant-yoga-pants-coral",
+                        "432" : "/collections/womens-pants/boot-cut-classic-lightweight-dress-pant-yoga-pants-coral",
+                        "434" : "/collections/womens-pants/boot-cut/boot-cut-classic-lightweight-dress-pant-yoga-pants-coral"
+                    },
+                    "color" : "coral",
+                    "id" : "34325",
+                    "inventory" : 757703,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___classic_lightweight_dress_pant_yoga_pants__coral__18_20200527003642.jpg",
+                    "hotnessRank" : 167
+                },
+                "34924" : {
+                    "canonicalUrl" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut-classic-dress-pant-yoga-pants-piazza",
+                    "categoryUrlMap" : {
+                        "20" : "/collections/sale/boot-cut-classic-dress-pant-yoga-pants-piazza",
+                        "376" : "/collections/limited-edition-dpyp/boot-cut-classic-dress-pant-yoga-pants-piazza",
+                        "377" : "/collections/new-arrivals/boot-cut-classic-dress-pant-yoga-pants-piazza",
+                        "404" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut-classic-dress-pant-yoga-pants-piazza",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/boot-cut-classic-dress-pant-yoga-pants-piazza",
+                        "417" : "/collections/primary-collections/prima-collection/boot-cut-classic-dress-pant-yoga-pants-piazza",
+                        "432" : "/collections/womens-pants/boot-cut-classic-dress-pant-yoga-pants-piazza",
+                        "434" : "/collections/womens-pants/boot-cut/boot-cut-classic-dress-pant-yoga-pants-piazza"
+                    },
+                    "color" : "piazza-white-&-dots",
+                    "id" : "34924",
+                    "inventory" : 88105,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___classic_dress_pant_yoga_pants__piazza__14_20200707235940.jpg",
+                    "hotnessRank" : 213
+                },
+                "34999" : {
+                    "canonicalUrl" : "/womens/pants/boot-cut-classic-dress-pant-yoga-pants-violet-twill",
+                    "categoryUrlMap" : {
+                        "20" : "/collections/sale/boot-cut-classic-dress-pant-yoga-pants-violet-twill",
+                        "119" : "/womens/pants/boot-cut-classic-dress-pant-yoga-pants-violet-twill",
+                        "376" : "/collections/limited-edition-dpyp/boot-cut-classic-dress-pant-yoga-pants-violet-twill",
+                        "377" : "/collections/new-arrivals/boot-cut-classic-dress-pant-yoga-pants-violet-twill",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/boot-cut-classic-dress-pant-yoga-pants-violet-twill",
+                        "421" : "/collections/primary-collections/limited-edition/boot-cut-classic-dress-pant-yoga-pants-violet-twill",
+                        "432" : "/collections/womens-pants/boot-cut-classic-dress-pant-yoga-pants-violet-twill",
+                        "434" : "/collections/womens-pants/boot-cut/boot-cut-classic-dress-pant-yoga-pants-violet-twill"
+                    },
+                    "color" : "violet-twill",
+                    "id" : "34999",
+                    "inventory" : 422904,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___classic_dress_pant_yoga_pants__violet_twill__23_20200717225029.jpg",
+                    "hotnessRank" : 209
+                },
+                "35240" : {
+                    "canonicalUrl" : "/womens/boot-cut-classic-dress-pant-yoga-pants-waterlily-lightweight",
+                    "categoryUrlMap" : {
+                        "20" : "/collections/sale/boot-cut-classic-dress-pant-yoga-pants-waterlily-lightweight",
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/boot-cut-classic-dress-pant-yoga-pants-waterlily-lightweight",
+                        "119" : "/womens/pants/boot-cut-classic-dress-pant-yoga-pants-waterlily-lightweight",
+                        "377" : "/collections/new-arrivals/boot-cut-classic-dress-pant-yoga-pants-waterlily-lightweight",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/boot-cut-classic-dress-pant-yoga-pants-waterlily-lightweight",
+                        "432" : "/collections/womens-pants/boot-cut-classic-dress-pant-yoga-pants-waterlily-lightweight",
+                        "434" : "/collections/womens-pants/boot-cut/boot-cut-classic-dress-pant-yoga-pants-waterlily-lightweight"
+                    },
+                    "color" : "waterlily",
+                    "id" : "35240",
+                    "inventory" : 546251,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___classic_lightweight_dress_pant_yoga_pants__waterlily__14_20200813175754.jpg",
+                    "hotnessRank" : 190
+                },
+                "35341" : {
+                    "canonicalUrl" : "/womens/boot-cut-classic-lightweight-dress-pant-yoga-pants-lavender-tartan",
+                    "categoryUrlMap" : {
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/boot-cut-classic-lightweight-dress-pant-yoga-pants-lavender-tartan",
+                        "119" : "/womens/pants/boot-cut-classic-lightweight-dress-pant-yoga-pants-lavender-tartan",
+                        "377" : "/collections/new-arrivals/boot-cut-classic-lightweight-dress-pant-yoga-pants-lavender-tartan",
+                        "404" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut-classic-lightweight-dress-pant-yoga-pants-lavender-tartan",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/boot-cut-classic-lightweight-dress-pant-yoga-pants-lavender-tartan",
+                        "432" : "/collections/womens-pants/boot-cut-classic-lightweight-dress-pant-yoga-pants-lavender-tartan",
+                        "434" : "/collections/womens-pants/boot-cut/boot-cut-classic-lightweight-dress-pant-yoga-pants-lavender-tartan"
+                    },
+                    "color" : "lavender-tartan",
+                    "id" : "35341",
+                    "inventory" : 105726,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___classic_lightweight_dress_pant_yoga_pants__lavender_tartan__18_20200819202259.jpg",
+                    "hotnessRank" : 203
+                },
+                "35587" : {
+                    "canonicalUrl" : "/womens/pants/dress-pant-yoga-pants-collection/womens-gray-windowpane-boot-flare-dress-pant-yoga-pants",
+                    "categoryUrlMap" : {
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/womens-gray-windowpane-boot-flare-dress-pant-yoga-pants",
+                        "119" : "/womens/pants/womens-gray-windowpane-boot-flare-dress-pant-yoga-pants",
+                        "377" : "/collections/new-arrivals/womens-gray-windowpane-boot-flare-dress-pant-yoga-pants",
+                        "404" : "/collections/dress-pant-yoga-pants-by-leg-opening/womens-gray-windowpane-boot-flare-dress-pant-yoga-pants",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/womens-gray-windowpane-boot-flare-dress-pant-yoga-pants",
+                        "432" : "/collections/womens-pants/womens-gray-windowpane-boot-flare-dress-pant-yoga-pants",
+                        "434" : "/collections/womens-pants/boot-cut/womens-gray-windowpane-boot-flare-dress-pant-yoga-pants"
+                    },
+                    "color" : "gray-windowpane",
+                    "id" : "35587",
+                    "inventory" : 1251091,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___classic_dress_pant_yoga_pants__gray_windowpane__4_20200826200615.jpg",
+                    "hotnessRank" : 156
+                },
+                "35928" : {
+                    "canonicalUrl" : "/womens/boot-cut-classic-dress-pant-yoga-pant-taupe-gingham2",
+                    "categoryUrlMap" : {
+                        "20" : "/collections/sale/boot-cut-classic-dress-pant-yoga-pant-taupe-gingham2",
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/boot-cut-classic-dress-pant-yoga-pant-taupe-gingham2",
+                        "119" : "/womens/pants/boot-cut-classic-dress-pant-yoga-pant-taupe-gingham2",
+                        "377" : "/collections/new-arrivals/boot-cut-classic-dress-pant-yoga-pant-taupe-gingham2",
+                        "392" : "/collections/disappearing-customer-favorites/boot-cut-classic-dress-pant-yoga-pant-taupe-gingham2",
+                        "404" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut-classic-dress-pant-yoga-pant-taupe-gingham2",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/boot-cut-classic-dress-pant-yoga-pant-taupe-gingham2"
+                    },
+                    "color" : "taupe-gingham",
+                    "id" : "35928",
+                    "inventory" : 669598,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut_classic_dress_pant_yoga_pant__taupe_gingham__11_20200915234349.jpg",
+                    "hotnessRank" : 124
+                },
+                "35938" : {
+                    "canonicalUrl" : "/womens/boot-cut-classic-dress-pant-yoga-pants-teal-pinstripe",
+                    "categoryUrlMap" : {
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/boot-cut-classic-dress-pant-yoga-pants-teal-pinstripe",
+                        "119" : "/womens/pants/boot-cut-classic-dress-pant-yoga-pants-teal-pinstripe",
+                        "377" : "/collections/new-arrivals/boot-cut-classic-dress-pant-yoga-pants-teal-pinstripe",
+                        "404" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut-classic-dress-pant-yoga-pants-teal-pinstripe",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/boot-cut-classic-dress-pant-yoga-pants-teal-pinstripe",
+                        "432" : "/collections/womens-pants/boot-cut-classic-dress-pant-yoga-pants-teal-pinstripe",
+                        "434" : "/collections/womens-pants/boot-cut/boot-cut-classic-dress-pant-yoga-pants-teal-pinstripe"
+                    },
+                    "color" : "teal-pinstripe",
+                    "id" : "35938",
+                    "inventory" : 2466940,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___classic_dress_pant_yoga_pants__teal_pinstripe__16_20200923201948.jpg",
+                    "hotnessRank" : 142
+                },
+                "36275" : {
+                    "canonicalUrl" : "/womens/boot-cut-classic-dress-pant-yoga-pants-celestial",
+                    "categoryUrlMap" : {
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/boot-cut-classic-dress-pant-yoga-pants-celestial",
+                        "119" : "/womens/pants/boot-cut-classic-dress-pant-yoga-pants-celestial",
+                        "377" : "/collections/new-arrivals/boot-cut-classic-dress-pant-yoga-pants-celestial",
+                        "404" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut-classic-dress-pant-yoga-pants-celestial",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/boot-cut-classic-dress-pant-yoga-pants-celestial"
+                    },
+                    "color" : "celestial",
+                    "id" : "36275",
+                    "inventory" : 1392059,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___classic_dress_pant_yoga_pants__celestial__7_20201005214325.jpg",
+                    "hotnessRank" : 115
+                },
+                "36387" : {
+                    "canonicalUrl" : "/boxing-day-sale/boot-cut-dress-pant-yoga-pants-fern-twill",
+                    "categoryUrlMap" : {
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/boot-cut-dress-pant-yoga-pants-fern-twill",
+                        "119" : "/womens/pants/boot-cut-dress-pant-yoga-pants-fern-twill",
+                        "376" : "/collections/limited-edition-dpyp/boot-cut-dress-pant-yoga-pants-fern-twill",
+                        "377" : "/collections/new-arrivals/boot-cut-dress-pant-yoga-pants-fern-twill",
+                        "404" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut-dress-pant-yoga-pants-fern-twill",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/boot-cut-dress-pant-yoga-pants-fern-twill",
+                        "431" : "/collections/fall-winter-styles/boot-cut-dress-pant-yoga-pants-fern-twill",
+                        "434" : "/collections/womens-pants/boot-cut/boot-cut-dress-pant-yoga-pants-fern-twill",
+                        "448" : "/collections/back-in-stock/boot-cut-dress-pant-yoga-pants-fern-twill",
+                        "451" : "/collections/holiday-styles/boot-cut-dress-pant-yoga-pants-fern-twill",
+                        "454" : "/collections/fern-twill-dress-pant-yoga-pants/boot-cut-dress-pant-yoga-pants-fern-twill"
+                    },
+                    "color" : "fern-twill",
+                    "id" : "36387",
+                    "inventory" : 4334766,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___dress_pant_yoga_pants__fern_twill__17_20201001000502.jpg",
+                    "hotnessRank" : 69
+                },
+                "36438" : {
+                    "canonicalUrl" : "/womens/pants/dress-pant-yoga-pants-collection/boot-cut-classic-dress-pant-yoga-pants-chai",
+                    "categoryUrlMap" : {
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/boot-cut-classic-dress-pant-yoga-pants-chai",
+                        "119" : "/womens/pants/boot-cut-classic-dress-pant-yoga-pants-chai",
+                        "447" : "/collections/plus/boot-cut-classic-dress-pant-yoga-pants-chai"
+                    },
+                    "color" : "chai",
+                    "id" : "36438",
+                    "inventory" : 5233437,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___classic_dress_pant_yoga_pants__chai__15_20201019232204.jpg",
+                    "hotnessRank" : 182
+                },
+                "36648" : {
+                    "canonicalUrl" : "/womens/boot-cut-classic-dress-pant-yoga-pants-cerise-check",
+                    "categoryUrlMap" : {
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/boot-cut-classic-dress-pant-yoga-pants-cerise-check",
+                        "119" : "/womens/pants/boot-cut-classic-dress-pant-yoga-pants-cerise-check",
+                        "376" : "/collections/limited-edition-dpyp/boot-cut-classic-dress-pant-yoga-pants-cerise-check",
+                        "377" : "/collections/new-arrivals/boot-cut-classic-dress-pant-yoga-pants-cerise-check",
+                        "404" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut-classic-dress-pant-yoga-pants-cerise-check",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/boot-cut-classic-dress-pant-yoga-pants-cerise-check",
+                        "417" : "/collections/primary-collections/prima-collection/boot-cut-classic-dress-pant-yoga-pants-cerise-check",
+                        "432" : "/collections/womens-pants/boot-cut-classic-dress-pant-yoga-pants-cerise-check",
+                        "434" : "/collections/womens-pants/boot-cut/boot-cut-classic-dress-pant-yoga-pants-cerise-check"
+                    },
+                    "color" : "cerise-check",
+                    "id" : "36648",
+                    "inventory" : 4229040,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut_classic_dress_pant_yoga_pants__cerise_check__0_20200930213055.jpg",
+                    "hotnessRank" : 161
+                },
+                "36772" : {
+                    "canonicalUrl" : "/womens/pants/dress-pant-yoga-pants-collection/boot-cut-classic-dress-pant-yoga-pants-teal-houndstooth",
+                    "categoryUrlMap" : {
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/boot-cut-classic-dress-pant-yoga-pants-teal-houndstooth",
+                        "119" : "/womens/pants/boot-cut-classic-dress-pant-yoga-pants-teal-houndstooth",
+                        "376" : "/collections/limited-edition-dpyp/boot-cut-classic-dress-pant-yoga-pants-teal-houndstooth",
+                        "377" : "/collections/new-arrivals/boot-cut-classic-dress-pant-yoga-pants-teal-houndstooth",
+                        "404" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut-classic-dress-pant-yoga-pants-teal-houndstooth",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/boot-cut-classic-dress-pant-yoga-pants-teal-houndstooth",
+                        "432" : "/collections/womens-pants/boot-cut-classic-dress-pant-yoga-pants-teal-houndstooth",
+                        "434" : "/collections/womens-pants/boot-cut/boot-cut-classic-dress-pant-yoga-pants-teal-houndstooth"
+                    },
+                    "color" : "teal-houndstooth",
+                    "id" : "36772",
+                    "inventory" : 2026415,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___classic_dress_pant_yoga_pants__teal_houndstooth__15_20201015005911.jpg",
+                    "hotnessRank" : 92
+                },
+                "36858" : {
+                    "canonicalUrl" : "/collections/plus/boot-cut-classic-dress-pant-yoga-pants-iris",
+                    "categoryUrlMap" : {
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/boot-cut-classic-dress-pant-yoga-pants-iris",
+                        "119" : "/womens/pants/boot-cut-classic-dress-pant-yoga-pants-iris",
+                        "447" : "/collections/plus/boot-cut-classic-dress-pant-yoga-pants-iris"
+                    },
+                    "color" : "iris",
+                    "id" : "36858",
+                    "inventory" : 6819327,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___classic_dress_pant_yoga_pants__iris__15_20201103192908.jpg",
+                    "hotnessRank" : 162
+                },
+                "37937" : {
+                    "canonicalUrl" : "/womens/pants/dress-pant-yoga-pants-collection/boot-cut-classic-dress-pant-yoga-pants-truffle-gingham",
+                    "categoryUrlMap" : {
+                        "88" : "/womens/pants/dress-pant-yoga-pants-collection/boot-cut-classic-dress-pant-yoga-pants-truffle-gingham",
+                        "119" : "/womens/pants/boot-cut-classic-dress-pant-yoga-pants-truffle-gingham",
+                        "376" : "/collections/limited-edition-dpyp/boot-cut-classic-dress-pant-yoga-pants-truffle-gingham",
+                        "377" : "/collections/new-arrivals/boot-cut-classic-dress-pant-yoga-pants-truffle-gingham",
+                        "404" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut-classic-dress-pant-yoga-pants-truffle-gingham",
+                        "405" : "/collections/dress-pant-yoga-pants-by-leg-opening/boot-cut/boot-cut-classic-dress-pant-yoga-pants-truffle-gingham",
+                        "432" : "/collections/womens-pants/boot-cut-classic-dress-pant-yoga-pants-truffle-gingham",
+                        "434" : "/collections/womens-pants/boot-cut/boot-cut-classic-dress-pant-yoga-pants-truffle-gingham"
+                    },
+                    "color" : "truffle-gingham",
+                    "id" : "37937",
+                    "inventory" : 9215783,
+                    "state" : "In Stock",
+                    "swatch" : "/media/catalog/product/b/o/boot_cut___classic_dress_pant_yoga_pants__truffle_gingham__12_20201124224303.jpg",
+                    "hotnessRank" : 72
+                }
+            },
+            "counts" : {
+                "comments" : {
+                    "count" : 21
+                },
+                "crowdfunding" : {
+                    "min" : 1,
+                    "count" : 11956,
+                    "end_date" : null,
+                    "start_date" : null,
+                    "days_remaining" : 0,
+                    "activated" : "0",
+                    "percent_to_goal" : 1195600,
+                    "tiers" : []
+                },
+                "state" : null,
+                "successfullyFunded" : true,
+                "votes" : {
+                    "score" : 1000,
+                    "up" : 1000,
+                    "down" : 0
+                }
+            },
+            "crowdfundingGraduate" : false,
+            "dateCreated" : 1571175064,
+            "datePublished" : 1573497441,
+            "designers" : [
+                {
+                    "id" : 2023140,
+                    "bio" : "",
+                    "label" : "Betabrand Design Team",
+                    "group" : "General",
+                    "urlKey" : "betabrand-d",
+                    "lastSeen" : "2018-01-26 12:05:24",
+                    "createdAt" : "2018-01-26 19:45:35",
+                    "gdpr" : false,
+                    "image" : "/story/wp-content/uploads/2017/12/download-e1513834575362.png"
+                }
+            ],
+            "gender" : "women",
+            "hotness" : 18,
+            "id" : "32312",
+            "isSalable" : true,
+            "legOpening" : "Boot-Cut",
+            "limitedEdition" : false,
+            "lowInventory" : true,
+            "name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy)",
+            "nameFragments" : {
+                "color" : "Navy",
+                "family" : "Dress Pant Yoga Pants",
+                "style" : "Classic",
+                "type" : "Boot-Cut"
+            },
+            "pantRise" : "Mid-Rise",
+            "pantStyle" : "Classic",
+            "positionInFavoritesCategory" : 0,
+            "prices" : {
+                "final" : 68,
+                "old" : "68.00",
+                "discount" : "",
+                "discount_amount" : 0,
+                "discount_percentage" : 0,
+                "fraction_size" : 2,
+                "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+            },
+            "projectTag" : "Betabrand",
+            "ratingSummary" : {
+                "ratings" : {
+                    "1" : {
+                        "numRatings" : 25,
+                        "score" : 4.52,
+                        "ratingCode" : "Overall",
+                        "ratingTitle" : "How would you rate this product?"
+                    }
+                },
+                "count" : 25,
+                "overall" : 4.52
+            },
+            "reviewCount" : {
+                "count" : 25
+            },
+            "seoFriendlyTagline" : "The Most Comfortable Pants You'll Ever Wear To Work",
+            "shippingDate" : "Early January",
+            "simpleProducts" : [
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "804",
+                            "value" : "X-Small Short Petite",
+                            "position" : 3
+                        }
+                    },
+                    "Size" : "X-Small Short Petite",
+                    "in_stock" : true,
+                    "inventory" : 35242,
+                    "realInventory" : 2,
+                    "simple_product_id" : "33569",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early January",
+                    "shipping_estimate_date" : null,
+                    "simple_product_sku" : "W0104-DNV-XSSP",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - X-Small Short Petite",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "X-Small"
+                        ],
+                        "bottom_inseam" : [
+                            "Short Petite"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "363",
+                            "value" : "X-Small Petite",
+                            "position" : 8
+                        }
+                    },
+                    "Size" : "X-Small Petite",
+                    "in_stock" : true,
+                    "inventory" : 35242,
+                    "realInventory" : 2,
+                    "simple_product_id" : "32313",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early January",
+                    "shipping_estimate_date" : null,
+                    "simple_product_sku" : "W0104-DNV-XS0P",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - X-Small Petite",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "X-Small"
+                        ],
+                        "bottom_inseam" : [
+                            "Petite"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "48",
+                            "value" : "X-Small",
+                            "position" : 9
+                        }
+                    },
+                    "Size" : "X-Small",
+                    "in_stock" : true,
+                    "inventory" : 88105,
+                    "realInventory" : 5,
+                    "simple_product_id" : "32314",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early January",
+                    "shipping_estimate_date" : null,
+                    "simple_product_sku" : "W0104-DNV-XS00",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - X-Small",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "X-Small"
+                        ],
+                        "bottom_inseam" : [
+                            "Regular"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "803",
+                            "value" : "Small Short Petite",
+                            "position" : 11
+                        }
+                    },
+                    "Size" : "Small Short Petite",
+                    "in_stock" : false,
+                    "inventory" : 0,
+                    "realInventory" : 0,
+                    "simple_product_id" : "33570",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early January",
+                    "shipping_estimate_date" : "2021-01-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-S0SP",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - Small Short Petite",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "Small"
+                        ],
+                        "bottom_inseam" : [
+                            "Short Petite"
+                        ]
+                    },
+                    "state" : "out-of-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "364",
+                            "value" : "Small Petite",
+                            "position" : 12
+                        }
+                    },
+                    "Size" : "Small Petite",
+                    "in_stock" : true,
+                    "inventory" : 52863,
+                    "realInventory" : 3,
+                    "simple_product_id" : "32315",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early January",
+                    "shipping_estimate_date" : null,
+                    "simple_product_sku" : "W0104-DNV-S00P",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - Small Petite",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "Small"
+                        ],
+                        "bottom_inseam" : [
+                            "Petite"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "49",
+                            "value" : "Small",
+                            "position" : 13
+                        }
+                    },
+                    "Size" : "Small",
+                    "in_stock" : true,
+                    "inventory" : 511009,
+                    "realInventory" : 29,
+                    "simple_product_id" : "32316",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early October",
+                    "shipping_estimate_date" : "2020-10-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-S000",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - Small",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "Small"
+                        ],
+                        "bottom_inseam" : [
+                            "Regular"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "324",
+                            "value" : "Small Long",
+                            "position" : 15
+                        }
+                    },
+                    "Size" : "Small Long",
+                    "in_stock" : false,
+                    "inventory" : 0,
+                    "realInventory" : 0,
+                    "simple_product_id" : "32317",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early January",
+                    "shipping_estimate_date" : null,
+                    "simple_product_sku" : "W0104-DNV-S00L",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - Small Long",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "Small"
+                        ],
+                        "bottom_inseam" : [
+                            "Long"
+                        ]
+                    },
+                    "state" : "out-of-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "802",
+                            "value" : "Medium Short Petite",
+                            "position" : 16
+                        }
+                    },
+                    "Size" : "Medium Short Petite",
+                    "in_stock" : true,
+                    "inventory" : 969155,
+                    "realInventory" : 55,
+                    "simple_product_id" : "33571",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early October",
+                    "shipping_estimate_date" : "2020-10-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-M0SP",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - Medium Short Petite",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "Medium"
+                        ],
+                        "bottom_inseam" : [
+                            "Short Petite"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "365",
+                            "value" : "Medium Petite",
+                            "position" : 17
+                        }
+                    },
+                    "Size" : "Medium Petite",
+                    "in_stock" : true,
+                    "inventory" : 740082,
+                    "realInventory" : 42,
+                    "simple_product_id" : "32318",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early October",
+                    "shipping_estimate_date" : "2020-10-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-M00P",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - Medium Petite",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "Medium"
+                        ],
+                        "bottom_inseam" : [
+                            "Petite"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "50",
+                            "value" : "Medium",
+                            "position" : 18
+                        }
+                    },
+                    "Size" : "Medium",
+                    "in_stock" : true,
+                    "inventory" : 898671,
+                    "realInventory" : 51,
+                    "simple_product_id" : "32319",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early May",
+                    "shipping_estimate_date" : "2021-05-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-M000",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - Medium",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : true,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "Medium"
+                        ],
+                        "bottom_inseam" : [
+                            "Regular"
+                        ]
+                    },
+                    "state" : "preorder"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "252",
+                            "value" : "Medium Long",
+                            "position" : 20
+                        }
+                    },
+                    "Size" : "Medium Long",
+                    "in_stock" : true,
+                    "inventory" : 1180607,
+                    "realInventory" : 67,
+                    "simple_product_id" : "32320",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early January",
+                    "shipping_estimate_date" : null,
+                    "simple_product_sku" : "W0104-DNV-M00L",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - Medium Long",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "Medium"
+                        ],
+                        "bottom_inseam" : [
+                            "Long"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "801",
+                            "value" : "Large Short Petite",
+                            "position" : 21
+                        }
+                    },
+                    "Size" : "Large Short Petite",
+                    "in_stock" : true,
+                    "inventory" : 1427301,
+                    "realInventory" : 81,
+                    "simple_product_id" : "33572",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early October",
+                    "shipping_estimate_date" : "2020-10-01 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-L0SP",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - Large Short Petite",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "Large"
+                        ],
+                        "bottom_inseam" : [
+                            "Short Petite"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "366",
+                            "value" : "Large Petite",
+                            "position" : 22
+                        }
+                    },
+                    "Size" : "Large Petite",
+                    "in_stock" : true,
+                    "inventory" : 317178,
+                    "realInventory" : 18,
+                    "simple_product_id" : "32321",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early May",
+                    "shipping_estimate_date" : "2021-05-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-L00P",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - Large Petite",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : true,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "Large"
+                        ],
+                        "bottom_inseam" : [
+                            "Petite"
+                        ]
+                    },
+                    "state" : "preorder"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "51",
+                            "value" : "Large",
+                            "position" : 23
+                        }
+                    },
+                    "Size" : "Large",
+                    "in_stock" : true,
+                    "inventory" : 281936,
+                    "realInventory" : 16,
+                    "simple_product_id" : "32322",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early May",
+                    "shipping_estimate_date" : "2021-05-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-L000",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - Large",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : true,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "Large"
+                        ],
+                        "bottom_inseam" : [
+                            "Regular"
+                        ]
+                    },
+                    "state" : "preorder"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "52",
+                            "value" : "Large Long",
+                            "position" : 25
+                        }
+                    },
+                    "Size" : "Large Long",
+                    "in_stock" : true,
+                    "inventory" : 704840,
+                    "realInventory" : 40,
+                    "simple_product_id" : "32323",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early January",
+                    "shipping_estimate_date" : null,
+                    "simple_product_sku" : "W0104-DNV-L00L",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - Large Long",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "Large"
+                        ],
+                        "bottom_inseam" : [
+                            "Long"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "800",
+                            "value" : "X-Large Short Petite",
+                            "position" : 26
+                        }
+                    },
+                    "Size" : "X-Large Short Petite",
+                    "in_stock" : true,
+                    "inventory" : 1145365,
+                    "realInventory" : 65,
+                    "simple_product_id" : "33573",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early October",
+                    "shipping_estimate_date" : "2020-10-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-XLSP",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - X-Large Short Petite",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "X-Large"
+                        ],
+                        "bottom_inseam" : [
+                            "Short Petite"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "367",
+                            "value" : "X-Large Petite",
+                            "position" : 27
+                        }
+                    },
+                    "Size" : "X-Large Petite",
+                    "in_stock" : true,
+                    "inventory" : 17621,
+                    "realInventory" : 1,
+                    "simple_product_id" : "32324",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early January",
+                    "shipping_estimate_date" : null,
+                    "simple_product_sku" : "W0104-DNV-XL0P",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - X-Large Petite",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "X-Large"
+                        ],
+                        "bottom_inseam" : [
+                            "Petite"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "53",
+                            "value" : "X-Large",
+                            "position" : 28
+                        }
+                    },
+                    "Size" : "X-Large",
+                    "in_stock" : true,
+                    "inventory" : 2396456,
+                    "realInventory" : 136,
+                    "simple_product_id" : "32325",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early October",
+                    "shipping_estimate_date" : "2020-10-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-XL00",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - X-Large",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "X-Large"
+                        ],
+                        "bottom_inseam" : [
+                            "Regular"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "54",
+                            "value" : "X-Large Long",
+                            "position" : 30
+                        }
+                    },
+                    "Size" : "X-Large Long",
+                    "in_stock" : true,
+                    "inventory" : 1022018,
+                    "realInventory" : 58,
+                    "simple_product_id" : "32326",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early January",
+                    "shipping_estimate_date" : null,
+                    "simple_product_sku" : "W0104-DNV-XL0L",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - X-Large Long",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "X-Large"
+                        ],
+                        "bottom_inseam" : [
+                            "Long"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "798",
+                            "value" : "XX-Large Petite",
+                            "position" : 32
+                        }
+                    },
+                    "Size" : "XX-Large Petite",
+                    "in_stock" : true,
+                    "inventory" : 1427301,
+                    "realInventory" : 81,
+                    "simple_product_id" : "32327",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early October",
+                    "shipping_estimate_date" : "2020-10-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-XXLP",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - XX-Large Petite",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "XX-Large"
+                        ],
+                        "bottom_inseam" : [
+                            "Petite"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "134",
+                            "value" : "XX-Large",
+                            "position" : 33
+                        }
+                    },
+                    "Size" : "XX-Large",
+                    "in_stock" : true,
+                    "inventory" : 951534,
+                    "realInventory" : 54,
+                    "simple_product_id" : "32328",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early October",
+                    "shipping_estimate_date" : "2020-10-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-XXL0",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - XX-Large",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "XX-Large"
+                        ],
+                        "bottom_inseam" : [
+                            "Regular"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "362",
+                            "value" : "XX-Large Long",
+                            "position" : 34
+                        }
+                    },
+                    "Size" : "XX-Large Long",
+                    "in_stock" : true,
+                    "inventory" : 2378835,
+                    "realInventory" : 135,
+                    "simple_product_id" : "32329",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early October",
+                    "shipping_estimate_date" : "2020-10-01 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-XXLL",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - XX-Large Long",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "XX-Large"
+                        ],
+                        "bottom_inseam" : [
+                            "Long"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "928",
+                            "value" : "1X Petite",
+                            "position" : 35
+                        }
+                    },
+                    "Size" : "1X Petite",
+                    "in_stock" : true,
+                    "inventory" : 422904,
+                    "realInventory" : 24,
+                    "simple_product_id" : "36170",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early October",
+                    "shipping_estimate_date" : "2020-10-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-1X0P",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - 1X Petite",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "1X"
+                        ],
+                        "bottom_inseam" : [
+                            "Petite"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "927",
+                            "value" : "1X",
+                            "position" : 36
+                        }
+                    },
+                    "Size" : "1X",
+                    "in_stock" : false,
+                    "inventory" : 0,
+                    "realInventory" : 0,
+                    "simple_product_id" : "36169",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early October",
+                    "shipping_estimate_date" : "2020-10-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-1X00",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - 1X",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "1X"
+                        ],
+                        "bottom_inseam" : [
+                            "Regular"
+                        ]
+                    },
+                    "state" : "out-of-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "926",
+                            "value" : "1X Long",
+                            "position" : 37
+                        }
+                    },
+                    "Size" : "1X Long",
+                    "in_stock" : false,
+                    "inventory" : 0,
+                    "realInventory" : 0,
+                    "simple_product_id" : "36171",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early October",
+                    "shipping_estimate_date" : "2020-10-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-1X0L",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - 1X Long",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "1X"
+                        ],
+                        "bottom_inseam" : [
+                            "Long"
+                        ]
+                    },
+                    "state" : "out-of-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "925",
+                            "value" : "2X Petite",
+                            "position" : 38
+                        }
+                    },
+                    "Size" : "2X Petite",
+                    "in_stock" : true,
+                    "inventory" : 687219,
+                    "realInventory" : 39,
+                    "simple_product_id" : "36173",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early October",
+                    "shipping_estimate_date" : "2020-10-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-2X0P",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - 2X Petite",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "2X"
+                        ],
+                        "bottom_inseam" : [
+                            "Petite"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "924",
+                            "value" : "2X",
+                            "position" : 39
+                        }
+                    },
+                    "Size" : "2X",
+                    "in_stock" : false,
+                    "inventory" : 0,
+                    "realInventory" : 0,
+                    "simple_product_id" : "36172",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early October",
+                    "shipping_estimate_date" : "2020-10-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-2X00",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - 2X",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "2X"
+                        ],
+                        "bottom_inseam" : [
+                            "Regular"
+                        ]
+                    },
+                    "state" : "out-of-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "923",
+                            "value" : "2X Long",
+                            "position" : 40
+                        }
+                    },
+                    "Size" : "2X Long",
+                    "in_stock" : false,
+                    "inventory" : 0,
+                    "realInventory" : 0,
+                    "simple_product_id" : "36174",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early October",
+                    "shipping_estimate_date" : "2020-10-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-2X0L",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - 2X Long",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "2X"
+                        ],
+                        "bottom_inseam" : [
+                            "Long"
+                        ]
+                    },
+                    "state" : "out-of-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "922",
+                            "value" : "3X Petite",
+                            "position" : 42
+                        }
+                    },
+                    "Size" : "3X Petite",
+                    "in_stock" : false,
+                    "inventory" : 0,
+                    "realInventory" : 0,
+                    "simple_product_id" : "36176",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early October",
+                    "shipping_estimate_date" : "2020-10-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-3X0P",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - 3X Petite",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "3X"
+                        ],
+                        "bottom_inseam" : [
+                            "Petite"
+                        ]
+                    },
+                    "state" : "out-of-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "921",
+                            "value" : "3X",
+                            "position" : 43
+                        }
+                    },
+                    "Size" : "3X",
+                    "in_stock" : true,
+                    "inventory" : 140968,
+                    "realInventory" : 8,
+                    "simple_product_id" : "36175",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early October",
+                    "shipping_estimate_date" : "2020-10-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-3X00",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - 3X",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "3X"
+                        ],
+                        "bottom_inseam" : [
+                            "Regular"
+                        ]
+                    },
+                    "state" : "in-stock"
+                },
+                {
+                    "attributes" : {
+                        "Size" : {
+                            "id" : "537",
+                            "code" : "drawstring_size",
+                            "label" : "Size",
+                            "value_id" : "920",
+                            "value" : "3X Long",
+                            "position" : 44
+                        }
+                    },
+                    "Size" : "3X Long",
+                    "in_stock" : true,
+                    "inventory" : 528630,
+                    "realInventory" : 30,
+                    "simple_product_id" : "36177",
+                    "parent_product_id" : "32312",
+                    "shipping_date" : "Early October",
+                    "shipping_estimate_date" : "2020-10-05 00:00:00",
+                    "simple_product_sku" : "W0104-DNV-3X0L",
+                    "simple_product_name" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy) - 3X Long",
+                    "price_adjustement" : null,
+                    "adjustment_type" : "fixed",
+                    "final_price" : "68.00",
+                    "prices" : {
+                        "final" : 68,
+                        "old" : "68.00",
+                        "discount" : "",
+                        "discount_amount" : 0,
+                        "discount_percentage" : 0,
+                        "fraction_size" : 2,
+                        "html" : "<div class=\"price-wrapper \">\n\t<span class=\"price \">$68.00</span>  \n</div>"
+                    },
+                    "preorder" : false,
+                    "is_extended_size" : false,
+                    "sizes" : {
+                        "bottom_size" : [
+                            "3X"
+                        ],
+                        "bottom_inseam" : [
+                            "Long"
+                        ]
+                    },
+                    "state" : "in-stock"
+                }
+            ],
+            "sizeStates" : {
+                "small_to_large" : {
+                    "in-stock" : [
+                        "X-Small Short Petite",
+                        "X-Small Petite",
+                        "X-Small",
+                        "Small Petite",
+                        "Small",
+                        "Medium Short Petite",
+                        "Medium Petite",
+                        "Medium Long",
+                        "Large Short Petite",
+                        "Large Long",
+                        "X-Large Short Petite",
+                        "X-Large Petite",
+                        "X-Large",
+                        "X-Large Long",
+                        "XX-Large Petite",
+                        "XX-Large",
+                        "XX-Large Long",
+                        "1X Petite",
+                        "2X Petite",
+                        "3X",
+                        "3X Long"
+                    ],
+                    "out-of-stock" : [
+                        "Small Short Petite",
+                        "Small Long",
+                        "1X",
+                        "1X Long",
+                        "2X",
+                        "2X Long",
+                        "3X Petite"
+                    ],
+                    "preorder" : [
+                        "Medium",
+                        "Large Petite",
+                        "Large"
+                    ]
+                }
+            },
+            "sku" : "W0104-DNV",
+            "state" : "in-stock",
+            "subClassification" : [
+                "boot-cut"
+            ],
+            "swatch" : "/media/catalog/product/b/o/boot_cut___classic_dress_pant_yoga_pants__dark_navy__3_20191106011044.jpg",
+            "swatchLabel" : "Navy",
+            "tagline" : "The most comfortable pants you'll ever wear to work.",
+            "tags" : [
+                {
+                    "tag" : "Boot-Cut | Classic Dress Pant Yoga Pants (Navy)",
+                    "id" : "37340"
+                },
+                {
+                    "tag" : "Betabrand",
+                    "id" : "32515"
+                }
+            ],
+            "threadId" : "product-32312",
+            "thumbnail" : "/media/catalog/product/b/o/boot_cut___classic_dress_pant_yoga_pants__dark_navy__10_20200625171145.jpg",
+            "visibility" : 4
+        },
+        "attributes" : {
+            "537" : {
+                "label" : "Size",
+                "options" : {
+                    "804" : "X-Small Short Petite",
+                    "363" : "X-Small Petite",
+                    "48" : "X-Small",
+                    "803" : "Small Short Petite",
+                    "364" : "Small Petite",
+                    "49" : "Small",
+                    "324" : "Small Long",
+                    "802" : "Medium Short Petite",
+                    "365" : "Medium Petite",
+                    "50" : "Medium",
+                    "252" : "Medium Long",
+                    "801" : "Large Short Petite",
+                    "366" : "Large Petite",
+                    "51" : "Large",
+                    "52" : "Large Long",
+                    "800" : "X-Large Short Petite",
+                    "367" : "X-Large Petite",
+                    "53" : "X-Large",
+                    "54" : "X-Large Long",
+                    "798" : "XX-Large Petite",
+                    "134" : "XX-Large",
+                    "362" : "XX-Large Long",
+                    "928" : "1X Petite",
+                    "927" : "1X",
+                    "926" : "1X Long",
+                    "925" : "2X Petite",
+                    "924" : "2X",
+                    "923" : "2X Long",
+                    "922" : "3X Petite",
+                    "921" : "3X",
+                    "920" : "3X Long"
+                }
+            }
+        }
+    },
+    "views" : 13969,
+    "images" : {
+        "full" : {
+            "url" : "https://www.betabrand.com/media/catalog/product/cache/1/thumbnail/0dc2d03fe217f8c83829496872af24a0/b/o/boot_cut___classic_dress_pant_yoga_pants__dark_navy__10_20200625171145.jpg"
+        },
+        "smallImage" : {
+            "url" : "https://www.betabrand.com/media/catalog/product/cache/1/small_image/88x77/0dc2d03fe217f8c83829496872af24a0/b/o/boot_cut___classic_dress_pant_yoga_pants__dark_navy__10_20200625171145.jpg"
+        },
+        "thumb" : {
+            "url" : "https://www.betabrand.com/media/catalog/product/cache/1/image/265x/0dc2d03fe217f8c83829496872af24a0/b/o/boot_cut___classic_dress_pant_yoga_pants__dark_navy__10_20200625171145.jpg"
+        }
+    }
+}

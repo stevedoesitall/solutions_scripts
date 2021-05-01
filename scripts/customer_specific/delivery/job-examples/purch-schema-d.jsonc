@@ -1,0 +1,53 @@
+{
+    "email": "user@example.com",
+    "purchase_keys": {
+        "extid": "39237"
+    },
+    "items": [
+        {
+            "title": "Lamb Tikka Masala",
+            "id": 234,
+            "qty": 1,
+            "price": 1696,
+            "tags": ["indian", "restaurant", "city-new-york", "vegetarian"]
+        },
+        {
+            "title": "Idli",
+            "id": 570,
+            "qty": 2,
+            "price": 595,
+            "tags": ["indian", "restaurant", "city-new-york", "vegetarian"]
+        }
+    ],
+    "vars": {
+        "title": "Om Namaste",
+        "image": "https://admin.delivery.com/merchant_logo.php?id=79417&w=40&h=40",
+        "address": {
+            "street": "1448 1st Ave",
+            "city": "New York",
+            "state": "NY",
+            "zip": "10021"
+        },
+        "category": "Restaurant",
+        "cuisine": [ "Indian", "Vegeterian" ],
+        "menu_url": "https://admin.delivery.com/menu/om-namaste",
+        "reorder_url": "https://admin.delivery.com/catalog.php?cq=&cq_key=abc123",
+        "free_delivery": false
+    },
+    "adjustments": [
+        {
+            "title": "tax",
+            "price": 595
+        },
+        {
+            "title": "discount",
+            "price": -1000
+        },
+        {
+            "title": "shipping", //Using this in lieu of service charge
+            "price": 5000
+        }
+    ]
+}
+
+

@@ -27,6 +27,9 @@ sailthru.apiGet("list", {
 
             lists_obj[list.name] = {};
 
+            if (list.type == 'normal') {
+                list.type = 'natural';
+            }
             lists_obj[list.name].type = list.type;
             lists_obj[list.name].send_time = "";
             lists_obj[list.name].suppress_time = "";
@@ -149,13 +152,13 @@ const get_blasts = () => {
 };
 
 const save_data = () => {
-    fs.appendFile(log, "List Name@List Status@List Type@Create Time@Send Time@Total Sends@Suppress Time@Total Suppresses" + "\n", (err) => {
+    fs.appendFile(log, "List Name^List Status^List Type^Create Time^Send Time^Total Sends^Suppress Time^Total Suppresses" + "\n", (err) => {
         if (err) {
             console.log("Unable to append to file.");
         }
         else {
             for (const list in lists_obj) {
-            fs.appendFile(log, list + "@" + lists_obj[list].status + "@" + lists_obj[list].type + "@" + lists_obj[list].create_time  + "@" + lists_obj[list].send_time + "@" + lists_obj[list].total_sends + "@" + lists_obj[list].suppress_time + "@" + lists_obj[list].total_suppresses + "\n", (err) => {
+            fs.appendFile(log, list + "^" + lists_obj[list].status + "^" + lists_obj[list].type + "^" + lists_obj[list].create_time  + "^" + lists_obj[list].send_time + "^" + lists_obj[list].total_sends + "^" + lists_obj[list].suppress_time + "^" + lists_obj[list].total_suppresses + "\n", (err) => {
                     if (err) {
                         console.log("Unable to append to file.", err);
                     }

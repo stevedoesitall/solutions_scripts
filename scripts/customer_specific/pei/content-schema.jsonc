@@ -1,0 +1,23 @@
+{
+    "url": "https://www.recapitalnews.com/why-lasalle-is-backing-btr-residential-in-leeds/",
+    "keys": {
+        "sku": "article_id_123"
+    },
+    "title": "Why LaSalle is backing BTR residential in Leeds",
+    "author": "Alicia Villegas",
+    "description": "The investment manager has provided its largest UK build-to-rent development loan to date to developer Apache Capital Partners.",
+    "date": "2019-12-20T07:00:51+00:00",
+    "expire_date": "2020-12-20T10:54:23+00:00",
+    "tags": ["debt-funds", "development-finance", "residential", "uk"],
+    "images": {
+        "full": {"url": "https://d16yj43vx3i1f6.cloudfront.net/uploads/2019/12/moda-new-york-square.jpg"},
+        "thumb": {"url": "https://d16yj43vx3i1f6.cloudfront.net/uploads/2019/12/moda-new-york-square.jpg"}
+    },
+    "vars": {
+        "locale": "en_US",
+        "type": "article",
+        "section": "Deals",
+        "modified_time": "2019-12-20T10:54:23+00:00"
+    }
+}
+

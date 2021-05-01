@@ -1,0 +1,27 @@
+{"events": [
+    {
+        "title": "April Deep Dive",
+        "description": "This April, join CFO All Access for a keynote conversation with Ken Mehlman, Partner, Global Head of Public Affairs & Co-Head of KKR Global Impact at KKR.",
+        "start_date": "2021-04-21 13:00:00ET",
+        "end_date": "2021-04-21 14:00:00ET",
+        "url": "https://www.peievents.com/en/landing-page/april-deep-dive/",
+        "access_type": "cfo_all_access"
+    },
+    {
+        "title": "Visionaries Deep Dive",
+        "description": "Understand how investors stay the course during today’s times of uncertainty and how a handful of innovators are standing out from the crowd at the Visionaries in Private Real Estate Deep Dive on 28 April.",
+        "start_date": "2021-04-28 00:00:00ET",
+        "end_date": "2021-04-28 23:59:59ET",
+        "url": "https://www.peievents.com/en/landing-page/pere-deep-dive-visionaries/",
+        "access_type": "pere_global_passport"
+    },
+    {
+        "title": "Operating Partners Technology Forum Virtual Experience 2021",
+        "description": "An Operating Partners All Access membership is a new way to keep a global network of operating partners in the know with high-level content and networking across the year.",
+        "start_date": "2021-06-03 00:00:00ET",
+        "end_date": "2021-06-04 23:59:59ET",
+        "url": "https://www.peievents.com/en/event/operating-partners-technology-forum/",
+        "access_type": "operating_partners_all_access"
+    }
+]}
+

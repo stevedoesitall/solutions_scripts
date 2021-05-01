@@ -1,6 +1,8 @@
 const path = require("path");
 const fs = require("fs");
 
+//Add file clear
+
 const logs = {
     include_log: path.join(__dirname, "../../logs/email/includes.txt")
 };
@@ -101,7 +103,7 @@ Object.keys(data_files).forEach(type => {
 const save_data = () => {
     const log = logs.include_log;
     const includes = Object.keys(all_includes);
-    fs.appendFile(log, "Include Name@Blast Count@Template Count@Include Count@Sample Blast@Sample Template@Sample Include" + "\n", (err) => {
+    fs.appendFile(log, "Include Name^Blast Count^Template Count^Include Count^Sample Blast^Sample Template^Sample Include" + "\n", (err) => {
         if (err) {
             console.log("Unable to append to file.");
         }
@@ -123,7 +125,7 @@ const save_data = () => {
             include_example = all_includes[include].includes[0];
         }
 
-        fs.appendFile(log, include + "@" + all_includes[include].blasts.length + "@" + all_includes[include].templates.length + "@" + all_includes[include].includes.length + "@" + blast_example + "@" + template_example + "@" + include_example + "\n", (err) => {
+        fs.appendFile(log, include + "^" + all_includes[include].blasts.length + "^" + all_includes[include].templates.length + "^" + all_includes[include].includes.length + "^" + blast_example + "^" + template_example + "^" + include_example + "\n", (err) => {
             if (err) {
                 console.log("Unable to append to file.");
             }

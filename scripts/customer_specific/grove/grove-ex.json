@@ -1,0 +1,25 @@
+{
+    "url" : "https://www.grove.co/catalog/product/bubble-dish-brush-set/?v=1271",
+    "title" : "Grove Co. - Bubble Up Dish Soap Dispenser & Brush Set",
+    "price" : 1495,
+    "sku" : "GR-115-001",
+    "tags" : [
+        "white",
+        "sustainable-home",
+        "certified-b-corp"
+    ],
+    "vars" : {
+        "variant_id" : 1271,
+        "brand" : "Grove Co.",
+        "product" : "Bubble Up Dish Soap Dispenser & Brush Set",
+        "existing_customer_url" : "https://www.grove.co/pantry-login/?fwd=https%3A//www.grove.co/catalog/product/bubble-dish-brush-set/%3Fv%3D1271",
+        "image" : "http://res.cloudinary.com/epantry/image/upload/v1482322353/hh6uiofvnov32va3pff5.jpg",
+        "review_count": 348,
+        "avg_review": 4.1,
+        "purchased_with": [
+            "GR-116-002", "GR-117-003", "GR-118-004"
+        ]
+    }
+}
+
+

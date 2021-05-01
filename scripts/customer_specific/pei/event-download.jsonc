@@ -1,0 +1,12 @@
+
+{
+    "id": "sgiordano@sailthru.com",
+    "event": "resource_download",
+    "vars": {
+        "title": "Global Passport Calendar",
+        "by": "PERE",
+        "event_id": "event_123",
+        "event_details": "This is a great event..." //Add in any relevant information for templating here
+    }
+}
+

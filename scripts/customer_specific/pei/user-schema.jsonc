@@ -1,0 +1,13 @@
+{
+    "id": "user@example.com",
+    "vars": {
+        "sub_start_date": "2021-04-01",
+        "sub_end_date": "2022-03-31",
+        "sub_status": "active",
+        "sub_level": "platinum",
+        "access_types": ["pere_global_passport"]
+    }
+}
+
+
+

@@ -1,0 +1,8 @@
+{
+    "id": "steve@sailthru.com",
+    "event": "sub_cancelled",
+    "vars": {
+        "sub_name": "airforce-times"
+    }
+}
+

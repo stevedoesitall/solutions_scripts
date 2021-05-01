@@ -9,7 +9,7 @@ const fs = require("fs");
 
 const data = [];
 const all_vars = [];
-const items = 5000;
+const items = 5001;
 
 fs.writeFile(log, "", function() { 
     console.log("Content file cleared.");
@@ -51,7 +51,7 @@ sailthru.apiGet("content",
             console.log("GET 2");
             all_content.forEach(content => {
                 const content_data = {};
-                content_data.url = content.url.replace(/@/g, "(at)");
+                content_data.url = content.url.replace(/^/g, "(at)");
                 if (content.date) {
                     content_data.date = content.date.replace(/,/g, " ");
                 }
@@ -61,7 +61,7 @@ sailthru.apiGet("content",
                 if (content.title) {
                     content_data.title = content.title.replace(/,/g, " - ").replace(/[^\x00-\x7F]/g, "").replace(/(?:\\[rn])+/g, "");
                     content_data.title = content_data.title.replace(/#/g, "-");
-                    content_data.title = content_data.title.replace(/@/g, "(at)");
+                    content_data.title = content_data.title.replace(/^/g, "(at)");
                     // content_data.title = content.title.replace(/\s\s+/g, " ");
                 }
                 else {
@@ -87,12 +87,14 @@ sailthru.apiGet("content",
                 }
                 if (content.location) {
                     content_data.location = JSON.stringify(content.location).replace(/,/g, "|");
+                    content_data.location = content_data.location.replace(/^/g, "(at)");
                 }
                 else {
                     content_data.location = "[n/a]";
                 }
                 if (content.author) {
                     content_data.author = JSON.stringify(content.author).replace(/,/g, "-");
+                    content_data.author = content_data.author.replace(/^/g, "(at)");
                 }
                 else {
                     content_data.author = "[n/a]";
@@ -101,7 +103,7 @@ sailthru.apiGet("content",
                     content_data.price = content.price;
                 }
                 else {
-                    content_data.price = 0;
+                    content_data.price = "[n/a]";
                 }
                 if (content.sku) {
                     content_data.sku = content.sku;
@@ -113,7 +115,7 @@ sailthru.apiGet("content",
                     content_data.inventory = content.inventory;
                 }
                 else {
-                    content_data.inventory = 0;
+                    content_data.inventory = "[n/a]";
                 }
                 if (content.site_name) {
                     content_data.site_name = JSON.stringify(content.site_name).replace(/,/g, "-");
@@ -141,7 +143,7 @@ sailthru.apiGet("content",
                 }
                 if (content.description) {
                     content_data.description = content.description.replace(/,/g, " - ").replace(/\n/g, "").replace(/[^\x00-\x7F]/g, "").replace(/\r/g, "").replace(/#/g, " no. ");
-                    content_data.description = content_data.title.replace(/@/g, "(at)");
+                    content_data.description = content_data.title.replace(/^/g, "(at)");
                 }
                 else {
                     content_data.description = "[n/a]";
@@ -156,6 +158,7 @@ sailthru.apiGet("content",
                             }
                             else if (typeof content_var === "string") {
                                 content_var = content_var.replace(/,/g, " - ").replace(/\n/g, "").replace(/\r/g, "");
+                                content_var = content_var.replace(/^/g, "(at)");
                             }
                             else if (typeof content_var === "boolean") {
                                 if (content_var === true) {
@@ -194,7 +197,7 @@ const save_data = (data) => {
             console.log(header);
         }
         else {
-            header = header + field + "@";
+            header = header + field + "^";
         }
     });
     fs.appendFile(log, header + "\n", (err) => {
@@ -217,7 +220,7 @@ const save_data = (data) => {
                         });
                     }
                     else {
-                        row = row + value + "@";
+                        row = row + value + "^";
                     }
                 });
             });

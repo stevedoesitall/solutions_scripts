@@ -1,0 +1,18 @@
+
+{
+    "id": "steve@sailthru.com",
+    "keys": {
+        "extid": "5f32c4a64450d3000fb91d56"
+    },
+    "lists": {
+        "The Sak - Main": 1
+    },
+    "vars": {
+        //Vars payload here
+    },
+    "fields": {
+        "keys": 1
+    },
+    "optout_email": "none"
+}
+

@@ -79,12 +79,12 @@ sailthru.apiGet("blast", {
     }
     console.log(` Total blasts: ${total_blasts}\n Template blasts: ${template_blasts}\n Copied blasts: ${copied_blasts}\n Template blasts copied: ${template_blasts_copied}\n Scratch blasts: ${scratch_blasts}\n Used feed: ${used_feed}`);
 
-    fs.appendFile(logs.blast_log, `Blast Type@Count` + "\n", (err) => {
+    fs.appendFile(logs.blast_log, `Blast Type^Count` + "\n", (err) => {
         if (err) {
             console.log("Unable to append to file.");
         }
         else {
-            fs.appendFile(logs.blast_log, `Total blasts@${total_blasts}\nTemplate blasts@${template_blasts}\nCopied blasts@${copied_blasts}\nTemplate blasts copied@${template_blasts_copied}\nScratch blasts@${scratch_blasts}\nUsed feed@${used_feed}` + "\n", (err) => {
+            fs.appendFile(logs.blast_log, `Total blasts^${total_blasts}\nTemplate blasts^${template_blasts}\nCopied blasts^${copied_blasts}\nTemplate blasts copied^${template_blasts_copied}\nScratch blasts^${scratch_blasts}\nUsed feed^${used_feed}` + "\n", (err) => {
                 if (err) {
                     console.log("Unable to append to file.");
                 }
@@ -92,13 +92,13 @@ sailthru.apiGet("blast", {
         }
     });
 
-    fs.appendFile(logs.labels_log, `Label@Count` + "\n", (err) => {
+    fs.appendFile(logs.labels_log, `Label^Count` + "\n", (err) => {
         if (err) {
             console.log("Unable to append to file.");
         }
         else {
             Object.keys(labels).forEach(label => {
-                fs.appendFile(logs.labels_log, `${label}@${labels[label]}` + "\n", (err) => {
+                fs.appendFile(logs.labels_log, `${label}^${labels[label]}` + "\n", (err) => {
                     if (err) {
                         console.log("Unable to append to file.");
                     }

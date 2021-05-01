@@ -1,0 +1,43 @@
+
+{
+    "email": "user@example.com",
+    "purchase_keys": {
+        "extid": "123456789"
+    },
+    "items": [
+        {
+            "title": "Buyouts single-user subscription",
+            "url": "https://www.recapitalnews.com/product/subscription-pricing/",
+            "id": "SUB1",
+            "qty": 1,
+            "price": 537000,
+            "tags": ["intelligence", "data", "trend-analysis"],
+            "image": "https://d16yj43vx3i1f6.cloudfront.net/uploads/2017/11/RECProducts-1-1024x315.png",
+            "vars": {
+                "sub_level": "platinum",
+                "user_level": "single",
+                "access_types": ["pere_global_passport"]
+            }
+        }
+    ],
+    "vars": {
+        "discount_code": "DISCOUNT123"
+    },
+    "message_id": "123456.789", //For message attribution
+    "adjustments": [
+        {
+            "title": "tax",
+            "price": 595
+        },
+        {
+            "title": "discount",
+            "price": -1000
+        }
+    ]
+}
+
+
+
+
+
+

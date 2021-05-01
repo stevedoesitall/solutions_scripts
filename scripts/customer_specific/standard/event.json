@@ -1,0 +1,9 @@
+{
+    "id": "abc123",
+    "key": "extid",
+    "event": "page_visit",
+    "vars": {
+        "page_type": "ebook"
+    }
+}
+

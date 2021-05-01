@@ -7,7 +7,6 @@ const logs = {
 };
 
 const data_files = {
-    blast: path.join(__dirname, "../../su_queries/blast_data.json"),
     template: path.join(__dirname, "../../su_queries/template_data.json"),
     include: path.join(__dirname, "../../su_queries/include_data.json")
 };
@@ -26,12 +25,12 @@ const function_data = {
     personalize: {
         obj: {},
         log: logs.personalizing_log,
-        header: "Name@Type@Function"
+        header: "Name^Type^Function"
     },
     cancel: {
         obj: {},
         log: logs.canceling_log,
-        header: "Name@Type@Function@Convertible (Y/N)@Notes"
+        header: "Name^Type^Function^Convertible (Y/N)^Notes"
     }
 };
 
@@ -124,7 +123,7 @@ const save_data = () => {
                 content.forEach(item => {
                     const type = function_data[name].obj[item].type;
                     const functon_name = function_data[name].obj[item].function;
-                    fs.appendFile(log_name, item + "@" + type + "@" + functon_name + "\n", (err) => {
+                    fs.appendFile(log_name, item + "^" + type + "^" + functon_name + "\n", (err) => {
                         if (err) {
                             console.log("Unable to append to file.", err);
                         }

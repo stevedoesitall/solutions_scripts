@@ -15,7 +15,7 @@ fs.writeFile(log, "", function() {
     console.log("Trigger file cleared.");
 });
 
-fs.appendFile(log, "type@name" + "\n", (err) => {
+fs.appendFile(log, "type^name" + "\n", (err) => {
     if (err) {
         console.log("Unable to append to file.");
     }
@@ -30,7 +30,7 @@ sailthru.apiGet("trigger", {
     else {
         const global_trigger = response.triggers;
         global_trigger.forEach(trigger => {
-            fs.appendFile(log, "global@" + trigger.event + "\n", (err) => {
+            fs.appendFile(log, "global^" + trigger.event + "\n", (err) => {
                 if (err) {
                     console.log("Unable to append to file.");
                 }
@@ -69,7 +69,7 @@ sailthru.apiGet("template", {
                 else {
                     template_triggers.push(template_name);
                     console.log("Success", response);
-                    fs.appendFile(log, "template@" + template_name + "\n", (err) => {
+                    fs.appendFile(log, "template^" + template_name + "\n", (err) => {
                         if (err) {
                             console.log("Unable to append to file.");
                         }
