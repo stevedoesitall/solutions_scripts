@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/stevedoesitall/solutions_scripts#readme",
   "dependencies": {
-    "sailthru-client": "^3.0.5"
+    "sailthru-client": "^3.0.6"
   }
 }
